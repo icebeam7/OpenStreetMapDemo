@@ -11,7 +11,7 @@ namespace OpenStreetMapDemo
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Paginas.PrimerMapa();
         }
 
         protected override void OnStart()
