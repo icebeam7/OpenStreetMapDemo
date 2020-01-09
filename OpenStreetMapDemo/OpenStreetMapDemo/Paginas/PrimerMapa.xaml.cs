@@ -11,11 +11,12 @@ using Mapsui.Widgets;
 using Mapsui.Widgets.ScaleBar;
 using Mapsui.Widgets.Zoom;
 using OpenStreetMapDemo.Models;
-using OpenStreetMapDemo.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Color = Mapsui.Styles.Color;
 using Point = Mapsui.Geometries.Point;
+
+using Mapsui;
 
 namespace OpenStreetMapDemo.Paginas
 {
@@ -28,34 +29,34 @@ namespace OpenStreetMapDemo.Paginas
         public PrimerMapa ()
 		{
 			InitializeComponent ();
+            
+            var mapControl = new Mapsui.UI.Forms.MapControl();
+            mapControl.Map.Layers.Add(OpenStreetMap.CreateTileLayer());
 
-            var mapControl = new MapsUIView();
-            mapControl.NativeMap.Layers.Add(OpenStreetMap.CreateTileLayer());
-
-            mapControl.NativeMap.Widgets.Add(new ScaleBarWidget(mapControl.NativeMap)
+            mapControl.Map.Widgets.Add(new ScaleBarWidget(mapControl.Map)
             {
                 TextAlignment = Alignment.Center,
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Top
             });
 
-            mapControl.NativeMap.Widgets.Add(new ZoomInOutWidget(mapControl.NativeMap)
+            mapControl.Map.Widgets.Add(new ZoomInOutWidget()
             {
-                MarginX = 20, MarginY = 40
+                MarginX = 20,
+                MarginY = 40
             });
-
+            
             var gdl = lugares.First(x => x.Nombre == "Guadalajara");
 
             var coordenada = new Point(gdl.Longitud, gdl.Latitud);
             var coordenadaMercator = SphericalMercator.FromLonLat(coordenada.X, coordenada.Y);
-            mapControl.NativeMap.NavigateTo(coordenadaMercator);
-            mapControl.NativeMap.NavigateTo(mapControl.NativeMap.Resolutions[9]);
+            mapControl.Map.Home = n => n.NavigateTo(coordenadaMercator, mapControl.Map.Resolutions[9]);
 
             var layer = GenerateIconLayer();
-            mapControl.NativeMap.Layers.Add(layer);
-            mapControl.NativeMap.InfoLayers.Add(layer);
+            layer.IsMapInfoLayer = true;
+            mapControl.Map.Layers.Add(layer);
 
-            mapControl.NativeMap.Info += (sender, args) =>
+            mapControl.Info += (sender, args) =>
             {
                 var layername = args.MapInfo.Layer?.Name;
                 var featureLabel = args.MapInfo.Feature?["Label"]?.ToString();
@@ -63,7 +64,10 @@ namespace OpenStreetMapDemo.Paginas
 
                 if (!string.IsNullOrWhiteSpace(featureLabel))
                 {
-                    ShowPopup(featureLabel, featureType);
+                    Device.BeginInvokeOnMainThread(() =>
+                    {
+                        ShowPopup(featureLabel, featureType);
+                    });
                 }
 
                 Debug.WriteLine("Info Event was invoked.");
@@ -71,8 +75,8 @@ namespace OpenStreetMapDemo.Paginas
                 Debug.WriteLine("Feature Label: " + featureLabel);
                 Debug.WriteLine("Feature Type: " + featureType);
 
-                Debug.WriteLine("World Postion: {0:F4} , {1:F4}", args.MapInfo.WorldPosition?.X, args.MapInfo.WorldPosition?.Y);
-                Debug.WriteLine("Screen Postion: {0:F4} , {1:F4}", args.MapInfo.ScreenPosition?.X, args.MapInfo.ScreenPosition?.Y);
+                Debug.WriteLine("World Position: {0:F4} , {1:F4}", args.MapInfo.WorldPosition?.X, args.MapInfo.WorldPosition?.Y);
+                Debug.WriteLine("Screen Position: {0:F4} , {1:F4}", args.MapInfo.ScreenPosition?.X, args.MapInfo.ScreenPosition?.Y);
             };
 
             ContentGrid.Children.Add(mapControl);

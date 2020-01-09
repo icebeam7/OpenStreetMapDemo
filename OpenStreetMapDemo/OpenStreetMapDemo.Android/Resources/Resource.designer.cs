@@ -26,2277 +26,2106 @@ namespace OpenStreetMapDemo.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Mapsui.Forms.Android.Resource.Animation.abc_fade_in = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_fade_in;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_fade_out = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_fade_out;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_popup_enter = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_popup_enter;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_popup_exit = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_popup_exit;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_slide_in_bottom = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_slide_in_top = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_slide_in_top;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_slide_out_bottom = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Mapsui.Forms.Android.Resource.Animation.abc_slide_out_top = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_slide_out_top;
-			global::Mapsui.Forms.Android.Resource.Animation.design_bottom_sheet_slide_in = global::OpenStreetMapDemo.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Mapsui.Forms.Android.Resource.Animation.design_bottom_sheet_slide_out = global::OpenStreetMapDemo.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Mapsui.Forms.Android.Resource.Animation.design_snackbar_in = global::OpenStreetMapDemo.Droid.Resource.Animation.design_snackbar_in;
-			global::Mapsui.Forms.Android.Resource.Animation.design_snackbar_out = global::OpenStreetMapDemo.Droid.Resource.Animation.design_snackbar_out;
-			global::Mapsui.Forms.Android.Resource.Animation.tooltip_enter = global::OpenStreetMapDemo.Droid.Resource.Animation.tooltip_enter;
-			global::Mapsui.Forms.Android.Resource.Animation.tooltip_exit = global::OpenStreetMapDemo.Droid.Resource.Animation.tooltip_exit;
-			global::Mapsui.Forms.Android.Resource.Animator.design_appbar_state_list_animator = global::OpenStreetMapDemo.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarDivider = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarDivider;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarItemBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarPopupTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarSize;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarSplitStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarTabBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarTabStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarTabTextStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionBarWidgetTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionDropDownStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionMenuTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionMenuTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeCloseButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeCloseDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeCopyDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeCutDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeFindDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModePasteDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModePopupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeSelectAllDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeShareDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeSplitBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionModeWebSearchDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionOverflowButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionOverflowMenuStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionProviderClass = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionProviderClass;
-			global::Mapsui.Forms.Android.Resource.Attribute.actionViewClass = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionViewClass;
-			global::Mapsui.Forms.Android.Resource.Attribute.activityChooserViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.alertDialogCenterButtons = global::OpenStreetMapDemo.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Mapsui.Forms.Android.Resource.Attribute.alertDialogStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.alertDialogStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.alertDialogTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.alertDialogTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.allowStacking = global::OpenStreetMapDemo.Droid.Resource.Attribute.allowStacking;
-			global::Mapsui.Forms.Android.Resource.Attribute.alpha = global::OpenStreetMapDemo.Droid.Resource.Attribute.alpha;
-			global::Mapsui.Forms.Android.Resource.Attribute.alphabeticModifiers = global::OpenStreetMapDemo.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Mapsui.Forms.Android.Resource.Attribute.arrowHeadLength = global::OpenStreetMapDemo.Droid.Resource.Attribute.arrowHeadLength;
-			global::Mapsui.Forms.Android.Resource.Attribute.arrowShaftLength = global::OpenStreetMapDemo.Droid.Resource.Attribute.arrowShaftLength;
-			global::Mapsui.Forms.Android.Resource.Attribute.autoCompleteTextViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.autoSizeMaxTextSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Mapsui.Forms.Android.Resource.Attribute.autoSizeMinTextSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Mapsui.Forms.Android.Resource.Attribute.autoSizePresetSizes = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Mapsui.Forms.Android.Resource.Attribute.autoSizeStepGranularity = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Mapsui.Forms.Android.Resource.Attribute.autoSizeTextType = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizeTextType;
-			global::Mapsui.Forms.Android.Resource.Attribute.background = global::OpenStreetMapDemo.Droid.Resource.Attribute.background;
-			global::Mapsui.Forms.Android.Resource.Attribute.backgroundSplit = global::OpenStreetMapDemo.Droid.Resource.Attribute.backgroundSplit;
-			global::Mapsui.Forms.Android.Resource.Attribute.backgroundStacked = global::OpenStreetMapDemo.Droid.Resource.Attribute.backgroundStacked;
-			global::Mapsui.Forms.Android.Resource.Attribute.backgroundTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.backgroundTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.backgroundTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.backgroundTintMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.barLength = global::OpenStreetMapDemo.Droid.Resource.Attribute.barLength;
-			global::Mapsui.Forms.Android.Resource.Attribute.behavior_autoHide = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_autoHide;
-			global::Mapsui.Forms.Android.Resource.Attribute.behavior_hideable = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_hideable;
-			global::Mapsui.Forms.Android.Resource.Attribute.behavior_overlapTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Mapsui.Forms.Android.Resource.Attribute.behavior_peekHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Mapsui.Forms.Android.Resource.Attribute.behavior_skipCollapsed = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Mapsui.Forms.Android.Resource.Attribute.borderWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.borderWidth;
-			global::Mapsui.Forms.Android.Resource.Attribute.borderlessButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.bottomSheetDialogTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.bottomSheetStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonBarButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonGravity;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonPanelSideLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonStyleSmall = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.buttonTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonTintMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.cardBackgroundColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.cardCornerRadius = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardCornerRadius;
-			global::Mapsui.Forms.Android.Resource.Attribute.cardElevation = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardElevation;
-			global::Mapsui.Forms.Android.Resource.Attribute.cardMaxElevation = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardMaxElevation;
-			global::Mapsui.Forms.Android.Resource.Attribute.cardPreventCornerOverlap = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Mapsui.Forms.Android.Resource.Attribute.cardUseCompatPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.checkboxStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.checkboxStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.checkedTextViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.closeIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.closeIcon;
-			global::Mapsui.Forms.Android.Resource.Attribute.closeItemLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.closeItemLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.collapseContentDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.collapseContentDescription;
-			global::Mapsui.Forms.Android.Resource.Attribute.collapseIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.collapseIcon;
-			global::Mapsui.Forms.Android.Resource.Attribute.collapsedTitleGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Mapsui.Forms.Android.Resource.Attribute.collapsedTitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.color = global::OpenStreetMapDemo.Droid.Resource.Attribute.color;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorAccent = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorAccent;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorBackgroundFloating = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorButtonNormal = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorButtonNormal;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorControlActivated = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorControlActivated;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorControlHighlight = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorControlHighlight;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorControlNormal = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorControlNormal;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorError = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorError;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorPrimary = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorPrimary;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorPrimaryDark = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Mapsui.Forms.Android.Resource.Attribute.colorSwitchThumbNormal = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Mapsui.Forms.Android.Resource.Attribute.commitIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.commitIcon;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentDescription;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentInsetEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetEnd;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentInsetEndWithActions = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentInsetLeft = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetLeft;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentInsetRight = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetRight;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentInsetStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetStart;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentInsetStartWithNavigation = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentPaddingBottom = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentPaddingLeft = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentPaddingRight = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPaddingRight;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentPaddingTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPaddingTop;
-			global::Mapsui.Forms.Android.Resource.Attribute.contentScrim = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentScrim;
-			global::Mapsui.Forms.Android.Resource.Attribute.controlBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.controlBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.counterEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.counterEnabled;
-			global::Mapsui.Forms.Android.Resource.Attribute.counterMaxLength = global::OpenStreetMapDemo.Droid.Resource.Attribute.counterMaxLength;
-			global::Mapsui.Forms.Android.Resource.Attribute.counterOverflowTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.counterTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.counterTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.customNavigationLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.customNavigationLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.defaultQueryHint = global::OpenStreetMapDemo.Droid.Resource.Attribute.defaultQueryHint;
-			global::Mapsui.Forms.Android.Resource.Attribute.dialogPreferredPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.dialogTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.dialogTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.displayOptions = global::OpenStreetMapDemo.Droid.Resource.Attribute.displayOptions;
-			global::Mapsui.Forms.Android.Resource.Attribute.divider = global::OpenStreetMapDemo.Droid.Resource.Attribute.divider;
-			global::Mapsui.Forms.Android.Resource.Attribute.dividerHorizontal = global::OpenStreetMapDemo.Droid.Resource.Attribute.dividerHorizontal;
-			global::Mapsui.Forms.Android.Resource.Attribute.dividerPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.dividerPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.dividerVertical = global::OpenStreetMapDemo.Droid.Resource.Attribute.dividerVertical;
-			global::Mapsui.Forms.Android.Resource.Attribute.drawableSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.drawableSize;
-			global::Mapsui.Forms.Android.Resource.Attribute.drawerArrowStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.dropDownListViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Mapsui.Forms.Android.Resource.Attribute.editTextBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.editTextBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.editTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.editTextColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.editTextStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.editTextStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.elevation = global::OpenStreetMapDemo.Droid.Resource.Attribute.elevation;
-			global::Mapsui.Forms.Android.Resource.Attribute.errorEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.errorEnabled;
-			global::Mapsui.Forms.Android.Resource.Attribute.errorTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.errorTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.expanded = global::OpenStreetMapDemo.Droid.Resource.Attribute.expanded;
-			global::Mapsui.Forms.Android.Resource.Attribute.expandedTitleGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Mapsui.Forms.Android.Resource.Attribute.expandedTitleMargin = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Mapsui.Forms.Android.Resource.Attribute.expandedTitleMarginBottom = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Mapsui.Forms.Android.Resource.Attribute.expandedTitleMarginEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Mapsui.Forms.Android.Resource.Attribute.expandedTitleMarginStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Mapsui.Forms.Android.Resource.Attribute.expandedTitleMarginTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Mapsui.Forms.Android.Resource.Attribute.expandedTitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.externalRouteEnabledDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.fabSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.fabSize;
-			global::Mapsui.Forms.Android.Resource.Attribute.fastScrollEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Mapsui.Forms.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.font = global::OpenStreetMapDemo.Droid.Resource.Attribute.font;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontFamily = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontFamily;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontProviderAuthority = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontProviderCerts = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderCerts;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontProviderFetchStrategy = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontProviderFetchTimeout = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontProviderPackage = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderPackage;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontProviderQuery = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderQuery;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.fontWeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontWeight;
-			global::Mapsui.Forms.Android.Resource.Attribute.foregroundInsidePadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.gapBetweenBars = global::OpenStreetMapDemo.Droid.Resource.Attribute.gapBetweenBars;
-			global::Mapsui.Forms.Android.Resource.Attribute.goIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.goIcon;
-			global::Mapsui.Forms.Android.Resource.Attribute.headerLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.headerLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.height = global::OpenStreetMapDemo.Droid.Resource.Attribute.height;
-			global::Mapsui.Forms.Android.Resource.Attribute.hideOnContentScroll = global::OpenStreetMapDemo.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Mapsui.Forms.Android.Resource.Attribute.hintAnimationEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Mapsui.Forms.Android.Resource.Attribute.hintEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.hintEnabled;
-			global::Mapsui.Forms.Android.Resource.Attribute.hintTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.hintTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.homeAsUpIndicator = global::OpenStreetMapDemo.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Mapsui.Forms.Android.Resource.Attribute.homeLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.homeLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.icon = global::OpenStreetMapDemo.Droid.Resource.Attribute.icon;
-			global::Mapsui.Forms.Android.Resource.Attribute.iconTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.iconTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.iconTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.iconTintMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.iconifiedByDefault = global::OpenStreetMapDemo.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Mapsui.Forms.Android.Resource.Attribute.imageButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.imageButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.indeterminateProgressStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.initialActivityCount = global::OpenStreetMapDemo.Droid.Resource.Attribute.initialActivityCount;
-			global::Mapsui.Forms.Android.Resource.Attribute.insetForeground = global::OpenStreetMapDemo.Droid.Resource.Attribute.insetForeground;
-			global::Mapsui.Forms.Android.Resource.Attribute.isLightTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.isLightTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.itemBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.itemIconTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemIconTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.itemPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.itemTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.itemTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemTextColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.keylines = global::OpenStreetMapDemo.Droid.Resource.Attribute.keylines;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout;
-			global::Mapsui.Forms.Android.Resource.Attribute.layoutManager = global::OpenStreetMapDemo.Droid.Resource.Attribute.layoutManager;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_anchor = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_anchor;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_anchorGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_behavior = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_behavior;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_collapseMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_collapseMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_dodgeInsetEdges = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_insetEdge = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_insetEdge;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_keyline = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_keyline;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_scrollFlags = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Mapsui.Forms.Android.Resource.Attribute.layout_scrollInterpolator = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Mapsui.Forms.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::OpenStreetMapDemo.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Mapsui.Forms.Android.Resource.Attribute.listDividerAlertDialog = global::OpenStreetMapDemo.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Mapsui.Forms.Android.Resource.Attribute.listItemLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.listItemLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.listLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.listLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.listMenuViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.listPopupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.listPreferredItemHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Mapsui.Forms.Android.Resource.Attribute.listPreferredItemHeightLarge = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Mapsui.Forms.Android.Resource.Attribute.listPreferredItemHeightSmall = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Mapsui.Forms.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Mapsui.Forms.Android.Resource.Attribute.listPreferredItemPaddingRight = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Mapsui.Forms.Android.Resource.Attribute.logo = global::OpenStreetMapDemo.Droid.Resource.Attribute.logo;
-			global::Mapsui.Forms.Android.Resource.Attribute.logoDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.logoDescription;
-			global::Mapsui.Forms.Android.Resource.Attribute.maxActionInlineWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Mapsui.Forms.Android.Resource.Attribute.maxButtonHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.maxButtonHeight;
-			global::Mapsui.Forms.Android.Resource.Attribute.measureWithLargestChild = global::OpenStreetMapDemo.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteButtonTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteButtonTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteCloseDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRoutePauseDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRoutePlayDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteStopDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.menu = global::OpenStreetMapDemo.Droid.Resource.Attribute.menu;
-			global::Mapsui.Forms.Android.Resource.Attribute.multiChoiceItemLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.navigationContentDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.navigationContentDescription;
-			global::Mapsui.Forms.Android.Resource.Attribute.navigationIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.navigationIcon;
-			global::Mapsui.Forms.Android.Resource.Attribute.navigationMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.navigationMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.numericModifiers = global::OpenStreetMapDemo.Droid.Resource.Attribute.numericModifiers;
-			global::Mapsui.Forms.Android.Resource.Attribute.overlapAnchor = global::OpenStreetMapDemo.Droid.Resource.Attribute.overlapAnchor;
-			global::Mapsui.Forms.Android.Resource.Attribute.paddingBottomNoButtons = global::OpenStreetMapDemo.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Mapsui.Forms.Android.Resource.Attribute.paddingEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.paddingEnd;
-			global::Mapsui.Forms.Android.Resource.Attribute.paddingStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.paddingStart;
-			global::Mapsui.Forms.Android.Resource.Attribute.paddingTopNoTitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Mapsui.Forms.Android.Resource.Attribute.panelBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.panelBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.panelMenuListTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.panelMenuListWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Mapsui.Forms.Android.Resource.Attribute.passwordToggleContentDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Mapsui.Forms.Android.Resource.Attribute.passwordToggleDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Mapsui.Forms.Android.Resource.Attribute.passwordToggleEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Mapsui.Forms.Android.Resource.Attribute.passwordToggleTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.passwordToggleTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.popupMenuStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.popupMenuStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.popupTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.popupTheme;
-			global::Mapsui.Forms.Android.Resource.Attribute.popupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.popupWindowStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.preserveIconSpacing = global::OpenStreetMapDemo.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Mapsui.Forms.Android.Resource.Attribute.pressedTranslationZ = global::OpenStreetMapDemo.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Mapsui.Forms.Android.Resource.Attribute.progressBarPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.progressBarPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.progressBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.progressBarStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.queryBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.queryBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.queryHint = global::OpenStreetMapDemo.Droid.Resource.Attribute.queryHint;
-			global::Mapsui.Forms.Android.Resource.Attribute.radioButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.radioButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.ratingBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.ratingBarStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.ratingBarStyleIndicator = global::OpenStreetMapDemo.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Mapsui.Forms.Android.Resource.Attribute.ratingBarStyleSmall = global::OpenStreetMapDemo.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Mapsui.Forms.Android.Resource.Attribute.reverseLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.reverseLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.rippleColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.rippleColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.scrimAnimationDuration = global::OpenStreetMapDemo.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Mapsui.Forms.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::OpenStreetMapDemo.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Mapsui.Forms.Android.Resource.Attribute.searchHintIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.searchHintIcon;
-			global::Mapsui.Forms.Android.Resource.Attribute.searchIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.searchIcon;
-			global::Mapsui.Forms.Android.Resource.Attribute.searchViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.searchViewStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.seekBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.seekBarStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.selectableItemBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.selectableItemBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::OpenStreetMapDemo.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Mapsui.Forms.Android.Resource.Attribute.showAsAction = global::OpenStreetMapDemo.Droid.Resource.Attribute.showAsAction;
-			global::Mapsui.Forms.Android.Resource.Attribute.showDividers = global::OpenStreetMapDemo.Droid.Resource.Attribute.showDividers;
-			global::Mapsui.Forms.Android.Resource.Attribute.showText = global::OpenStreetMapDemo.Droid.Resource.Attribute.showText;
-			global::Mapsui.Forms.Android.Resource.Attribute.showTitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.showTitle;
-			global::Mapsui.Forms.Android.Resource.Attribute.singleChoiceItemLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.spanCount = global::OpenStreetMapDemo.Droid.Resource.Attribute.spanCount;
-			global::Mapsui.Forms.Android.Resource.Attribute.spinBars = global::OpenStreetMapDemo.Droid.Resource.Attribute.spinBars;
-			global::Mapsui.Forms.Android.Resource.Attribute.spinnerDropDownItemStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.spinnerStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.spinnerStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.splitTrack = global::OpenStreetMapDemo.Droid.Resource.Attribute.splitTrack;
-			global::Mapsui.Forms.Android.Resource.Attribute.srcCompat = global::OpenStreetMapDemo.Droid.Resource.Attribute.srcCompat;
-			global::Mapsui.Forms.Android.Resource.Attribute.stackFromEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.stackFromEnd;
-			global::Mapsui.Forms.Android.Resource.Attribute.start_with_openstreetmap = global::OpenStreetMapDemo.Droid.Resource.Attribute.start_with_openstreetmap;
-			global::Mapsui.Forms.Android.Resource.Attribute.state_above_anchor = global::OpenStreetMapDemo.Droid.Resource.Attribute.state_above_anchor;
-			global::Mapsui.Forms.Android.Resource.Attribute.state_collapsed = global::OpenStreetMapDemo.Droid.Resource.Attribute.state_collapsed;
-			global::Mapsui.Forms.Android.Resource.Attribute.state_collapsible = global::OpenStreetMapDemo.Droid.Resource.Attribute.state_collapsible;
-			global::Mapsui.Forms.Android.Resource.Attribute.statusBarBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.statusBarBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.statusBarScrim = global::OpenStreetMapDemo.Droid.Resource.Attribute.statusBarScrim;
-			global::Mapsui.Forms.Android.Resource.Attribute.subMenuArrow = global::OpenStreetMapDemo.Droid.Resource.Attribute.subMenuArrow;
-			global::Mapsui.Forms.Android.Resource.Attribute.submitBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.submitBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.subtitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.subtitle;
-			global::Mapsui.Forms.Android.Resource.Attribute.subtitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.subtitleTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.subtitleTextColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.subtitleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.suggestionRowLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Mapsui.Forms.Android.Resource.Attribute.switchMinWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.switchMinWidth;
-			global::Mapsui.Forms.Android.Resource.Attribute.switchPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.switchPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.switchStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.switchStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.switchTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.switchTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabContentStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabContentStart;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabGravity;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabIndicatorColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabIndicatorHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabMaxWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabMaxWidth;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabMinWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabMinWidth;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabPaddingBottom = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabPaddingEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabPaddingStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPaddingStart;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabPaddingTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPaddingTop;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabSelectedTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.tabTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabTextColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAllCaps = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAllCaps;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAppearanceListItem = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAppearanceListItemSecondary = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAppearanceListItemSmall = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Mapsui.Forms.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Mapsui.Forms.Android.Resource.Attribute.textColorAlertDialogListItem = global::OpenStreetMapDemo.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Mapsui.Forms.Android.Resource.Attribute.textColorError = global::OpenStreetMapDemo.Droid.Resource.Attribute.textColorError;
-			global::Mapsui.Forms.Android.Resource.Attribute.textColorSearchUrl = global::OpenStreetMapDemo.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Mapsui.Forms.Android.Resource.Attribute.theme = global::OpenStreetMapDemo.Droid.Resource.Attribute.theme;
-			global::Mapsui.Forms.Android.Resource.Attribute.thickness = global::OpenStreetMapDemo.Droid.Resource.Attribute.thickness;
-			global::Mapsui.Forms.Android.Resource.Attribute.thumbTextPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.thumbTextPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.thumbTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.thumbTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.thumbTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.thumbTintMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.tickMark = global::OpenStreetMapDemo.Droid.Resource.Attribute.tickMark;
-			global::Mapsui.Forms.Android.Resource.Attribute.tickMarkTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.tickMarkTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.tickMarkTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.tint = global::OpenStreetMapDemo.Droid.Resource.Attribute.tint;
-			global::Mapsui.Forms.Android.Resource.Attribute.tintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.tintMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.title = global::OpenStreetMapDemo.Droid.Resource.Attribute.title;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleEnabled;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleMargin = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMargin;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleMarginBottom = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMarginBottom;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleMarginEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMarginEnd;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleMarginStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMarginStart;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleMarginTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMarginTop;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleMargins = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMargins;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleTextColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.titleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleTextStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.toolbarId = global::OpenStreetMapDemo.Droid.Resource.Attribute.toolbarId;
-			global::Mapsui.Forms.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.toolbarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.toolbarStyle;
-			global::Mapsui.Forms.Android.Resource.Attribute.tooltipForegroundColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Mapsui.Forms.Android.Resource.Attribute.tooltipFrameBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Mapsui.Forms.Android.Resource.Attribute.tooltipText = global::OpenStreetMapDemo.Droid.Resource.Attribute.tooltipText;
-			global::Mapsui.Forms.Android.Resource.Attribute.track = global::OpenStreetMapDemo.Droid.Resource.Attribute.track;
-			global::Mapsui.Forms.Android.Resource.Attribute.trackTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.trackTint;
-			global::Mapsui.Forms.Android.Resource.Attribute.trackTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.trackTintMode;
-			global::Mapsui.Forms.Android.Resource.Attribute.useCompatPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.useCompatPadding;
-			global::Mapsui.Forms.Android.Resource.Attribute.voiceIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.voiceIcon;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowActionBar = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowActionBar;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowActionBarOverlay = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowActionModeOverlay = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowFixedHeightMajor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowFixedHeightMinor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowFixedWidthMajor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowFixedWidthMinor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowMinWidthMajor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowMinWidthMinor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Mapsui.Forms.Android.Resource.Attribute.windowNoTitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowNoTitle;
-			global::Mapsui.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Mapsui.Forms.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Mapsui.Forms.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Mapsui.Forms.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::Mapsui.Forms.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::Mapsui.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::OpenStreetMapDemo.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Mapsui.Forms.Android.Resource.Color.abc_btn_colored_text_material = global::OpenStreetMapDemo.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Mapsui.Forms.Android.Resource.Color.abc_color_highlight_material = global::OpenStreetMapDemo.Droid.Resource.Color.abc_color_highlight_material;
-			global::Mapsui.Forms.Android.Resource.Color.abc_hint_foreground_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.abc_hint_foreground_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.abc_input_method_navigation_guard = global::OpenStreetMapDemo.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Mapsui.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.abc_primary_text_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.abc_primary_text_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.abc_search_url_text = global::OpenStreetMapDemo.Droid.Resource.Color.abc_search_url_text;
-			global::Mapsui.Forms.Android.Resource.Color.abc_search_url_text_normal = global::OpenStreetMapDemo.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Mapsui.Forms.Android.Resource.Color.abc_search_url_text_pressed = global::OpenStreetMapDemo.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Mapsui.Forms.Android.Resource.Color.abc_search_url_text_selected = global::OpenStreetMapDemo.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Mapsui.Forms.Android.Resource.Color.abc_secondary_text_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.abc_secondary_text_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.abc_tint_btn_checkable = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Mapsui.Forms.Android.Resource.Color.abc_tint_default = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_default;
-			global::Mapsui.Forms.Android.Resource.Color.abc_tint_edittext = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_edittext;
-			global::Mapsui.Forms.Android.Resource.Color.abc_tint_seek_thumb = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Mapsui.Forms.Android.Resource.Color.abc_tint_spinner = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_spinner;
-			global::Mapsui.Forms.Android.Resource.Color.abc_tint_switch_track = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_switch_track;
-			global::Mapsui.Forms.Android.Resource.Color.accent_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.accent_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.accent_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.accent_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.background_floating_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.background_floating_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.background_floating_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.background_floating_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.background_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.background_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.background_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.background_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.bright_foreground_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.bright_foreground_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.bright_foreground_inverse_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.bright_foreground_inverse_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.bright_foreground_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.bright_foreground_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.button_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.button_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.button_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.button_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.cardview_dark_background = global::OpenStreetMapDemo.Droid.Resource.Color.cardview_dark_background;
-			global::Mapsui.Forms.Android.Resource.Color.cardview_light_background = global::OpenStreetMapDemo.Droid.Resource.Color.cardview_light_background;
-			global::Mapsui.Forms.Android.Resource.Color.cardview_shadow_end_color = global::OpenStreetMapDemo.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Mapsui.Forms.Android.Resource.Color.cardview_shadow_start_color = global::OpenStreetMapDemo.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_bottom_navigation_shadow_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_error = global::OpenStreetMapDemo.Droid.Resource.Color.design_error;
-			global::Mapsui.Forms.Android.Resource.Color.design_fab_shadow_end_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_fab_shadow_mid_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_fab_shadow_start_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_fab_stroke_end_inner_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_fab_stroke_end_outer_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_fab_stroke_top_inner_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_fab_stroke_top_outer_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_snackbar_background_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_snackbar_background_color;
-			global::Mapsui.Forms.Android.Resource.Color.design_tint_password_toggle = global::OpenStreetMapDemo.Droid.Resource.Color.design_tint_password_toggle;
-			global::Mapsui.Forms.Android.Resource.Color.dim_foreground_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.dim_foreground_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.dim_foreground_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.dim_foreground_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.dim_foreground_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.error_color_material = global::OpenStreetMapDemo.Droid.Resource.Color.error_color_material;
-			global::Mapsui.Forms.Android.Resource.Color.foreground_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.foreground_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.foreground_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.foreground_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.highlighted_text_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.highlighted_text_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.highlighted_text_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.material_blue_grey_800 = global::OpenStreetMapDemo.Droid.Resource.Color.material_blue_grey_800;
-			global::Mapsui.Forms.Android.Resource.Color.material_blue_grey_900 = global::OpenStreetMapDemo.Droid.Resource.Color.material_blue_grey_900;
-			global::Mapsui.Forms.Android.Resource.Color.material_blue_grey_950 = global::OpenStreetMapDemo.Droid.Resource.Color.material_blue_grey_950;
-			global::Mapsui.Forms.Android.Resource.Color.material_deep_teal_200 = global::OpenStreetMapDemo.Droid.Resource.Color.material_deep_teal_200;
-			global::Mapsui.Forms.Android.Resource.Color.material_deep_teal_500 = global::OpenStreetMapDemo.Droid.Resource.Color.material_deep_teal_500;
-			global::Mapsui.Forms.Android.Resource.Color.material_grey_100 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_100;
-			global::Mapsui.Forms.Android.Resource.Color.material_grey_300 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_300;
-			global::Mapsui.Forms.Android.Resource.Color.material_grey_50 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_50;
-			global::Mapsui.Forms.Android.Resource.Color.material_grey_600 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_600;
-			global::Mapsui.Forms.Android.Resource.Color.material_grey_800 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_800;
-			global::Mapsui.Forms.Android.Resource.Color.material_grey_850 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_850;
-			global::Mapsui.Forms.Android.Resource.Color.material_grey_900 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_900;
-			global::Mapsui.Forms.Android.Resource.Color.notification_action_color_filter = global::OpenStreetMapDemo.Droid.Resource.Color.notification_action_color_filter;
-			global::Mapsui.Forms.Android.Resource.Color.notification_icon_bg_color = global::OpenStreetMapDemo.Droid.Resource.Color.notification_icon_bg_color;
-			global::Mapsui.Forms.Android.Resource.Color.notification_material_background_media_default_color = global::OpenStreetMapDemo.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Mapsui.Forms.Android.Resource.Color.primary_dark_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.primary_dark_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.primary_dark_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.primary_dark_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.primary_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.primary_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.primary_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.primary_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.primary_text_default_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.primary_text_default_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.primary_text_default_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.primary_text_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.primary_text_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.ripple_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.ripple_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.ripple_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.ripple_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.secondary_text_default_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.secondary_text_default_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.secondary_text_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.secondary_text_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.switch_thumb_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.switch_thumb_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.switch_thumb_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.switch_thumb_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.switch_thumb_normal_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Mapsui.Forms.Android.Resource.Color.switch_thumb_normal_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Mapsui.Forms.Android.Resource.Color.tooltip_background_dark = global::OpenStreetMapDemo.Droid.Resource.Color.tooltip_background_dark;
-			global::Mapsui.Forms.Android.Resource.Color.tooltip_background_light = global::OpenStreetMapDemo.Droid.Resource.Color.tooltip_background_light;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_default_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_elevation_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_button_min_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_button_min_width_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_button_inset_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_button_padding_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_config_prefDialogWidth = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_control_corner_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_control_inset_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_control_padding_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_min_width_major = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_min_width_minor = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_padding_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_padding_top_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dialog_title_divider_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_floating_window_z = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_panel_menu_list_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_progress_bar_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_search_view_preferred_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_search_view_preferred_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_switch_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_switch_padding;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_body_1_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_body_2_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_button_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_caption_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_display_1_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_display_2_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_display_3_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_display_4_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_headline_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_large_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_medium_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_menu_header_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_menu_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_small_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_subhead_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_title_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Mapsui.Forms.Android.Resource.Dimension.cardview_compat_inset_shadow = global::OpenStreetMapDemo.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Mapsui.Forms.Android.Resource.Dimension.cardview_default_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Mapsui.Forms.Android.Resource.Dimension.cardview_default_radius = global::OpenStreetMapDemo.Droid.Resource.Dimension.cardview_default_radius;
-			global::Mapsui.Forms.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.compat_button_inset_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.compat_button_padding_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.compat_control_corner_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_appbar_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_navigation_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_fab_border_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_border_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_fab_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_elevation;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_fab_image_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_image_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_fab_size_mini = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_fab_size_normal = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_fab_translation_z_pressed = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_navigation_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_navigation_icon_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_navigation_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_navigation_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_navigation_padding_bottom = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_min_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_snackbar_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_tab_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_tab_max_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_tab_scrollable_min_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_tab_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_tab_text_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.design_tab_text_size_2line = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Mapsui.Forms.Android.Resource.Dimension.disabled_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Mapsui.Forms.Android.Resource.Dimension.disabled_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Mapsui.Forms.Android.Resource.Dimension.fastscroll_default_thickness = global::OpenStreetMapDemo.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Mapsui.Forms.Android.Resource.Dimension.fastscroll_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.fastscroll_margin;
-			global::Mapsui.Forms.Android.Resource.Dimension.fastscroll_minimum_range = global::OpenStreetMapDemo.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Mapsui.Forms.Android.Resource.Dimension.highlight_alpha_material_colored = global::OpenStreetMapDemo.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Mapsui.Forms.Android.Resource.Dimension.highlight_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Mapsui.Forms.Android.Resource.Dimension.highlight_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Mapsui.Forms.Android.Resource.Dimension.hint_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Mapsui.Forms.Android.Resource.Dimension.hint_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Mapsui.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Mapsui.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Mapsui.Forms.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::OpenStreetMapDemo.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Mapsui.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::OpenStreetMapDemo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Mapsui.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::OpenStreetMapDemo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Mapsui.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Mapsui.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Mapsui.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::OpenStreetMapDemo.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Mapsui.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::OpenStreetMapDemo.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Mapsui.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::OpenStreetMapDemo.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_action_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_action_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_action_text_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_big_circle_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_content_margin_start = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_large_icon_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_large_icon_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_main_column_padding_top = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_media_narrow_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_right_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_right_side_padding_top = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_small_icon_background_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_small_icon_size_as_large = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_subtext_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_subtext_size;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_top_pad = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_top_pad;
-			global::Mapsui.Forms.Android.Resource.Dimension.notification_top_pad_large_text = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Mapsui.Forms.Android.Resource.Dimension.tooltip_corner_radius = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Mapsui.Forms.Android.Resource.Dimension.tooltip_horizontal_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Mapsui.Forms.Android.Resource.Dimension.tooltip_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_margin;
-			global::Mapsui.Forms.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Mapsui.Forms.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Mapsui.Forms.Android.Resource.Dimension.tooltip_vertical_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Mapsui.Forms.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Mapsui.Forms.Android.Resource.Dimension.tooltip_y_offset_touch = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_action_bar_item_background_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_borderless_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_check_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_colored_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_radio_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_cab_background_internal_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_cab_background_top_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_control_background_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_control_background_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_dialog_material_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_edit_text_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_ab_back_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_clear_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_go_search_api_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_search_api_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_star_black_16dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_star_black_36dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_star_black_48dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_item_background_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_item_background_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_focused_holo = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_longpressed_holo = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_pressed_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_selector_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_list_selector_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ratingbar_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_ratingbar_small_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_seekbar_thumb_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_seekbar_track_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_switch_thumb_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_tab_indicator_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_text_cursor_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_textfield_search_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Mapsui.Forms.Android.Resource.Drawable.abc_vector_test = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_vector_test;
-			global::Mapsui.Forms.Android.Resource.Drawable.avd_hide_password = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_hide_password;
-			global::Mapsui.Forms.Android.Resource.Drawable.avd_hide_password_1 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_hide_password_1;
-			global::Mapsui.Forms.Android.Resource.Drawable.avd_hide_password_2 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_hide_password_2;
-			global::Mapsui.Forms.Android.Resource.Drawable.avd_hide_password_3 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_hide_password_3;
-			global::Mapsui.Forms.Android.Resource.Drawable.avd_show_password = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_show_password;
-			global::Mapsui.Forms.Android.Resource.Drawable.avd_show_password_1 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_show_password_1;
-			global::Mapsui.Forms.Android.Resource.Drawable.avd_show_password_2 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_show_password_2;
-			global::Mapsui.Forms.Android.Resource.Drawable.avd_show_password_3 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_show_password_3;
-			global::Mapsui.Forms.Android.Resource.Drawable.design_bottom_navigation_item_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Mapsui.Forms.Android.Resource.Drawable.design_fab_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_fab_background;
-			global::Mapsui.Forms.Android.Resource.Drawable.design_ic_visibility = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_ic_visibility;
-			global::Mapsui.Forms.Android.Resource.Drawable.design_ic_visibility_off = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Mapsui.Forms.Android.Resource.Drawable.design_password_eye = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_password_eye;
-			global::Mapsui.Forms.Android.Resource.Drawable.design_snackbar_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_snackbar_background;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_audiotrack_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_audiotrack_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_dialog_close_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_dialog_close_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_00 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_01 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_02 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_03 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_04 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_05 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_06 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_07 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_08 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_09 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_10 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_11 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_12 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_13 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_14 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_collapse_15 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_00 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_00;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_01 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_01;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_02 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_02;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_03 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_03;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_04 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_04;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_05 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_05;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_06 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_06;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_07 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_07;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_08 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_08;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_09 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_09;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_10 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_10;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_11 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_11;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_12 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_12;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_13 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_13;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_14 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_14;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_group_expand_15 = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_group_expand_15;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_media_pause_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_media_pause_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_media_pause_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_media_play_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_media_play_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_media_play_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_media_play_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_media_stop_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_media_stop_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_media_stop_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_23_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_23_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_24_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_24_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_25_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_25_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_26_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_26_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_27_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_27_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_28_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_28_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_29_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_29_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_30_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connected_30_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_23_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_23_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_24_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_24_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_25_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_25_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_26_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_26_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_27_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_27_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_28_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_28_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_29_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_29_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_30_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_connecting_30_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_disabled_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_mr_button_grey = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_vol_type_speaker_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_vol_type_tv_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.ic_vol_type_tv_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_button_connected_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_button_connected_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_button_connected_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_button_connecting_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_button_connecting_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_button_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_button_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_button_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_button_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_dialog_close_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_dialog_close_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_dialog_material_background_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_dialog_material_background_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_group_collapse = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_group_collapse;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_group_expand = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_group_expand;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_media_pause_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_media_pause_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_media_pause_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_media_play_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_media_play_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_media_play_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_media_play_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_media_stop_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_media_stop_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_media_stop_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::Mapsui.Forms.Android.Resource.Drawable.navigation_empty_icon = global::OpenStreetMapDemo.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_action_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_action_background;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_bg_low = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_bg_low_normal = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_bg_low_pressed = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_bg_normal = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_normal;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_bg_normal_pressed = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_icon_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_icon_background;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_template_icon_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_template_icon_low_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Mapsui.Forms.Android.Resource.Drawable.notification_tile_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_tile_bg;
-			global::Mapsui.Forms.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Mapsui.Forms.Android.Resource.Drawable.tooltip_frame_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Mapsui.Forms.Android.Resource.Drawable.tooltip_frame_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Mapsui.Forms.Android.Resource.Id.ALT = global::OpenStreetMapDemo.Droid.Resource.Id.ALT;
-			global::Mapsui.Forms.Android.Resource.Id.CTRL = global::OpenStreetMapDemo.Droid.Resource.Id.CTRL;
-			global::Mapsui.Forms.Android.Resource.Id.FUNCTION = global::OpenStreetMapDemo.Droid.Resource.Id.FUNCTION;
-			global::Mapsui.Forms.Android.Resource.Id.META = global::OpenStreetMapDemo.Droid.Resource.Id.META;
-			global::Mapsui.Forms.Android.Resource.Id.SHIFT = global::OpenStreetMapDemo.Droid.Resource.Id.SHIFT;
-			global::Mapsui.Forms.Android.Resource.Id.SYM = global::OpenStreetMapDemo.Droid.Resource.Id.SYM;
-			global::Mapsui.Forms.Android.Resource.Id.action0 = global::OpenStreetMapDemo.Droid.Resource.Id.action0;
-			global::Mapsui.Forms.Android.Resource.Id.action_bar = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar;
-			global::Mapsui.Forms.Android.Resource.Id.action_bar_activity_content = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_activity_content;
-			global::Mapsui.Forms.Android.Resource.Id.action_bar_container = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_container;
-			global::Mapsui.Forms.Android.Resource.Id.action_bar_root = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_root;
-			global::Mapsui.Forms.Android.Resource.Id.action_bar_spinner = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_spinner;
-			global::Mapsui.Forms.Android.Resource.Id.action_bar_subtitle = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_subtitle;
-			global::Mapsui.Forms.Android.Resource.Id.action_bar_title = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_title;
-			global::Mapsui.Forms.Android.Resource.Id.action_container = global::OpenStreetMapDemo.Droid.Resource.Id.action_container;
-			global::Mapsui.Forms.Android.Resource.Id.action_context_bar = global::OpenStreetMapDemo.Droid.Resource.Id.action_context_bar;
-			global::Mapsui.Forms.Android.Resource.Id.action_divider = global::OpenStreetMapDemo.Droid.Resource.Id.action_divider;
-			global::Mapsui.Forms.Android.Resource.Id.action_image = global::OpenStreetMapDemo.Droid.Resource.Id.action_image;
-			global::Mapsui.Forms.Android.Resource.Id.action_menu_divider = global::OpenStreetMapDemo.Droid.Resource.Id.action_menu_divider;
-			global::Mapsui.Forms.Android.Resource.Id.action_menu_presenter = global::OpenStreetMapDemo.Droid.Resource.Id.action_menu_presenter;
-			global::Mapsui.Forms.Android.Resource.Id.action_mode_bar = global::OpenStreetMapDemo.Droid.Resource.Id.action_mode_bar;
-			global::Mapsui.Forms.Android.Resource.Id.action_mode_bar_stub = global::OpenStreetMapDemo.Droid.Resource.Id.action_mode_bar_stub;
-			global::Mapsui.Forms.Android.Resource.Id.action_mode_close_button = global::OpenStreetMapDemo.Droid.Resource.Id.action_mode_close_button;
-			global::Mapsui.Forms.Android.Resource.Id.action_text = global::OpenStreetMapDemo.Droid.Resource.Id.action_text;
-			global::Mapsui.Forms.Android.Resource.Id.actions = global::OpenStreetMapDemo.Droid.Resource.Id.actions;
-			global::Mapsui.Forms.Android.Resource.Id.activity_chooser_view_content = global::OpenStreetMapDemo.Droid.Resource.Id.activity_chooser_view_content;
-			global::Mapsui.Forms.Android.Resource.Id.add = global::OpenStreetMapDemo.Droid.Resource.Id.add;
-			global::Mapsui.Forms.Android.Resource.Id.alertTitle = global::OpenStreetMapDemo.Droid.Resource.Id.alertTitle;
-			global::Mapsui.Forms.Android.Resource.Id.all = global::OpenStreetMapDemo.Droid.Resource.Id.all;
-			global::Mapsui.Forms.Android.Resource.Id.always = global::OpenStreetMapDemo.Droid.Resource.Id.always;
-			global::Mapsui.Forms.Android.Resource.Id.async = global::OpenStreetMapDemo.Droid.Resource.Id.async;
-			global::Mapsui.Forms.Android.Resource.Id.auto = global::OpenStreetMapDemo.Droid.Resource.Id.auto;
-			global::Mapsui.Forms.Android.Resource.Id.beginning = global::OpenStreetMapDemo.Droid.Resource.Id.beginning;
-			global::Mapsui.Forms.Android.Resource.Id.blocking = global::OpenStreetMapDemo.Droid.Resource.Id.blocking;
-			global::Mapsui.Forms.Android.Resource.Id.bottom = global::OpenStreetMapDemo.Droid.Resource.Id.bottom;
-			global::Mapsui.Forms.Android.Resource.Id.buttonPanel = global::OpenStreetMapDemo.Droid.Resource.Id.buttonPanel;
-			global::Mapsui.Forms.Android.Resource.Id.cancel_action = global::OpenStreetMapDemo.Droid.Resource.Id.cancel_action;
-			global::Mapsui.Forms.Android.Resource.Id.center = global::OpenStreetMapDemo.Droid.Resource.Id.center;
-			global::Mapsui.Forms.Android.Resource.Id.center_horizontal = global::OpenStreetMapDemo.Droid.Resource.Id.center_horizontal;
-			global::Mapsui.Forms.Android.Resource.Id.center_vertical = global::OpenStreetMapDemo.Droid.Resource.Id.center_vertical;
-			global::Mapsui.Forms.Android.Resource.Id.checkbox = global::OpenStreetMapDemo.Droid.Resource.Id.checkbox;
-			global::Mapsui.Forms.Android.Resource.Id.chronometer = global::OpenStreetMapDemo.Droid.Resource.Id.chronometer;
-			global::Mapsui.Forms.Android.Resource.Id.clip_horizontal = global::OpenStreetMapDemo.Droid.Resource.Id.clip_horizontal;
-			global::Mapsui.Forms.Android.Resource.Id.clip_vertical = global::OpenStreetMapDemo.Droid.Resource.Id.clip_vertical;
-			global::Mapsui.Forms.Android.Resource.Id.collapseActionView = global::OpenStreetMapDemo.Droid.Resource.Id.collapseActionView;
-			global::Mapsui.Forms.Android.Resource.Id.container = global::OpenStreetMapDemo.Droid.Resource.Id.container;
-			global::Mapsui.Forms.Android.Resource.Id.contentPanel = global::OpenStreetMapDemo.Droid.Resource.Id.contentPanel;
-			global::Mapsui.Forms.Android.Resource.Id.coordinator = global::OpenStreetMapDemo.Droid.Resource.Id.coordinator;
-			global::Mapsui.Forms.Android.Resource.Id.custom = global::OpenStreetMapDemo.Droid.Resource.Id.custom;
-			global::Mapsui.Forms.Android.Resource.Id.customPanel = global::OpenStreetMapDemo.Droid.Resource.Id.customPanel;
-			global::Mapsui.Forms.Android.Resource.Id.decor_content_parent = global::OpenStreetMapDemo.Droid.Resource.Id.decor_content_parent;
-			global::Mapsui.Forms.Android.Resource.Id.default_activity_button = global::OpenStreetMapDemo.Droid.Resource.Id.default_activity_button;
-			global::Mapsui.Forms.Android.Resource.Id.design_bottom_sheet = global::OpenStreetMapDemo.Droid.Resource.Id.design_bottom_sheet;
-			global::Mapsui.Forms.Android.Resource.Id.design_menu_item_action_area = global::OpenStreetMapDemo.Droid.Resource.Id.design_menu_item_action_area;
-			global::Mapsui.Forms.Android.Resource.Id.design_menu_item_action_area_stub = global::OpenStreetMapDemo.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Mapsui.Forms.Android.Resource.Id.design_menu_item_text = global::OpenStreetMapDemo.Droid.Resource.Id.design_menu_item_text;
-			global::Mapsui.Forms.Android.Resource.Id.design_navigation_view = global::OpenStreetMapDemo.Droid.Resource.Id.design_navigation_view;
-			global::Mapsui.Forms.Android.Resource.Id.disableHome = global::OpenStreetMapDemo.Droid.Resource.Id.disableHome;
-			global::Mapsui.Forms.Android.Resource.Id.edit_query = global::OpenStreetMapDemo.Droid.Resource.Id.edit_query;
-			global::Mapsui.Forms.Android.Resource.Id.end = global::OpenStreetMapDemo.Droid.Resource.Id.end;
-			global::Mapsui.Forms.Android.Resource.Id.end_padder = global::OpenStreetMapDemo.Droid.Resource.Id.end_padder;
-			global::Mapsui.Forms.Android.Resource.Id.enterAlways = global::OpenStreetMapDemo.Droid.Resource.Id.enterAlways;
-			global::Mapsui.Forms.Android.Resource.Id.enterAlwaysCollapsed = global::OpenStreetMapDemo.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Mapsui.Forms.Android.Resource.Id.exitUntilCollapsed = global::OpenStreetMapDemo.Droid.Resource.Id.exitUntilCollapsed;
-			global::Mapsui.Forms.Android.Resource.Id.expand_activities_button = global::OpenStreetMapDemo.Droid.Resource.Id.expand_activities_button;
-			global::Mapsui.Forms.Android.Resource.Id.expanded_menu = global::OpenStreetMapDemo.Droid.Resource.Id.expanded_menu;
-			global::Mapsui.Forms.Android.Resource.Id.fill = global::OpenStreetMapDemo.Droid.Resource.Id.fill;
-			global::Mapsui.Forms.Android.Resource.Id.fill_horizontal = global::OpenStreetMapDemo.Droid.Resource.Id.fill_horizontal;
-			global::Mapsui.Forms.Android.Resource.Id.fill_vertical = global::OpenStreetMapDemo.Droid.Resource.Id.fill_vertical;
-			global::Mapsui.Forms.Android.Resource.Id.@fixed = global::OpenStreetMapDemo.Droid.Resource.Id.@fixed;
-			global::Mapsui.Forms.Android.Resource.Id.forever = global::OpenStreetMapDemo.Droid.Resource.Id.forever;
-			global::Mapsui.Forms.Android.Resource.Id.ghost_view = global::OpenStreetMapDemo.Droid.Resource.Id.ghost_view;
-			global::Mapsui.Forms.Android.Resource.Id.home = global::OpenStreetMapDemo.Droid.Resource.Id.home;
-			global::Mapsui.Forms.Android.Resource.Id.homeAsUp = global::OpenStreetMapDemo.Droid.Resource.Id.homeAsUp;
-			global::Mapsui.Forms.Android.Resource.Id.icon = global::OpenStreetMapDemo.Droid.Resource.Id.icon;
-			global::Mapsui.Forms.Android.Resource.Id.icon_group = global::OpenStreetMapDemo.Droid.Resource.Id.icon_group;
-			global::Mapsui.Forms.Android.Resource.Id.ifRoom = global::OpenStreetMapDemo.Droid.Resource.Id.ifRoom;
-			global::Mapsui.Forms.Android.Resource.Id.image = global::OpenStreetMapDemo.Droid.Resource.Id.image;
-			global::Mapsui.Forms.Android.Resource.Id.info = global::OpenStreetMapDemo.Droid.Resource.Id.info;
-			global::Mapsui.Forms.Android.Resource.Id.italic = global::OpenStreetMapDemo.Droid.Resource.Id.italic;
-			global::Mapsui.Forms.Android.Resource.Id.item_touch_helper_previous_elevation = global::OpenStreetMapDemo.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Mapsui.Forms.Android.Resource.Id.largeLabel = global::OpenStreetMapDemo.Droid.Resource.Id.largeLabel;
-			global::Mapsui.Forms.Android.Resource.Id.left = global::OpenStreetMapDemo.Droid.Resource.Id.left;
-			global::Mapsui.Forms.Android.Resource.Id.line1 = global::OpenStreetMapDemo.Droid.Resource.Id.line1;
-			global::Mapsui.Forms.Android.Resource.Id.line3 = global::OpenStreetMapDemo.Droid.Resource.Id.line3;
-			global::Mapsui.Forms.Android.Resource.Id.listMode = global::OpenStreetMapDemo.Droid.Resource.Id.listMode;
-			global::Mapsui.Forms.Android.Resource.Id.list_item = global::OpenStreetMapDemo.Droid.Resource.Id.list_item;
-			global::Mapsui.Forms.Android.Resource.Id.masked = global::OpenStreetMapDemo.Droid.Resource.Id.masked;
-			global::Mapsui.Forms.Android.Resource.Id.media_actions = global::OpenStreetMapDemo.Droid.Resource.Id.media_actions;
-			global::Mapsui.Forms.Android.Resource.Id.message = global::OpenStreetMapDemo.Droid.Resource.Id.message;
-			global::Mapsui.Forms.Android.Resource.Id.middle = global::OpenStreetMapDemo.Droid.Resource.Id.middle;
-			global::Mapsui.Forms.Android.Resource.Id.mini = global::OpenStreetMapDemo.Droid.Resource.Id.mini;
-			global::Mapsui.Forms.Android.Resource.Id.mr_art = global::OpenStreetMapDemo.Droid.Resource.Id.mr_art;
-			global::Mapsui.Forms.Android.Resource.Id.mr_chooser_list = global::OpenStreetMapDemo.Droid.Resource.Id.mr_chooser_list;
-			global::Mapsui.Forms.Android.Resource.Id.mr_chooser_route_desc = global::OpenStreetMapDemo.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Mapsui.Forms.Android.Resource.Id.mr_chooser_route_icon = global::OpenStreetMapDemo.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Mapsui.Forms.Android.Resource.Id.mr_chooser_route_name = global::OpenStreetMapDemo.Droid.Resource.Id.mr_chooser_route_name;
-			global::Mapsui.Forms.Android.Resource.Id.mr_chooser_title = global::OpenStreetMapDemo.Droid.Resource.Id.mr_chooser_title;
-			global::Mapsui.Forms.Android.Resource.Id.mr_close = global::OpenStreetMapDemo.Droid.Resource.Id.mr_close;
-			global::Mapsui.Forms.Android.Resource.Id.mr_control_divider = global::OpenStreetMapDemo.Droid.Resource.Id.mr_control_divider;
-			global::Mapsui.Forms.Android.Resource.Id.mr_control_playback_ctrl = global::OpenStreetMapDemo.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::Mapsui.Forms.Android.Resource.Id.mr_control_subtitle = global::OpenStreetMapDemo.Droid.Resource.Id.mr_control_subtitle;
-			global::Mapsui.Forms.Android.Resource.Id.mr_control_title = global::OpenStreetMapDemo.Droid.Resource.Id.mr_control_title;
-			global::Mapsui.Forms.Android.Resource.Id.mr_control_title_container = global::OpenStreetMapDemo.Droid.Resource.Id.mr_control_title_container;
-			global::Mapsui.Forms.Android.Resource.Id.mr_custom_control = global::OpenStreetMapDemo.Droid.Resource.Id.mr_custom_control;
-			global::Mapsui.Forms.Android.Resource.Id.mr_default_control = global::OpenStreetMapDemo.Droid.Resource.Id.mr_default_control;
-			global::Mapsui.Forms.Android.Resource.Id.mr_dialog_area = global::OpenStreetMapDemo.Droid.Resource.Id.mr_dialog_area;
-			global::Mapsui.Forms.Android.Resource.Id.mr_expandable_area = global::OpenStreetMapDemo.Droid.Resource.Id.mr_expandable_area;
-			global::Mapsui.Forms.Android.Resource.Id.mr_group_expand_collapse = global::OpenStreetMapDemo.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Mapsui.Forms.Android.Resource.Id.mr_media_main_control = global::OpenStreetMapDemo.Droid.Resource.Id.mr_media_main_control;
-			global::Mapsui.Forms.Android.Resource.Id.mr_name = global::OpenStreetMapDemo.Droid.Resource.Id.mr_name;
-			global::Mapsui.Forms.Android.Resource.Id.mr_playback_control = global::OpenStreetMapDemo.Droid.Resource.Id.mr_playback_control;
-			global::Mapsui.Forms.Android.Resource.Id.mr_title_bar = global::OpenStreetMapDemo.Droid.Resource.Id.mr_title_bar;
-			global::Mapsui.Forms.Android.Resource.Id.mr_volume_control = global::OpenStreetMapDemo.Droid.Resource.Id.mr_volume_control;
-			global::Mapsui.Forms.Android.Resource.Id.mr_volume_group_list = global::OpenStreetMapDemo.Droid.Resource.Id.mr_volume_group_list;
-			global::Mapsui.Forms.Android.Resource.Id.mr_volume_item_icon = global::OpenStreetMapDemo.Droid.Resource.Id.mr_volume_item_icon;
-			global::Mapsui.Forms.Android.Resource.Id.mr_volume_slider = global::OpenStreetMapDemo.Droid.Resource.Id.mr_volume_slider;
-			global::Mapsui.Forms.Android.Resource.Id.multiply = global::OpenStreetMapDemo.Droid.Resource.Id.multiply;
-			global::Mapsui.Forms.Android.Resource.Id.navigation_header_container = global::OpenStreetMapDemo.Droid.Resource.Id.navigation_header_container;
-			global::Mapsui.Forms.Android.Resource.Id.never = global::OpenStreetMapDemo.Droid.Resource.Id.never;
-			global::Mapsui.Forms.Android.Resource.Id.none = global::OpenStreetMapDemo.Droid.Resource.Id.none;
-			global::Mapsui.Forms.Android.Resource.Id.normal = global::OpenStreetMapDemo.Droid.Resource.Id.normal;
-			global::Mapsui.Forms.Android.Resource.Id.notification_background = global::OpenStreetMapDemo.Droid.Resource.Id.notification_background;
-			global::Mapsui.Forms.Android.Resource.Id.notification_main_column = global::OpenStreetMapDemo.Droid.Resource.Id.notification_main_column;
-			global::Mapsui.Forms.Android.Resource.Id.notification_main_column_container = global::OpenStreetMapDemo.Droid.Resource.Id.notification_main_column_container;
-			global::Mapsui.Forms.Android.Resource.Id.parallax = global::OpenStreetMapDemo.Droid.Resource.Id.parallax;
-			global::Mapsui.Forms.Android.Resource.Id.parentPanel = global::OpenStreetMapDemo.Droid.Resource.Id.parentPanel;
-			global::Mapsui.Forms.Android.Resource.Id.parent_matrix = global::OpenStreetMapDemo.Droid.Resource.Id.parent_matrix;
-			global::Mapsui.Forms.Android.Resource.Id.pin = global::OpenStreetMapDemo.Droid.Resource.Id.pin;
-			global::Mapsui.Forms.Android.Resource.Id.progress_circular = global::OpenStreetMapDemo.Droid.Resource.Id.progress_circular;
-			global::Mapsui.Forms.Android.Resource.Id.progress_horizontal = global::OpenStreetMapDemo.Droid.Resource.Id.progress_horizontal;
-			global::Mapsui.Forms.Android.Resource.Id.radio = global::OpenStreetMapDemo.Droid.Resource.Id.radio;
-			global::Mapsui.Forms.Android.Resource.Id.right = global::OpenStreetMapDemo.Droid.Resource.Id.right;
-			global::Mapsui.Forms.Android.Resource.Id.right_icon = global::OpenStreetMapDemo.Droid.Resource.Id.right_icon;
-			global::Mapsui.Forms.Android.Resource.Id.right_side = global::OpenStreetMapDemo.Droid.Resource.Id.right_side;
-			global::Mapsui.Forms.Android.Resource.Id.save_image_matrix = global::OpenStreetMapDemo.Droid.Resource.Id.save_image_matrix;
-			global::Mapsui.Forms.Android.Resource.Id.save_non_transition_alpha = global::OpenStreetMapDemo.Droid.Resource.Id.save_non_transition_alpha;
-			global::Mapsui.Forms.Android.Resource.Id.save_scale_type = global::OpenStreetMapDemo.Droid.Resource.Id.save_scale_type;
-			global::Mapsui.Forms.Android.Resource.Id.screen = global::OpenStreetMapDemo.Droid.Resource.Id.screen;
-			global::Mapsui.Forms.Android.Resource.Id.scroll = global::OpenStreetMapDemo.Droid.Resource.Id.scroll;
-			global::Mapsui.Forms.Android.Resource.Id.scrollIndicatorDown = global::OpenStreetMapDemo.Droid.Resource.Id.scrollIndicatorDown;
-			global::Mapsui.Forms.Android.Resource.Id.scrollIndicatorUp = global::OpenStreetMapDemo.Droid.Resource.Id.scrollIndicatorUp;
-			global::Mapsui.Forms.Android.Resource.Id.scrollView = global::OpenStreetMapDemo.Droid.Resource.Id.scrollView;
-			global::Mapsui.Forms.Android.Resource.Id.scrollable = global::OpenStreetMapDemo.Droid.Resource.Id.scrollable;
-			global::Mapsui.Forms.Android.Resource.Id.search_badge = global::OpenStreetMapDemo.Droid.Resource.Id.search_badge;
-			global::Mapsui.Forms.Android.Resource.Id.search_bar = global::OpenStreetMapDemo.Droid.Resource.Id.search_bar;
-			global::Mapsui.Forms.Android.Resource.Id.search_button = global::OpenStreetMapDemo.Droid.Resource.Id.search_button;
-			global::Mapsui.Forms.Android.Resource.Id.search_close_btn = global::OpenStreetMapDemo.Droid.Resource.Id.search_close_btn;
-			global::Mapsui.Forms.Android.Resource.Id.search_edit_frame = global::OpenStreetMapDemo.Droid.Resource.Id.search_edit_frame;
-			global::Mapsui.Forms.Android.Resource.Id.search_go_btn = global::OpenStreetMapDemo.Droid.Resource.Id.search_go_btn;
-			global::Mapsui.Forms.Android.Resource.Id.search_mag_icon = global::OpenStreetMapDemo.Droid.Resource.Id.search_mag_icon;
-			global::Mapsui.Forms.Android.Resource.Id.search_plate = global::OpenStreetMapDemo.Droid.Resource.Id.search_plate;
-			global::Mapsui.Forms.Android.Resource.Id.search_src_text = global::OpenStreetMapDemo.Droid.Resource.Id.search_src_text;
-			global::Mapsui.Forms.Android.Resource.Id.search_voice_btn = global::OpenStreetMapDemo.Droid.Resource.Id.search_voice_btn;
-			global::Mapsui.Forms.Android.Resource.Id.select_dialog_listview = global::OpenStreetMapDemo.Droid.Resource.Id.select_dialog_listview;
-			global::Mapsui.Forms.Android.Resource.Id.shortcut = global::OpenStreetMapDemo.Droid.Resource.Id.shortcut;
-			global::Mapsui.Forms.Android.Resource.Id.showCustom = global::OpenStreetMapDemo.Droid.Resource.Id.showCustom;
-			global::Mapsui.Forms.Android.Resource.Id.showHome = global::OpenStreetMapDemo.Droid.Resource.Id.showHome;
-			global::Mapsui.Forms.Android.Resource.Id.showTitle = global::OpenStreetMapDemo.Droid.Resource.Id.showTitle;
-			global::Mapsui.Forms.Android.Resource.Id.smallLabel = global::OpenStreetMapDemo.Droid.Resource.Id.smallLabel;
-			global::Mapsui.Forms.Android.Resource.Id.snackbar_action = global::OpenStreetMapDemo.Droid.Resource.Id.snackbar_action;
-			global::Mapsui.Forms.Android.Resource.Id.snackbar_text = global::OpenStreetMapDemo.Droid.Resource.Id.snackbar_text;
-			global::Mapsui.Forms.Android.Resource.Id.snap = global::OpenStreetMapDemo.Droid.Resource.Id.snap;
-			global::Mapsui.Forms.Android.Resource.Id.spacer = global::OpenStreetMapDemo.Droid.Resource.Id.spacer;
-			global::Mapsui.Forms.Android.Resource.Id.split_action_bar = global::OpenStreetMapDemo.Droid.Resource.Id.split_action_bar;
-			global::Mapsui.Forms.Android.Resource.Id.src_atop = global::OpenStreetMapDemo.Droid.Resource.Id.src_atop;
-			global::Mapsui.Forms.Android.Resource.Id.src_in = global::OpenStreetMapDemo.Droid.Resource.Id.src_in;
-			global::Mapsui.Forms.Android.Resource.Id.src_over = global::OpenStreetMapDemo.Droid.Resource.Id.src_over;
-			global::Mapsui.Forms.Android.Resource.Id.start = global::OpenStreetMapDemo.Droid.Resource.Id.start;
-			global::Mapsui.Forms.Android.Resource.Id.status_bar_latest_event_content = global::OpenStreetMapDemo.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Mapsui.Forms.Android.Resource.Id.submenuarrow = global::OpenStreetMapDemo.Droid.Resource.Id.submenuarrow;
-			global::Mapsui.Forms.Android.Resource.Id.submit_area = global::OpenStreetMapDemo.Droid.Resource.Id.submit_area;
-			global::Mapsui.Forms.Android.Resource.Id.tabMode = global::OpenStreetMapDemo.Droid.Resource.Id.tabMode;
-			global::Mapsui.Forms.Android.Resource.Id.text = global::OpenStreetMapDemo.Droid.Resource.Id.text;
-			global::Mapsui.Forms.Android.Resource.Id.text2 = global::OpenStreetMapDemo.Droid.Resource.Id.text2;
-			global::Mapsui.Forms.Android.Resource.Id.textSpacerNoButtons = global::OpenStreetMapDemo.Droid.Resource.Id.textSpacerNoButtons;
-			global::Mapsui.Forms.Android.Resource.Id.textSpacerNoTitle = global::OpenStreetMapDemo.Droid.Resource.Id.textSpacerNoTitle;
-			global::Mapsui.Forms.Android.Resource.Id.text_input_password_toggle = global::OpenStreetMapDemo.Droid.Resource.Id.text_input_password_toggle;
-			global::Mapsui.Forms.Android.Resource.Id.textinput_counter = global::OpenStreetMapDemo.Droid.Resource.Id.textinput_counter;
-			global::Mapsui.Forms.Android.Resource.Id.textinput_error = global::OpenStreetMapDemo.Droid.Resource.Id.textinput_error;
-			global::Mapsui.Forms.Android.Resource.Id.time = global::OpenStreetMapDemo.Droid.Resource.Id.time;
-			global::Mapsui.Forms.Android.Resource.Id.title = global::OpenStreetMapDemo.Droid.Resource.Id.title;
-			global::Mapsui.Forms.Android.Resource.Id.titleDividerNoCustom = global::OpenStreetMapDemo.Droid.Resource.Id.titleDividerNoCustom;
-			global::Mapsui.Forms.Android.Resource.Id.title_template = global::OpenStreetMapDemo.Droid.Resource.Id.title_template;
-			global::Mapsui.Forms.Android.Resource.Id.top = global::OpenStreetMapDemo.Droid.Resource.Id.top;
-			global::Mapsui.Forms.Android.Resource.Id.topPanel = global::OpenStreetMapDemo.Droid.Resource.Id.topPanel;
-			global::Mapsui.Forms.Android.Resource.Id.touch_outside = global::OpenStreetMapDemo.Droid.Resource.Id.touch_outside;
-			global::Mapsui.Forms.Android.Resource.Id.transition_current_scene = global::OpenStreetMapDemo.Droid.Resource.Id.transition_current_scene;
-			global::Mapsui.Forms.Android.Resource.Id.transition_layout_save = global::OpenStreetMapDemo.Droid.Resource.Id.transition_layout_save;
-			global::Mapsui.Forms.Android.Resource.Id.transition_position = global::OpenStreetMapDemo.Droid.Resource.Id.transition_position;
-			global::Mapsui.Forms.Android.Resource.Id.transition_scene_layoutid_cache = global::OpenStreetMapDemo.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Mapsui.Forms.Android.Resource.Id.transition_transform = global::OpenStreetMapDemo.Droid.Resource.Id.transition_transform;
-			global::Mapsui.Forms.Android.Resource.Id.uniform = global::OpenStreetMapDemo.Droid.Resource.Id.uniform;
-			global::Mapsui.Forms.Android.Resource.Id.up = global::OpenStreetMapDemo.Droid.Resource.Id.up;
-			global::Mapsui.Forms.Android.Resource.Id.useLogo = global::OpenStreetMapDemo.Droid.Resource.Id.useLogo;
-			global::Mapsui.Forms.Android.Resource.Id.view_offset_helper = global::OpenStreetMapDemo.Droid.Resource.Id.view_offset_helper;
-			global::Mapsui.Forms.Android.Resource.Id.visible = global::OpenStreetMapDemo.Droid.Resource.Id.visible;
-			global::Mapsui.Forms.Android.Resource.Id.volume_item_container = global::OpenStreetMapDemo.Droid.Resource.Id.volume_item_container;
-			global::Mapsui.Forms.Android.Resource.Id.withText = global::OpenStreetMapDemo.Droid.Resource.Id.withText;
-			global::Mapsui.Forms.Android.Resource.Id.wrap_content = global::OpenStreetMapDemo.Droid.Resource.Id.wrap_content;
-			global::Mapsui.Forms.Android.Resource.Integer.abc_config_activityDefaultDur = global::OpenStreetMapDemo.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Mapsui.Forms.Android.Resource.Integer.abc_config_activityShortDur = global::OpenStreetMapDemo.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Mapsui.Forms.Android.Resource.Integer.app_bar_elevation_anim_duration = global::OpenStreetMapDemo.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Mapsui.Forms.Android.Resource.Integer.bottom_sheet_slide_duration = global::OpenStreetMapDemo.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Mapsui.Forms.Android.Resource.Integer.cancel_button_image_alpha = global::OpenStreetMapDemo.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Mapsui.Forms.Android.Resource.Integer.config_tooltipAnimTime = global::OpenStreetMapDemo.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Mapsui.Forms.Android.Resource.Integer.design_snackbar_text_max_lines = global::OpenStreetMapDemo.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Mapsui.Forms.Android.Resource.Integer.hide_password_duration = global::OpenStreetMapDemo.Droid.Resource.Integer.hide_password_duration;
-			global::Mapsui.Forms.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::OpenStreetMapDemo.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Mapsui.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::OpenStreetMapDemo.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Mapsui.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::OpenStreetMapDemo.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::Mapsui.Forms.Android.Resource.Integer.show_password_duration = global::OpenStreetMapDemo.Droid.Resource.Integer.show_password_duration;
-			global::Mapsui.Forms.Android.Resource.Integer.status_bar_notification_info_maxnum = global::OpenStreetMapDemo.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Mapsui.Forms.Android.Resource.Interpolator.mr_fast_out_slow_in = global::OpenStreetMapDemo.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Mapsui.Forms.Android.Resource.Interpolator.mr_linear_out_slow_in = global::OpenStreetMapDemo.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_action_bar_title_item = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_action_bar_up_container = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_action_menu_item_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_action_menu_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_action_mode_bar = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_action_mode_close_item_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_activity_chooser_view = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_alert_dialog_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_alert_dialog_title_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_dialog_title_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_expanded_menu_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_list_menu_item_checkbox = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_list_menu_item_icon = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_list_menu_item_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_list_menu_item_radio = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_popup_menu_item_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_screen_content_include = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_screen_content_include;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_screen_simple = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_screen_simple;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_screen_toolbar = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_search_view = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_search_view;
-			global::Mapsui.Forms.Android.Resource.Layout.abc_select_dialog_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Mapsui.Forms.Android.Resource.Layout.design_bottom_navigation_item = global::OpenStreetMapDemo.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Mapsui.Forms.Android.Resource.Layout.design_bottom_sheet_dialog = global::OpenStreetMapDemo.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Mapsui.Forms.Android.Resource.Layout.design_layout_snackbar = global::OpenStreetMapDemo.Droid.Resource.Layout.design_layout_snackbar;
-			global::Mapsui.Forms.Android.Resource.Layout.design_layout_snackbar_include = global::OpenStreetMapDemo.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Mapsui.Forms.Android.Resource.Layout.design_layout_tab_icon = global::OpenStreetMapDemo.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Mapsui.Forms.Android.Resource.Layout.design_layout_tab_text = global::OpenStreetMapDemo.Droid.Resource.Layout.design_layout_tab_text;
-			global::Mapsui.Forms.Android.Resource.Layout.design_menu_item_action_area = global::OpenStreetMapDemo.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Mapsui.Forms.Android.Resource.Layout.design_navigation_item = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_item;
-			global::Mapsui.Forms.Android.Resource.Layout.design_navigation_item_header = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_item_header;
-			global::Mapsui.Forms.Android.Resource.Layout.design_navigation_item_separator = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Mapsui.Forms.Android.Resource.Layout.design_navigation_item_subheader = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Mapsui.Forms.Android.Resource.Layout.design_navigation_menu = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_menu;
-			global::Mapsui.Forms.Android.Resource.Layout.design_navigation_menu_item = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Mapsui.Forms.Android.Resource.Layout.design_text_input_password_icon = global::OpenStreetMapDemo.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Mapsui.Forms.Android.Resource.Layout.mr_chooser_dialog = global::OpenStreetMapDemo.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Mapsui.Forms.Android.Resource.Layout.mr_chooser_list_item = global::OpenStreetMapDemo.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Mapsui.Forms.Android.Resource.Layout.mr_controller_material_dialog_b = global::OpenStreetMapDemo.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Mapsui.Forms.Android.Resource.Layout.mr_controller_volume_item = global::OpenStreetMapDemo.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Mapsui.Forms.Android.Resource.Layout.mr_playback_control = global::OpenStreetMapDemo.Droid.Resource.Layout.mr_playback_control;
-			global::Mapsui.Forms.Android.Resource.Layout.mr_volume_control = global::OpenStreetMapDemo.Droid.Resource.Layout.mr_volume_control;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_action = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_action;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_action_tombstone = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_action_tombstone;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_media_action = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_media_action;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_media_cancel_action = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_big_media = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_big_media;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_big_media_custom = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_big_media_narrow = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_custom_big = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_custom_big;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_icon_group = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_icon_group;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_lines_media = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_lines_media;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_media = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_media;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_media_custom = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_media_custom;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_part_chronometer = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Mapsui.Forms.Android.Resource.Layout.notification_template_part_time = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_part_time;
-			global::Mapsui.Forms.Android.Resource.Layout.select_dialog_item_material = global::OpenStreetMapDemo.Droid.Resource.Layout.select_dialog_item_material;
-			global::Mapsui.Forms.Android.Resource.Layout.select_dialog_multichoice_material = global::OpenStreetMapDemo.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Mapsui.Forms.Android.Resource.Layout.select_dialog_singlechoice_material = global::OpenStreetMapDemo.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Mapsui.Forms.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::OpenStreetMapDemo.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Mapsui.Forms.Android.Resource.Layout.tooltip = global::OpenStreetMapDemo.Droid.Resource.Layout.tooltip;
-			global::Mapsui.Forms.Android.Resource.String.ApplicationName = global::OpenStreetMapDemo.Droid.Resource.String.ApplicationName;
-			global::Mapsui.Forms.Android.Resource.String.Hello = global::OpenStreetMapDemo.Droid.Resource.String.Hello;
-			global::Mapsui.Forms.Android.Resource.String.abc_action_bar_home_description = global::OpenStreetMapDemo.Droid.Resource.String.abc_action_bar_home_description;
-			global::Mapsui.Forms.Android.Resource.String.abc_action_bar_up_description = global::OpenStreetMapDemo.Droid.Resource.String.abc_action_bar_up_description;
-			global::Mapsui.Forms.Android.Resource.String.abc_action_menu_overflow_description = global::OpenStreetMapDemo.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Mapsui.Forms.Android.Resource.String.abc_action_mode_done = global::OpenStreetMapDemo.Droid.Resource.String.abc_action_mode_done;
-			global::Mapsui.Forms.Android.Resource.String.abc_activity_chooser_view_see_all = global::OpenStreetMapDemo.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Mapsui.Forms.Android.Resource.String.abc_activitychooserview_choose_application = global::OpenStreetMapDemo.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Mapsui.Forms.Android.Resource.String.abc_capital_off = global::OpenStreetMapDemo.Droid.Resource.String.abc_capital_off;
-			global::Mapsui.Forms.Android.Resource.String.abc_capital_on = global::OpenStreetMapDemo.Droid.Resource.String.abc_capital_on;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_body_1_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_body_2_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_button_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_button_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_caption_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_caption_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_display_1_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_display_2_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_display_3_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_display_4_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_headline_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_headline_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_menu_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_menu_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_subhead_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_font_family_title_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_title_material;
-			global::Mapsui.Forms.Android.Resource.String.abc_search_hint = global::OpenStreetMapDemo.Droid.Resource.String.abc_search_hint;
-			global::Mapsui.Forms.Android.Resource.String.abc_searchview_description_clear = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_clear;
-			global::Mapsui.Forms.Android.Resource.String.abc_searchview_description_query = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_query;
-			global::Mapsui.Forms.Android.Resource.String.abc_searchview_description_search = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_search;
-			global::Mapsui.Forms.Android.Resource.String.abc_searchview_description_submit = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_submit;
-			global::Mapsui.Forms.Android.Resource.String.abc_searchview_description_voice = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_voice;
-			global::Mapsui.Forms.Android.Resource.String.abc_shareactionprovider_share_with = global::OpenStreetMapDemo.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Mapsui.Forms.Android.Resource.String.abc_shareactionprovider_share_with_application = global::OpenStreetMapDemo.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Mapsui.Forms.Android.Resource.String.abc_toolbar_collapse_description = global::OpenStreetMapDemo.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Mapsui.Forms.Android.Resource.String.appbar_scrolling_view_behavior = global::OpenStreetMapDemo.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Mapsui.Forms.Android.Resource.String.bottom_sheet_behavior = global::OpenStreetMapDemo.Droid.Resource.String.bottom_sheet_behavior;
-			global::Mapsui.Forms.Android.Resource.String.character_counter_pattern = global::OpenStreetMapDemo.Droid.Resource.String.character_counter_pattern;
-			global::Mapsui.Forms.Android.Resource.String.mr_button_content_description = global::OpenStreetMapDemo.Droid.Resource.String.mr_button_content_description;
-			global::Mapsui.Forms.Android.Resource.String.mr_cast_button_connected = global::OpenStreetMapDemo.Droid.Resource.String.mr_cast_button_connected;
-			global::Mapsui.Forms.Android.Resource.String.mr_cast_button_connecting = global::OpenStreetMapDemo.Droid.Resource.String.mr_cast_button_connecting;
-			global::Mapsui.Forms.Android.Resource.String.mr_cast_button_disconnected = global::OpenStreetMapDemo.Droid.Resource.String.mr_cast_button_disconnected;
-			global::Mapsui.Forms.Android.Resource.String.mr_chooser_searching = global::OpenStreetMapDemo.Droid.Resource.String.mr_chooser_searching;
-			global::Mapsui.Forms.Android.Resource.String.mr_chooser_title = global::OpenStreetMapDemo.Droid.Resource.String.mr_chooser_title;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_album_art = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_album_art;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_casting_screen = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_casting_screen;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_close_description = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_close_description;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_collapse_group = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_collapse_group;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_disconnect = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_disconnect;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_expand_group = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_expand_group;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_no_info_available = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_no_info_available;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_no_media_selected = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_pause = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_pause;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_play = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_play;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_stop = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_stop;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_stop_casting = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_stop_casting;
-			global::Mapsui.Forms.Android.Resource.String.mr_controller_volume_slider = global::OpenStreetMapDemo.Droid.Resource.String.mr_controller_volume_slider;
-			global::Mapsui.Forms.Android.Resource.String.mr_system_route_name = global::OpenStreetMapDemo.Droid.Resource.String.mr_system_route_name;
-			global::Mapsui.Forms.Android.Resource.String.mr_user_route_category_name = global::OpenStreetMapDemo.Droid.Resource.String.mr_user_route_category_name;
-			global::Mapsui.Forms.Android.Resource.String.password_toggle_content_description = global::OpenStreetMapDemo.Droid.Resource.String.password_toggle_content_description;
-			global::Mapsui.Forms.Android.Resource.String.path_password_eye = global::OpenStreetMapDemo.Droid.Resource.String.path_password_eye;
-			global::Mapsui.Forms.Android.Resource.String.path_password_eye_mask_strike_through = global::OpenStreetMapDemo.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Mapsui.Forms.Android.Resource.String.path_password_eye_mask_visible = global::OpenStreetMapDemo.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Mapsui.Forms.Android.Resource.String.path_password_strike_through = global::OpenStreetMapDemo.Droid.Resource.String.path_password_strike_through;
-			global::Mapsui.Forms.Android.Resource.String.search_menu_title = global::OpenStreetMapDemo.Droid.Resource.String.search_menu_title;
-			global::Mapsui.Forms.Android.Resource.String.status_bar_notification_info_overflow = global::OpenStreetMapDemo.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Mapsui.Forms.Android.Resource.Style.AlertDialog_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.AlertDialog_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Animation_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::OpenStreetMapDemo.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Mapsui.Forms.Android.Resource.Style.Animation_AppCompat_Tooltip = global::OpenStreetMapDemo.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Mapsui.Forms.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Mapsui.Forms.Android.Resource.Style.Base_CardView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_CardView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Mapsui.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Mapsui.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Mapsui.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V14_Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V14_Widget_Design_AppBarLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V21_Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Widget_Design_AppBarLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V26_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V26_Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V26_Widget_Design_AppBarLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Mapsui.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Base_Widget_Design_TabLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Mapsui.Forms.Android.Resource.Style.CardView = global::OpenStreetMapDemo.Droid.Resource.Style.CardView;
-			global::Mapsui.Forms.Android.Resource.Style.CardView_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.CardView_Dark;
-			global::Mapsui.Forms.Android.Resource.Style.CardView_Light = global::OpenStreetMapDemo.Droid.Resource.Style.CardView_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_V11_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_V11_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_V14_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_V14_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_V21_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_V21_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_V25_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_V25_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Mapsui.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Mapsui.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Mapsui.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Button = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Design_Counter = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Design_Error = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Design_Hint = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Design_Tab = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Mapsui.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_DayNight = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_Design = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_Design_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_Design_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_MediaRouter = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_MediaRouter;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_MediaRouter_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::Mapsui.Forms.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::Mapsui.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActionMode = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Button = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Button_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_EditText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ImageButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ListView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_SearchView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Compat_NotificationActionText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_BottomNavigationView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_FloatingActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_NavigationView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_Snackbar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_TabLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_Design_TextInputLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Mapsui.Forms.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_background;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_backgroundSplit = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_backgroundStacked = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_contentInsetRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_contentInsetStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_displayOptions = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_divider = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_divider;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_height = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_height;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_homeLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_icon = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_icon;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_itemPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_logo = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_logo;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_navigationMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_popupTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_progressBarPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_progressBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_subtitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_title = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_title;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBar_titleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBarLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMenuItemView = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMenuView = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMenuView;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMode_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_background;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMode_backgroundSplit = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMode_closeItemLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMode_height = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_height;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActionMode_titleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActivityChooserView = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActivityChooserView;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Mapsui.Forms.Android.Resource.Styleable.AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog;
-			global::Mapsui.Forms.Android.Resource.Styleable.AlertDialog_android_layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.AlertDialog_listItemLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.AlertDialog_listLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.AlertDialog_showTitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout_android_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout_expanded = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayoutStates = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatImageView = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatImageView_android_src = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatImageView_tint = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatImageView_tintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatSeekBar = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextHelper = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorError = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Mapsui.Forms.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomNavigationView = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomNavigationView_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomNavigationView_menu = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Mapsui.Forms.Android.Resource.Styleable.ButtonBarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::OpenStreetMapDemo.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_android_minHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_android_minWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_cardBackgroundColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_cardCornerRadius = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_cardElevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_cardMaxElevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_contentPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_contentPaddingBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_contentPaddingLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_contentPaddingRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Mapsui.Forms.Android.Resource.Styleable.CardView_contentPaddingTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Mapsui.Forms.Android.Resource.Styleable.ColorStateListItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.ColorStateListItem;
-			global::Mapsui.Forms.Android.Resource.Styleable.ColorStateListItem_alpha = global::OpenStreetMapDemo.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Mapsui.Forms.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::OpenStreetMapDemo.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Mapsui.Forms.Android.Resource.Styleable.ColorStateListItem_android_color = global::OpenStreetMapDemo.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Mapsui.Forms.Android.Resource.Styleable.CompoundButton = global::OpenStreetMapDemo.Droid.Resource.Styleable.CompoundButton;
-			global::Mapsui.Forms.Android.Resource.Styleable.CompoundButton_android_button = global::OpenStreetMapDemo.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Mapsui.Forms.Android.Resource.Styleable.CompoundButton_buttonTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_keylines = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Mapsui.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Mapsui.Forms.Android.Resource.Styleable.DesignTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.DesignTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.DesignTheme_textColorError = global::OpenStreetMapDemo.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle_color = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Mapsui.Forms.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_fabSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamilyFont = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamilyFont_font = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.ForegroundLinearLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::OpenStreetMapDemo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Mapsui.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_divider = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Mapsui.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Mapsui.Forms.Android.Resource.Styleable.ListPopupWindow = global::OpenStreetMapDemo.Droid.Resource.Styleable.ListPopupWindow;
-			global::Mapsui.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::OpenStreetMapDemo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Mapsui.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::OpenStreetMapDemo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Mapsui.Forms.Android.Resource.Styleable.MediaRouteButton = global::OpenStreetMapDemo.Droid.Resource.Styleable.MediaRouteButton;
-			global::Mapsui.Forms.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuGroup = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuGroup_android_enabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuGroup_android_id = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuGroup_android_visible = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_actionLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_actionProviderClass = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_actionViewClass = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_checkable = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_checked = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_enabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_icon = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_id = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_menuCategory = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_onClick = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_title = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_android_visible = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_contentDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_iconTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_iconTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_numericModifiers = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_showAsAction = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuItem_tooltipText = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_android_headerBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_android_itemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_android_verticalDivider = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Mapsui.Forms.Android.Resource.Styleable.MenuView_subMenuArrow = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_android_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_android_maxWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_headerLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_itemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_itemIconTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_itemTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.NavigationView_menu = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_menu;
-			global::Mapsui.Forms.Android.Resource.Styleable.PopupWindow = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindow;
-			global::Mapsui.Forms.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Mapsui.Forms.Android.Resource.Styleable.PopupWindowBackgroundState = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Mapsui.Forms.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecycleListView = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecycleListView;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_android_orientation = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_layoutManager = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_reverseLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_spanCount = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Mapsui.Forms.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Mapsui.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::OpenStreetMapDemo.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Mapsui.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_android_focusable = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_android_imeOptions = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_android_inputType = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_android_maxWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_closeIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_commitIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_defaultQueryHint = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_goIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_queryBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_queryHint = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_searchHintIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_searchIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_submitBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.SearchView_voiceIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Mapsui.Forms.Android.Resource.Styleable.SnackbarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.SnackbarLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.SnackbarLayout_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Mapsui.Forms.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.Spinner = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner;
-			global::Mapsui.Forms.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.Spinner_android_entries = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Mapsui.Forms.Android.Resource.Styleable.Spinner_android_popupBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.Spinner_android_prompt = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Mapsui.Forms.Android.Resource.Styleable.Spinner_popupTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_android_textOff = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_android_textOn = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_android_thumb = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_showText = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_splitTrack = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_switchPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_thumbTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_track = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_trackTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabItem;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabItem_android_icon = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabItem_android_layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabItem_android_text = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabItem_android_text;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabContentStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabMinWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.TabLayout_tabTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_textColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_textSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_textStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_android_typeface = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_fontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextAppearance_textAllCaps = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_android_hint = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_android_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_android_minHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_buttonGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_collapseIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_contentInsetRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_contentInsetStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_logo = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_logo;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_logoDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_navigationIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_popupTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_subtitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_title = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_title;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_titleMargin = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_titleMarginStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_titleMarginTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_titleMargins = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Mapsui.Forms.Android.Resource.Styleable.Toolbar_titleTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Mapsui.Forms.Android.Resource.Styleable.View = global::OpenStreetMapDemo.Droid.Resource.Styleable.View;
-			global::Mapsui.Forms.Android.Resource.Styleable.View_android_focusable = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_android_focusable;
-			global::Mapsui.Forms.Android.Resource.Styleable.View_android_theme = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_android_theme;
-			global::Mapsui.Forms.Android.Resource.Styleable.View_paddingEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_paddingEnd;
-			global::Mapsui.Forms.Android.Resource.Styleable.View_paddingStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_paddingStart;
-			global::Mapsui.Forms.Android.Resource.Styleable.View_theme = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_theme;
-			global::Mapsui.Forms.Android.Resource.Styleable.ViewBackgroundHelper = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Mapsui.Forms.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Mapsui.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Mapsui.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Mapsui.Forms.Android.Resource.Styleable.ViewStubCompat = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewStubCompat;
-			global::Mapsui.Forms.Android.Resource.Styleable.ViewStubCompat_android_id = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Mapsui.Forms.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Mapsui.Forms.Android.Resource.Styleable.ViewStubCompat_android_layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Mapsui.Forms.Android.Resource.Styleable.start_with_openstreetmap_style = global::OpenStreetMapDemo.Droid.Resource.Styleable.start_with_openstreetmap_style;
-			global::Mapsui.Forms.Android.Resource.Styleable.start_with_openstreetmap_style_start_with_openstreetmap = global::OpenStreetMapDemo.Droid.Resource.Styleable.start_with_openstreetmap_style_start_with_openstreetmap;
 			global::Mapsui.UI.Android.Resource.Attribute.start_with_openstreetmap = global::OpenStreetMapDemo.Droid.Resource.Attribute.start_with_openstreetmap;
 			global::Mapsui.UI.Android.Resource.String.ApplicationName = global::OpenStreetMapDemo.Droid.Resource.String.ApplicationName;
 			global::Mapsui.UI.Android.Resource.String.Hello = global::OpenStreetMapDemo.Droid.Resource.String.Hello;
 			global::Mapsui.UI.Android.Resource.Styleable.start_with_openstreetmap_style = global::OpenStreetMapDemo.Droid.Resource.Styleable.start_with_openstreetmap_style;
 			global::Mapsui.UI.Android.Resource.Styleable.start_with_openstreetmap_style_start_with_openstreetmap = global::OpenStreetMapDemo.Droid.Resource.Styleable.start_with_openstreetmap_style_start_with_openstreetmap;
+			global::Xamarin.Essentials.Resource.Attribute.font = global::OpenStreetMapDemo.Droid.Resource.Attribute.font;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Essentials.Resource.Boolean.abc_action_bar_embed_tabs = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::OpenStreetMapDemo.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::OpenStreetMapDemo.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.action_container = global::OpenStreetMapDemo.Droid.Resource.Id.action_container;
+			global::Xamarin.Essentials.Resource.Id.action_divider = global::OpenStreetMapDemo.Droid.Resource.Id.action_divider;
+			global::Xamarin.Essentials.Resource.Id.action_image = global::OpenStreetMapDemo.Droid.Resource.Id.action_image;
+			global::Xamarin.Essentials.Resource.Id.action_text = global::OpenStreetMapDemo.Droid.Resource.Id.action_text;
+			global::Xamarin.Essentials.Resource.Id.actions = global::OpenStreetMapDemo.Droid.Resource.Id.actions;
+			global::Xamarin.Essentials.Resource.Id.async = global::OpenStreetMapDemo.Droid.Resource.Id.async;
+			global::Xamarin.Essentials.Resource.Id.blocking = global::OpenStreetMapDemo.Droid.Resource.Id.blocking;
+			global::Xamarin.Essentials.Resource.Id.chronometer = global::OpenStreetMapDemo.Droid.Resource.Id.chronometer;
+			global::Xamarin.Essentials.Resource.Id.forever = global::OpenStreetMapDemo.Droid.Resource.Id.forever;
+			global::Xamarin.Essentials.Resource.Id.icon = global::OpenStreetMapDemo.Droid.Resource.Id.icon;
+			global::Xamarin.Essentials.Resource.Id.icon_group = global::OpenStreetMapDemo.Droid.Resource.Id.icon_group;
+			global::Xamarin.Essentials.Resource.Id.info = global::OpenStreetMapDemo.Droid.Resource.Id.info;
+			global::Xamarin.Essentials.Resource.Id.italic = global::OpenStreetMapDemo.Droid.Resource.Id.italic;
+			global::Xamarin.Essentials.Resource.Id.line1 = global::OpenStreetMapDemo.Droid.Resource.Id.line1;
+			global::Xamarin.Essentials.Resource.Id.line3 = global::OpenStreetMapDemo.Droid.Resource.Id.line3;
+			global::Xamarin.Essentials.Resource.Id.normal = global::OpenStreetMapDemo.Droid.Resource.Id.normal;
+			global::Xamarin.Essentials.Resource.Id.notification_background = global::OpenStreetMapDemo.Droid.Resource.Id.notification_background;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::OpenStreetMapDemo.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::OpenStreetMapDemo.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Essentials.Resource.Id.right_icon = global::OpenStreetMapDemo.Droid.Resource.Id.right_icon;
+			global::Xamarin.Essentials.Resource.Id.right_side = global::OpenStreetMapDemo.Droid.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::OpenStreetMapDemo.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Essentials.Resource.Id.text = global::OpenStreetMapDemo.Droid.Resource.Id.text;
+			global::Xamarin.Essentials.Resource.Id.text2 = global::OpenStreetMapDemo.Droid.Resource.Id.text2;
+			global::Xamarin.Essentials.Resource.Id.time = global::OpenStreetMapDemo.Droid.Resource.Id.time;
+			global::Xamarin.Essentials.Resource.Id.title = global::OpenStreetMapDemo.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::OpenStreetMapDemo.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Essentials.Resource.Layout.notification_action = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::OpenStreetMapDemo.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::OpenStreetMapDemo.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_popup_enter = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_popup_exit = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_in_bottom = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_in_top = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_out_bottom = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_slide_out_top = global::OpenStreetMapDemo.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_in = global::OpenStreetMapDemo.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::OpenStreetMapDemo.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::OpenStreetMapDemo.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::OpenStreetMapDemo.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::OpenStreetMapDemo.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::OpenStreetMapDemo.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::OpenStreetMapDemo.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::OpenStreetMapDemo.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.tooltip_enter = global::OpenStreetMapDemo.Droid.Resource.Animation.tooltip_enter;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.tooltip_exit = global::OpenStreetMapDemo.Droid.Resource.Animation.tooltip_exit;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::OpenStreetMapDemo.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarDivider = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarItemBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarPopupTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarPopupTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSplitStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarTabBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarTabStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarTabTextStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarWidgetTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionDropDownStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionMenuTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionMenuTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeCloseButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeCloseDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeCopyDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeCutDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeFindDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModePasteDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModePopupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeSelectAllDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeShareDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeSplitBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionModeWebSearchDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionOverflowButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionOverflowMenuStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionProviderClass = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionViewClass = global::OpenStreetMapDemo.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.activityChooserViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogCenterButtons = global::OpenStreetMapDemo.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.allowStacking = global::OpenStreetMapDemo.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alpha = global::OpenStreetMapDemo.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alphabeticModifiers = global::OpenStreetMapDemo.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.arrowHeadLength = global::OpenStreetMapDemo.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.arrowShaftLength = global::OpenStreetMapDemo.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoCompleteTextViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeMaxTextSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeMinTextSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizePresetSizes = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeStepGranularity = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeTextType = global::OpenStreetMapDemo.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.background = global::OpenStreetMapDemo.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundSplit = global::OpenStreetMapDemo.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundStacked = global::OpenStreetMapDemo.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.barLength = global::OpenStreetMapDemo.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoHide = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_hideable = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_overlapTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_peekHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_skipCollapsed = global::OpenStreetMapDemo.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.bottomSheetDialogTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.bottomSheetStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonPanelSideLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonStyleSmall = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardBackgroundColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardCornerRadius = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardElevation = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardMaxElevation = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkboxStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeItemLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapseContentDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapseIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.color = global::OpenStreetMapDemo.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorAccent = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorBackgroundFloating = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorButtonNormal = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlActivated = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlHighlight = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlNormal = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorError = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimary = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimaryDark = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::OpenStreetMapDemo.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.commitIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetEndWithActions = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetLeft = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetRight = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetStartWithNavigation = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingBottom = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingLeft = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingRight = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentScrim = global::OpenStreetMapDemo.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.controlBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterMaxLength = global::OpenStreetMapDemo.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.customNavigationLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.defaultQueryHint = global::OpenStreetMapDemo.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogPreferredPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.displayOptions = global::OpenStreetMapDemo.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.divider = global::OpenStreetMapDemo.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerHorizontal = global::OpenStreetMapDemo.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dividerVertical = global::OpenStreetMapDemo.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawerArrowStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevation = global::OpenStreetMapDemo.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expanded = global::OpenStreetMapDemo.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMargin = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginBottom = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabSize = global::OpenStreetMapDemo.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.font = global::OpenStreetMapDemo.Droid.Resource.Attribute.font;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontFamily = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderAuthority = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderCerts = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderFetchStrategy = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderFetchTimeout = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderPackage = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontProviderQuery = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontWeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.gapBetweenBars = global::OpenStreetMapDemo.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.goIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.headerLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.height = global::OpenStreetMapDemo.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnContentScroll = global::OpenStreetMapDemo.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::OpenStreetMapDemo.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.icon = global::OpenStreetMapDemo.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconifiedByDefault = global::OpenStreetMapDemo.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.imageButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.indeterminateProgressStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.initialActivityCount = global::OpenStreetMapDemo.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.insetForeground = global::OpenStreetMapDemo.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.isLightTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.keylines = global::OpenStreetMapDemo.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layoutManager = global::OpenStreetMapDemo.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_anchor = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_anchorGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_behavior = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_collapseMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_dodgeInsetEdges = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_insetEdge = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_keyline = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_scrollFlags = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_scrollInterpolator = global::OpenStreetMapDemo.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::OpenStreetMapDemo.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::OpenStreetMapDemo.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listItemLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listMenuViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPopupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightLarge = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightSmall = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingRight = global::OpenStreetMapDemo.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logo = global::OpenStreetMapDemo.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logoDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxButtonHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.measureWithLargestChild = global::OpenStreetMapDemo.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.menu = global::OpenStreetMapDemo.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.multiChoiceItemLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationContentDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.numericModifiers = global::OpenStreetMapDemo.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.overlapAnchor = global::OpenStreetMapDemo.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingBottomNoButtons = global::OpenStreetMapDemo.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingTopNoTitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelMenuListTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelMenuListWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleContentDescription = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleDrawable = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupTheme = global::OpenStreetMapDemo.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.preserveIconSpacing = global::OpenStreetMapDemo.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.pressedTranslationZ = global::OpenStreetMapDemo.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.progressBarPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.progressBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.queryBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.queryHint = global::OpenStreetMapDemo.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.radioButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::OpenStreetMapDemo.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::OpenStreetMapDemo.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.reverseLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.rippleColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimAnimationDuration = global::OpenStreetMapDemo.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::OpenStreetMapDemo.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchHintIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchViewStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.seekBarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::OpenStreetMapDemo.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showAsAction = global::OpenStreetMapDemo.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showDividers = global::OpenStreetMapDemo.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showText = global::OpenStreetMapDemo.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showTitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spanCount = global::OpenStreetMapDemo.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinBars = global::OpenStreetMapDemo.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinnerStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.splitTrack = global::OpenStreetMapDemo.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.srcCompat = global::OpenStreetMapDemo.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.stackFromEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_above_anchor = global::OpenStreetMapDemo.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsed = global::OpenStreetMapDemo.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsible = global::OpenStreetMapDemo.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarScrim = global::OpenStreetMapDemo.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subMenuArrow = global::OpenStreetMapDemo.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.submitBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suggestionRowLayout = global::OpenStreetMapDemo.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchMinWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabContentStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabGravity = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIndicatorColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabIndicatorHeight = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabMaxWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabMinWidth = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPaddingBottom = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPaddingEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPaddingStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabPaddingTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabSelectedTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAllCaps = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItem = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSecondary = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSmall = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::OpenStreetMapDemo.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::OpenStreetMapDemo.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorError = global::OpenStreetMapDemo.Droid.Resource.Attribute.textColorError;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorSearchUrl = global::OpenStreetMapDemo.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::OpenStreetMapDemo.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::OpenStreetMapDemo.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTextPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMark = global::OpenStreetMapDemo.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tint = global::OpenStreetMapDemo.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.title = global::OpenStreetMapDemo.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleEnabled = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMargin = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMarginBottom = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMarginEnd = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMarginStart = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMarginTop = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleMargins = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleTextColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarId = global::OpenStreetMapDemo.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarStyle = global::OpenStreetMapDemo.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipForegroundColor = global::OpenStreetMapDemo.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipFrameBackground = global::OpenStreetMapDemo.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipText = global::OpenStreetMapDemo.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.track = global::OpenStreetMapDemo.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTint = global::OpenStreetMapDemo.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTintMode = global::OpenStreetMapDemo.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useCompatPadding = global::OpenStreetMapDemo.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.voiceIcon = global::OpenStreetMapDemo.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionBar = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionBarOverlay = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionModeOverlay = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowFixedHeightMajor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowFixedHeightMinor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowFixedWidthMajor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowFixedWidthMinor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowMinWidthMajor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowMinWidthMinor = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowNoTitle = global::OpenStreetMapDemo.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::OpenStreetMapDemo.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::OpenStreetMapDemo.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_btn_colored_text_material = global::OpenStreetMapDemo.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_color_highlight_material = global::OpenStreetMapDemo.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_input_method_navigation_guard = global::OpenStreetMapDemo.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_search_url_text = global::OpenStreetMapDemo.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_search_url_text_normal = global::OpenStreetMapDemo.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_search_url_text_pressed = global::OpenStreetMapDemo.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_search_url_text_selected = global::OpenStreetMapDemo.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_secondary_text_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_secondary_text_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_btn_checkable = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_default = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_edittext = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_seek_thumb = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_spinner = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_switch_track = global::OpenStreetMapDemo.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.accent_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.accent_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.background_floating_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.background_floating_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.background_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.background_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_inverse_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_inverse_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.button_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.button_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_dark_background = global::OpenStreetMapDemo.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_light_background = global::OpenStreetMapDemo.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::OpenStreetMapDemo.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_start_color = global::OpenStreetMapDemo.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_error = global::OpenStreetMapDemo.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_start_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_end_inner_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_end_outer_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_snackbar_background_color = global::OpenStreetMapDemo.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_tint_password_toggle = global::OpenStreetMapDemo.Droid.Resource.Color.design_tint_password_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.error_color_material = global::OpenStreetMapDemo.Droid.Resource.Color.error_color_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.foreground_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.foreground_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.highlighted_text_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.highlighted_text_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_blue_grey_800 = global::OpenStreetMapDemo.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_blue_grey_900 = global::OpenStreetMapDemo.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_blue_grey_950 = global::OpenStreetMapDemo.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_deep_teal_200 = global::OpenStreetMapDemo.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_deep_teal_500 = global::OpenStreetMapDemo.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_100 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_300 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_50 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_600 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_800 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_850 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_900 = global::OpenStreetMapDemo.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_action_color_filter = global::OpenStreetMapDemo.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_icon_bg_color = global::OpenStreetMapDemo.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_material_background_media_default_color = global::OpenStreetMapDemo.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_dark_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_dark_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_disabled_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_disabled_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::OpenStreetMapDemo.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_dark = global::OpenStreetMapDemo.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_light = global::OpenStreetMapDemo.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_elevation_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_width_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_button_inset_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_button_padding_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_config_prefDialogWidth = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_control_corner_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_control_inset_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_control_padding_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_min_width_major = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_min_width_minor = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_padding_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_padding_top_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dialog_title_divider_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_floating_window_z = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_panel_menu_list_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_progress_bar_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_search_view_preferred_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_search_view_preferred_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_switch_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_body_1_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_body_2_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_button_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_caption_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_1_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_2_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_3_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_4_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_headline_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_large_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_medium_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_menu_header_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_menu_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_small_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subhead_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::OpenStreetMapDemo.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::OpenStreetMapDemo.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_radius = global::OpenStreetMapDemo.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_button_inset_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_button_padding_vertical_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_control_corner_material = global::OpenStreetMapDemo.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_border_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_image_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_size_mini = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_size_normal = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_translation_z_pressed = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_icon_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_padding_bottom = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_elevation = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_min_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_max_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_scrollable_min_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_text_size_2line = global::OpenStreetMapDemo.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.disabled_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.disabled_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.fastscroll_default_thickness = global::OpenStreetMapDemo.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.fastscroll_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.fastscroll_minimum_range = global::OpenStreetMapDemo.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_colored = global::OpenStreetMapDemo.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.hint_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.hint_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::OpenStreetMapDemo.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::OpenStreetMapDemo.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::OpenStreetMapDemo.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::OpenStreetMapDemo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::OpenStreetMapDemo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_text_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_big_circle_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_content_margin_start = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_large_icon_height = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_large_icon_width = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_main_column_padding_top = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_media_narrow_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_right_icon_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_right_side_padding_top = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_small_icon_background_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_small_icon_size_as_large = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_subtext_size = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad_large_text = global::OpenStreetMapDemo.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_corner_radius = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_horizontal_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_margin = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_vertical_padding = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_y_offset_touch = global::OpenStreetMapDemo.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_action_bar_item_background_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_borderless_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_colored_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_cab_background_internal_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_cab_background_top_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_control_background_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_dialog_material_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_edit_text_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_ab_back_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_clear_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_go_search_api_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_search_api_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_16dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_36dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_48dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_item_background_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_item_background_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_focused_holo = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_longpressed_holo = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_pressed_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_holo_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_list_selector_holo_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_small_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_seekbar_thumb_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_seekbar_track_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_switch_thumb_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_tab_indicator_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_cursor_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_material = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.abc_vector_test = global::OpenStreetMapDemo.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_hide_password = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_hide_password_1 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_hide_password_1;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_hide_password_2 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_hide_password_2;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_hide_password_3 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_hide_password_3;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_show_password = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_show_password_1 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_show_password_1;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_show_password_2 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_show_password_2;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.avd_show_password_3 = global::OpenStreetMapDemo.Droid.Resource.Drawable.avd_show_password_3;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_bottom_navigation_item_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_fab_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility_off = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_password_eye = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_snackbar_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::OpenStreetMapDemo.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_low = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_low_normal = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_low_pressed = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_normal = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg_normal_pressed = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_icon_background = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_low_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_tile_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::OpenStreetMapDemo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_dark = global::OpenStreetMapDemo.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_light = global::OpenStreetMapDemo.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.ALT = global::OpenStreetMapDemo.Droid.Resource.Id.ALT;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.CTRL = global::OpenStreetMapDemo.Droid.Resource.Id.CTRL;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.FUNCTION = global::OpenStreetMapDemo.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.META = global::OpenStreetMapDemo.Droid.Resource.Id.META;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.SHIFT = global::OpenStreetMapDemo.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.SYM = global::OpenStreetMapDemo.Droid.Resource.Id.SYM;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action0 = global::OpenStreetMapDemo.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_activity_content = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_container = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_root = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_spinner = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_subtitle = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_bar_title = global::OpenStreetMapDemo.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_container = global::OpenStreetMapDemo.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_context_bar = global::OpenStreetMapDemo.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_divider = global::OpenStreetMapDemo.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_image = global::OpenStreetMapDemo.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_menu_divider = global::OpenStreetMapDemo.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_menu_presenter = global::OpenStreetMapDemo.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_mode_bar = global::OpenStreetMapDemo.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_mode_bar_stub = global::OpenStreetMapDemo.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_mode_close_button = global::OpenStreetMapDemo.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.action_text = global::OpenStreetMapDemo.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.actions = global::OpenStreetMapDemo.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.activity_chooser_view_content = global::OpenStreetMapDemo.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.add = global::OpenStreetMapDemo.Droid.Resource.Id.add;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.alertTitle = global::OpenStreetMapDemo.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.all = global::OpenStreetMapDemo.Droid.Resource.Id.all;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.always = global::OpenStreetMapDemo.Droid.Resource.Id.always;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.async = global::OpenStreetMapDemo.Droid.Resource.Id.async;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.auto = global::OpenStreetMapDemo.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.beginning = global::OpenStreetMapDemo.Droid.Resource.Id.beginning;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.blocking = global::OpenStreetMapDemo.Droid.Resource.Id.blocking;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.bottom = global::OpenStreetMapDemo.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_navarea = global::OpenStreetMapDemo.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_tabbar = global::OpenStreetMapDemo.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.buttonPanel = global::OpenStreetMapDemo.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.cancel_action = global::OpenStreetMapDemo.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.center = global::OpenStreetMapDemo.Droid.Resource.Id.center;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.center_horizontal = global::OpenStreetMapDemo.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.center_vertical = global::OpenStreetMapDemo.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::OpenStreetMapDemo.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::OpenStreetMapDemo.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_horizontal = global::OpenStreetMapDemo.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_vertical = global::OpenStreetMapDemo.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.collapseActionView = global::OpenStreetMapDemo.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.container = global::OpenStreetMapDemo.Droid.Resource.Id.container;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.contentPanel = global::OpenStreetMapDemo.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.coordinator = global::OpenStreetMapDemo.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.custom = global::OpenStreetMapDemo.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.customPanel = global::OpenStreetMapDemo.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.decor_content_parent = global::OpenStreetMapDemo.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.default_activity_button = global::OpenStreetMapDemo.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.design_bottom_sheet = global::OpenStreetMapDemo.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_action_area = global::OpenStreetMapDemo.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_action_area_stub = global::OpenStreetMapDemo.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.design_menu_item_text = global::OpenStreetMapDemo.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.design_navigation_view = global::OpenStreetMapDemo.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.disableHome = global::OpenStreetMapDemo.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.edit_query = global::OpenStreetMapDemo.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.end = global::OpenStreetMapDemo.Droid.Resource.Id.end;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.end_padder = global::OpenStreetMapDemo.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.enterAlways = global::OpenStreetMapDemo.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.enterAlwaysCollapsed = global::OpenStreetMapDemo.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.exitUntilCollapsed = global::OpenStreetMapDemo.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.expand_activities_button = global::OpenStreetMapDemo.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::OpenStreetMapDemo.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::OpenStreetMapDemo.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_horizontal = global::OpenStreetMapDemo.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_vertical = global::OpenStreetMapDemo.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::OpenStreetMapDemo.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::OpenStreetMapDemo.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::OpenStreetMapDemo.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::OpenStreetMapDemo.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::OpenStreetMapDemo.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::OpenStreetMapDemo.Droid.Resource.Id.home;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.homeAsUp = global::OpenStreetMapDemo.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.icon = global::OpenStreetMapDemo.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.icon_group = global::OpenStreetMapDemo.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.ifRoom = global::OpenStreetMapDemo.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.image = global::OpenStreetMapDemo.Droid.Resource.Id.image;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.info = global::OpenStreetMapDemo.Droid.Resource.Id.info;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.italic = global::OpenStreetMapDemo.Droid.Resource.Id.italic;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.item_touch_helper_previous_elevation = global::OpenStreetMapDemo.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.largeLabel = global::OpenStreetMapDemo.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.left = global::OpenStreetMapDemo.Droid.Resource.Id.left;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.line1 = global::OpenStreetMapDemo.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.line3 = global::OpenStreetMapDemo.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.listMode = global::OpenStreetMapDemo.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.list_item = global::OpenStreetMapDemo.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.main_appbar = global::OpenStreetMapDemo.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.main_tablayout = global::OpenStreetMapDemo.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.main_toolbar = global::OpenStreetMapDemo.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.main_viewpager = global::OpenStreetMapDemo.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.masked = global::OpenStreetMapDemo.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.media_actions = global::OpenStreetMapDemo.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.message = global::OpenStreetMapDemo.Droid.Resource.Id.message;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.middle = global::OpenStreetMapDemo.Droid.Resource.Id.middle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mini = global::OpenStreetMapDemo.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.multiply = global::OpenStreetMapDemo.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.navigation_header_container = global::OpenStreetMapDemo.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.never = global::OpenStreetMapDemo.Droid.Resource.Id.never;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.none = global::OpenStreetMapDemo.Droid.Resource.Id.none;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.normal = global::OpenStreetMapDemo.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_background = global::OpenStreetMapDemo.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column = global::OpenStreetMapDemo.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column_container = global::OpenStreetMapDemo.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.parallax = global::OpenStreetMapDemo.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.parentPanel = global::OpenStreetMapDemo.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.parent_matrix = global::OpenStreetMapDemo.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.pin = global::OpenStreetMapDemo.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.progress_circular = global::OpenStreetMapDemo.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.progress_horizontal = global::OpenStreetMapDemo.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.radio = global::OpenStreetMapDemo.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.right = global::OpenStreetMapDemo.Droid.Resource.Id.right;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.right_icon = global::OpenStreetMapDemo.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.right_side = global::OpenStreetMapDemo.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.save_image_matrix = global::OpenStreetMapDemo.Droid.Resource.Id.save_image_matrix;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.save_non_transition_alpha = global::OpenStreetMapDemo.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.save_scale_type = global::OpenStreetMapDemo.Droid.Resource.Id.save_scale_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.screen = global::OpenStreetMapDemo.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.scroll = global::OpenStreetMapDemo.Droid.Resource.Id.scroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollIndicatorDown = global::OpenStreetMapDemo.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollIndicatorUp = global::OpenStreetMapDemo.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollView = global::OpenStreetMapDemo.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollable = global::OpenStreetMapDemo.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_badge = global::OpenStreetMapDemo.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_bar = global::OpenStreetMapDemo.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_button = global::OpenStreetMapDemo.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_close_btn = global::OpenStreetMapDemo.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_edit_frame = global::OpenStreetMapDemo.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_go_btn = global::OpenStreetMapDemo.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_mag_icon = global::OpenStreetMapDemo.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_plate = global::OpenStreetMapDemo.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_src_text = global::OpenStreetMapDemo.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.search_voice_btn = global::OpenStreetMapDemo.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.select_dialog_listview = global::OpenStreetMapDemo.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_appbar = global::OpenStreetMapDemo.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_toolbar = global::OpenStreetMapDemo.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.shortcut = global::OpenStreetMapDemo.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.showCustom = global::OpenStreetMapDemo.Droid.Resource.Id.showCustom;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.showHome = global::OpenStreetMapDemo.Droid.Resource.Id.showHome;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.showTitle = global::OpenStreetMapDemo.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.smallLabel = global::OpenStreetMapDemo.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_action = global::OpenStreetMapDemo.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_text = global::OpenStreetMapDemo.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.snap = global::OpenStreetMapDemo.Droid.Resource.Id.snap;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.spacer = global::OpenStreetMapDemo.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.split_action_bar = global::OpenStreetMapDemo.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.src_atop = global::OpenStreetMapDemo.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.src_in = global::OpenStreetMapDemo.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.src_over = global::OpenStreetMapDemo.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.start = global::OpenStreetMapDemo.Droid.Resource.Id.start;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.status_bar_latest_event_content = global::OpenStreetMapDemo.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.submenuarrow = global::OpenStreetMapDemo.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.submit_area = global::OpenStreetMapDemo.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tabMode = global::OpenStreetMapDemo.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_transition_group = global::OpenStreetMapDemo.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.text = global::OpenStreetMapDemo.Droid.Resource.Id.text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.text2 = global::OpenStreetMapDemo.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoButtons = global::OpenStreetMapDemo.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoTitle = global::OpenStreetMapDemo.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.text_input_password_toggle = global::OpenStreetMapDemo.Droid.Resource.Id.text_input_password_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_counter = global::OpenStreetMapDemo.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_error = global::OpenStreetMapDemo.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.time = global::OpenStreetMapDemo.Droid.Resource.Id.time;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.title = global::OpenStreetMapDemo.Droid.Resource.Id.title;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.titleDividerNoCustom = global::OpenStreetMapDemo.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.title_template = global::OpenStreetMapDemo.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.top = global::OpenStreetMapDemo.Droid.Resource.Id.top;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.topPanel = global::OpenStreetMapDemo.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.touch_outside = global::OpenStreetMapDemo.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_current_scene = global::OpenStreetMapDemo.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_layout_save = global::OpenStreetMapDemo.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_position = global::OpenStreetMapDemo.Droid.Resource.Id.transition_position;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_scene_layoutid_cache = global::OpenStreetMapDemo.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_transform = global::OpenStreetMapDemo.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.uniform = global::OpenStreetMapDemo.Droid.Resource.Id.uniform;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.up = global::OpenStreetMapDemo.Droid.Resource.Id.up;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.useLogo = global::OpenStreetMapDemo.Droid.Resource.Id.useLogo;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.view_offset_helper = global::OpenStreetMapDemo.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.visible = global::OpenStreetMapDemo.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.withText = global::OpenStreetMapDemo.Droid.Resource.Id.withText;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.wrap_content = global::OpenStreetMapDemo.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::OpenStreetMapDemo.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::OpenStreetMapDemo.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::OpenStreetMapDemo.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.bottom_sheet_slide_duration = global::OpenStreetMapDemo.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.cancel_button_image_alpha = global::OpenStreetMapDemo.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.config_tooltipAnimTime = global::OpenStreetMapDemo.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::OpenStreetMapDemo.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.hide_password_duration = global::OpenStreetMapDemo.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.show_password_duration = global::OpenStreetMapDemo.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::OpenStreetMapDemo.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_bar_title_item = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_bar_up_container = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_menu_item_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_menu_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_mode_bar = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_action_mode_close_item_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_activity_chooser_view = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_title_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_dialog_title_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_expanded_menu_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_checkbox = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_icon = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_radio = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_popup_menu_item_layout = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_screen_content_include = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_screen_simple = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_screen_toolbar = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::OpenStreetMapDemo.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::OpenStreetMapDemo.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::OpenStreetMapDemo.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::OpenStreetMapDemo.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar = global::OpenStreetMapDemo.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar_include = global::OpenStreetMapDemo.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_tab_icon = global::OpenStreetMapDemo.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_tab_text = global::OpenStreetMapDemo.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_menu_item_action_area = global::OpenStreetMapDemo.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item_header = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item_separator = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item_subheader = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::OpenStreetMapDemo.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_password_icon = global::OpenStreetMapDemo.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::OpenStreetMapDemo.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action_tombstone = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_action = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_cancel_action = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_big_media = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_big_media_custom = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_big_media_narrow = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_custom_big = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_icon_group = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_lines_media = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::OpenStreetMapDemo.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::OpenStreetMapDemo.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::OpenStreetMapDemo.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::OpenStreetMapDemo.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::OpenStreetMapDemo.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::OpenStreetMapDemo.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::OpenStreetMapDemo.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.tooltip = global::OpenStreetMapDemo.Droid.Resource.Layout.tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::OpenStreetMapDemo.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_up_description = global::OpenStreetMapDemo.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::OpenStreetMapDemo.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_mode_done = global::OpenStreetMapDemo.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_activity_chooser_view_see_all = global::OpenStreetMapDemo.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_activitychooserview_choose_application = global::OpenStreetMapDemo.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_capital_off = global::OpenStreetMapDemo.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_capital_on = global::OpenStreetMapDemo.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_body_1_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_body_2_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_button_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_button_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_caption_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_caption_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_display_1_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_display_2_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_display_3_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_display_4_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_headline_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_headline_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_menu_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_menu_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_subhead_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_font_family_title_material = global::OpenStreetMapDemo.Droid.Resource.String.abc_font_family_title_material;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_search_hint = global::OpenStreetMapDemo.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_clear = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_query = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_search = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_submit = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_searchview_description_voice = global::OpenStreetMapDemo.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::OpenStreetMapDemo.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::OpenStreetMapDemo.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::OpenStreetMapDemo.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::OpenStreetMapDemo.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::OpenStreetMapDemo.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_pattern = global::OpenStreetMapDemo.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Platform.Android.Resource.String.password_toggle_content_description = global::OpenStreetMapDemo.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye = global::OpenStreetMapDemo.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye_mask_strike_through = global::OpenStreetMapDemo.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye_mask_visible = global::OpenStreetMapDemo.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_strike_through = global::OpenStreetMapDemo.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.Platform.Android.Resource.String.search_menu_title = global::OpenStreetMapDemo.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::OpenStreetMapDemo.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::OpenStreetMapDemo.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::OpenStreetMapDemo.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_CardView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::OpenStreetMapDemo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V14_Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V21_Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V26_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V26_Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V26_Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::OpenStreetMapDemo.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::OpenStreetMapDemo.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.NestedScrollBarStyle = global::OpenStreetMapDemo.Droid.Resource.Style.NestedScrollBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V11_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V11_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V14_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V14_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V21_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V21_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V25_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_V25_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::OpenStreetMapDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Button = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Counter = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::OpenStreetMapDemo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_Light = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_NoActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::OpenStreetMapDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionMode = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_EditText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ImageButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SearchView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Compat_NotificationActionText = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_BottomNavigationView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_FloatingActionButton = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_NavigationView = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::OpenStreetMapDemo.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::OpenStreetMapDemo.Droid.Resource.Style.collectionViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundStacked = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_displayOptions = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_divider = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_height = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_homeLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_icon = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_itemPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_logo = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_navigationMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_popupTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_progressBarPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_progressBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_subtitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_title = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_titleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMenuItemView = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMenuView = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_backgroundSplit = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_closeItemLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_height = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionMode_titleTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActivityChooserView = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::OpenStreetMapDemo.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_android_layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_listItemLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_listLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_showTitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_android_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_expanded = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_tint = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_tintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorError = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_menu = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::OpenStreetMapDemo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::OpenStreetMapDemo.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_android_minHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_android_minWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardBackgroundColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardCornerRadius = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardElevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardMaxElevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::OpenStreetMapDemo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_alpha = global::OpenStreetMapDemo.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::OpenStreetMapDemo.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_color = global::OpenStreetMapDemo.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton = global::OpenStreetMapDemo.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::OpenStreetMapDemo.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_keylines = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::OpenStreetMapDemo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DesignTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DesignTheme_textColorError = global::OpenStreetMapDemo.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_color = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::OpenStreetMapDemo.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_fabSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::OpenStreetMapDemo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_font = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_font = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::OpenStreetMapDemo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_divider = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::OpenStreetMapDemo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow = global::OpenStreetMapDemo.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::OpenStreetMapDemo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::OpenStreetMapDemo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_id = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_visible = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_actionLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_actionProviderClass = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_actionViewClass = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_checkable = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_checked = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_enabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_icon = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_id = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_menuCategory = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_onClick = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_title = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_android_visible = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_contentDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_iconTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_iconTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_numericModifiers = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_showAsAction = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuItem_tooltipText = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_headerBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_verticalDivider = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_subMenuArrow = global::OpenStreetMapDemo.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_android_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_android_maxWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_headerLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_menu = global::OpenStreetMapDemo.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindowBackgroundState = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::OpenStreetMapDemo.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_orientation = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_layoutManager = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_reverseLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_spanCount = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::OpenStreetMapDemo.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_inputType = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_maxWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_closeIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_commitIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_defaultQueryHint = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_goIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_queryBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_queryHint = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_searchHintIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_searchIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::OpenStreetMapDemo.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_entries = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_popupBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_prompt = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_popupTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOff = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOn = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_thumb = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_showText = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_splitTrack = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_track = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_icon = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_text = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabBackground = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabContentStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMinWidth = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPadding = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textSize = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textStyle = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontFamily = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_android_gravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_android_minHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_buttonGravity = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_collapseIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetRight = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_logo = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_logoDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationIcon = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_popupTheme = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitle = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_title = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMargin = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMargins = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::OpenStreetMapDemo.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View = global::OpenStreetMapDemo.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_android_focusable = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_android_theme = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingEnd = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingStart = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_theme = global::OpenStreetMapDemo.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::OpenStreetMapDemo.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -2345,10 +2174,22 @@ namespace OpenStreetMapDemo.Droid
 			public const int design_snackbar_out = 2131034125;
 			
 			// aapt resource value: 0x7f05000e
-			public const int tooltip_enter = 2131034126;
+			public const int EnterFromLeft = 2131034126;
 			
 			// aapt resource value: 0x7f05000f
-			public const int tooltip_exit = 2131034127;
+			public const int EnterFromRight = 2131034127;
+			
+			// aapt resource value: 0x7f050010
+			public const int ExitToLeft = 2131034128;
+			
+			// aapt resource value: 0x7f050011
+			public const int ExitToRight = 2131034129;
+			
+			// aapt resource value: 0x7f050012
+			public const int tooltip_enter = 2131034130;
+			
+			// aapt resource value: 0x7f050013
+			public const int tooltip_exit = 2131034131;
 			
 			static Animation()
 			{
@@ -3508,20 +3349,20 @@ namespace OpenStreetMapDemo.Droid
 		public partial class Boolean
 		{
 			
-			// aapt resource value: 0x7f0e0000
-			public const int abc_action_bar_embed_tabs = 2131623936;
+			// aapt resource value: 0x7f0f0000
+			public const int abc_action_bar_embed_tabs = 2131689472;
 			
-			// aapt resource value: 0x7f0e0001
-			public const int abc_allow_stacked_button_bar = 2131623937;
+			// aapt resource value: 0x7f0f0001
+			public const int abc_allow_stacked_button_bar = 2131689473;
 			
-			// aapt resource value: 0x7f0e0002
-			public const int abc_config_actionMenuItemAllCaps = 2131623938;
+			// aapt resource value: 0x7f0f0002
+			public const int abc_config_actionMenuItemAllCaps = 2131689474;
 			
-			// aapt resource value: 0x7f0e0003
-			public const int abc_config_closeDialogWhenTouchOutside = 2131623939;
+			// aapt resource value: 0x7f0f0003
+			public const int abc_config_closeDialogWhenTouchOutside = 2131689475;
 			
-			// aapt resource value: 0x7f0e0004
-			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131623940;
+			// aapt resource value: 0x7f0f0004
+			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131689476;
 			
 			static Boolean()
 			{
@@ -3536,314 +3377,314 @@ namespace OpenStreetMapDemo.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0d004f
-			public const int abc_background_cache_hint_selector_material_dark = 2131558479;
+			// aapt resource value: 0x7f0e004f
+			public const int abc_background_cache_hint_selector_material_dark = 2131624015;
 			
-			// aapt resource value: 0x7f0d0050
-			public const int abc_background_cache_hint_selector_material_light = 2131558480;
+			// aapt resource value: 0x7f0e0050
+			public const int abc_background_cache_hint_selector_material_light = 2131624016;
 			
-			// aapt resource value: 0x7f0d0051
-			public const int abc_btn_colored_borderless_text_material = 2131558481;
+			// aapt resource value: 0x7f0e0051
+			public const int abc_btn_colored_borderless_text_material = 2131624017;
 			
-			// aapt resource value: 0x7f0d0052
-			public const int abc_btn_colored_text_material = 2131558482;
+			// aapt resource value: 0x7f0e0052
+			public const int abc_btn_colored_text_material = 2131624018;
 			
-			// aapt resource value: 0x7f0d0053
-			public const int abc_color_highlight_material = 2131558483;
+			// aapt resource value: 0x7f0e0053
+			public const int abc_color_highlight_material = 2131624019;
 			
-			// aapt resource value: 0x7f0d0054
-			public const int abc_hint_foreground_material_dark = 2131558484;
+			// aapt resource value: 0x7f0e0054
+			public const int abc_hint_foreground_material_dark = 2131624020;
 			
-			// aapt resource value: 0x7f0d0055
-			public const int abc_hint_foreground_material_light = 2131558485;
+			// aapt resource value: 0x7f0e0055
+			public const int abc_hint_foreground_material_light = 2131624021;
 			
-			// aapt resource value: 0x7f0d0004
-			public const int abc_input_method_navigation_guard = 2131558404;
+			// aapt resource value: 0x7f0e0004
+			public const int abc_input_method_navigation_guard = 2131623940;
 			
-			// aapt resource value: 0x7f0d0056
-			public const int abc_primary_text_disable_only_material_dark = 2131558486;
+			// aapt resource value: 0x7f0e0056
+			public const int abc_primary_text_disable_only_material_dark = 2131624022;
 			
-			// aapt resource value: 0x7f0d0057
-			public const int abc_primary_text_disable_only_material_light = 2131558487;
+			// aapt resource value: 0x7f0e0057
+			public const int abc_primary_text_disable_only_material_light = 2131624023;
 			
-			// aapt resource value: 0x7f0d0058
-			public const int abc_primary_text_material_dark = 2131558488;
+			// aapt resource value: 0x7f0e0058
+			public const int abc_primary_text_material_dark = 2131624024;
 			
-			// aapt resource value: 0x7f0d0059
-			public const int abc_primary_text_material_light = 2131558489;
+			// aapt resource value: 0x7f0e0059
+			public const int abc_primary_text_material_light = 2131624025;
 			
-			// aapt resource value: 0x7f0d005a
-			public const int abc_search_url_text = 2131558490;
+			// aapt resource value: 0x7f0e005a
+			public const int abc_search_url_text = 2131624026;
 			
-			// aapt resource value: 0x7f0d0005
-			public const int abc_search_url_text_normal = 2131558405;
+			// aapt resource value: 0x7f0e0005
+			public const int abc_search_url_text_normal = 2131623941;
 			
-			// aapt resource value: 0x7f0d0006
-			public const int abc_search_url_text_pressed = 2131558406;
+			// aapt resource value: 0x7f0e0006
+			public const int abc_search_url_text_pressed = 2131623942;
 			
-			// aapt resource value: 0x7f0d0007
-			public const int abc_search_url_text_selected = 2131558407;
+			// aapt resource value: 0x7f0e0007
+			public const int abc_search_url_text_selected = 2131623943;
 			
-			// aapt resource value: 0x7f0d005b
-			public const int abc_secondary_text_material_dark = 2131558491;
+			// aapt resource value: 0x7f0e005b
+			public const int abc_secondary_text_material_dark = 2131624027;
 			
-			// aapt resource value: 0x7f0d005c
-			public const int abc_secondary_text_material_light = 2131558492;
+			// aapt resource value: 0x7f0e005c
+			public const int abc_secondary_text_material_light = 2131624028;
 			
-			// aapt resource value: 0x7f0d005d
-			public const int abc_tint_btn_checkable = 2131558493;
+			// aapt resource value: 0x7f0e005d
+			public const int abc_tint_btn_checkable = 2131624029;
 			
-			// aapt resource value: 0x7f0d005e
-			public const int abc_tint_default = 2131558494;
+			// aapt resource value: 0x7f0e005e
+			public const int abc_tint_default = 2131624030;
 			
-			// aapt resource value: 0x7f0d005f
-			public const int abc_tint_edittext = 2131558495;
+			// aapt resource value: 0x7f0e005f
+			public const int abc_tint_edittext = 2131624031;
 			
-			// aapt resource value: 0x7f0d0060
-			public const int abc_tint_seek_thumb = 2131558496;
+			// aapt resource value: 0x7f0e0060
+			public const int abc_tint_seek_thumb = 2131624032;
 			
-			// aapt resource value: 0x7f0d0061
-			public const int abc_tint_spinner = 2131558497;
+			// aapt resource value: 0x7f0e0061
+			public const int abc_tint_spinner = 2131624033;
 			
-			// aapt resource value: 0x7f0d0062
-			public const int abc_tint_switch_track = 2131558498;
+			// aapt resource value: 0x7f0e0062
+			public const int abc_tint_switch_track = 2131624034;
 			
-			// aapt resource value: 0x7f0d0008
-			public const int accent_material_dark = 2131558408;
+			// aapt resource value: 0x7f0e0008
+			public const int accent_material_dark = 2131623944;
 			
-			// aapt resource value: 0x7f0d0009
-			public const int accent_material_light = 2131558409;
+			// aapt resource value: 0x7f0e0009
+			public const int accent_material_light = 2131623945;
 			
-			// aapt resource value: 0x7f0d000a
-			public const int background_floating_material_dark = 2131558410;
+			// aapt resource value: 0x7f0e000a
+			public const int background_floating_material_dark = 2131623946;
 			
-			// aapt resource value: 0x7f0d000b
-			public const int background_floating_material_light = 2131558411;
+			// aapt resource value: 0x7f0e000b
+			public const int background_floating_material_light = 2131623947;
 			
-			// aapt resource value: 0x7f0d000c
-			public const int background_material_dark = 2131558412;
+			// aapt resource value: 0x7f0e000c
+			public const int background_material_dark = 2131623948;
 			
-			// aapt resource value: 0x7f0d000d
-			public const int background_material_light = 2131558413;
+			// aapt resource value: 0x7f0e000d
+			public const int background_material_light = 2131623949;
 			
-			// aapt resource value: 0x7f0d000e
-			public const int bright_foreground_disabled_material_dark = 2131558414;
+			// aapt resource value: 0x7f0e000e
+			public const int bright_foreground_disabled_material_dark = 2131623950;
 			
-			// aapt resource value: 0x7f0d000f
-			public const int bright_foreground_disabled_material_light = 2131558415;
+			// aapt resource value: 0x7f0e000f
+			public const int bright_foreground_disabled_material_light = 2131623951;
 			
-			// aapt resource value: 0x7f0d0010
-			public const int bright_foreground_inverse_material_dark = 2131558416;
+			// aapt resource value: 0x7f0e0010
+			public const int bright_foreground_inverse_material_dark = 2131623952;
 			
-			// aapt resource value: 0x7f0d0011
-			public const int bright_foreground_inverse_material_light = 2131558417;
+			// aapt resource value: 0x7f0e0011
+			public const int bright_foreground_inverse_material_light = 2131623953;
 			
-			// aapt resource value: 0x7f0d0012
-			public const int bright_foreground_material_dark = 2131558418;
+			// aapt resource value: 0x7f0e0012
+			public const int bright_foreground_material_dark = 2131623954;
 			
-			// aapt resource value: 0x7f0d0013
-			public const int bright_foreground_material_light = 2131558419;
+			// aapt resource value: 0x7f0e0013
+			public const int bright_foreground_material_light = 2131623955;
 			
-			// aapt resource value: 0x7f0d0014
-			public const int button_material_dark = 2131558420;
+			// aapt resource value: 0x7f0e0014
+			public const int button_material_dark = 2131623956;
 			
-			// aapt resource value: 0x7f0d0015
-			public const int button_material_light = 2131558421;
+			// aapt resource value: 0x7f0e0015
+			public const int button_material_light = 2131623957;
 			
-			// aapt resource value: 0x7f0d0000
-			public const int cardview_dark_background = 2131558400;
+			// aapt resource value: 0x7f0e0000
+			public const int cardview_dark_background = 2131623936;
 			
-			// aapt resource value: 0x7f0d0001
-			public const int cardview_light_background = 2131558401;
+			// aapt resource value: 0x7f0e0001
+			public const int cardview_light_background = 2131623937;
 			
-			// aapt resource value: 0x7f0d0002
-			public const int cardview_shadow_end_color = 2131558402;
+			// aapt resource value: 0x7f0e0002
+			public const int cardview_shadow_end_color = 2131623938;
 			
-			// aapt resource value: 0x7f0d0003
-			public const int cardview_shadow_start_color = 2131558403;
+			// aapt resource value: 0x7f0e0003
+			public const int cardview_shadow_start_color = 2131623939;
 			
-			// aapt resource value: 0x7f0d004e
-			public const int colorAccent = 2131558478;
+			// aapt resource value: 0x7f0e004e
+			public const int colorAccent = 2131624014;
 			
-			// aapt resource value: 0x7f0d004c
-			public const int colorPrimary = 2131558476;
+			// aapt resource value: 0x7f0e004c
+			public const int colorPrimary = 2131624012;
 			
-			// aapt resource value: 0x7f0d004d
-			public const int colorPrimaryDark = 2131558477;
+			// aapt resource value: 0x7f0e004d
+			public const int colorPrimaryDark = 2131624013;
 			
-			// aapt resource value: 0x7f0d0040
-			public const int design_bottom_navigation_shadow_color = 2131558464;
+			// aapt resource value: 0x7f0e0040
+			public const int design_bottom_navigation_shadow_color = 2131624000;
 			
-			// aapt resource value: 0x7f0d0063
-			public const int design_error = 2131558499;
+			// aapt resource value: 0x7f0e0063
+			public const int design_error = 2131624035;
 			
-			// aapt resource value: 0x7f0d0041
-			public const int design_fab_shadow_end_color = 2131558465;
+			// aapt resource value: 0x7f0e0041
+			public const int design_fab_shadow_end_color = 2131624001;
 			
-			// aapt resource value: 0x7f0d0042
-			public const int design_fab_shadow_mid_color = 2131558466;
+			// aapt resource value: 0x7f0e0042
+			public const int design_fab_shadow_mid_color = 2131624002;
 			
-			// aapt resource value: 0x7f0d0043
-			public const int design_fab_shadow_start_color = 2131558467;
+			// aapt resource value: 0x7f0e0043
+			public const int design_fab_shadow_start_color = 2131624003;
 			
-			// aapt resource value: 0x7f0d0044
-			public const int design_fab_stroke_end_inner_color = 2131558468;
+			// aapt resource value: 0x7f0e0044
+			public const int design_fab_stroke_end_inner_color = 2131624004;
 			
-			// aapt resource value: 0x7f0d0045
-			public const int design_fab_stroke_end_outer_color = 2131558469;
+			// aapt resource value: 0x7f0e0045
+			public const int design_fab_stroke_end_outer_color = 2131624005;
 			
-			// aapt resource value: 0x7f0d0046
-			public const int design_fab_stroke_top_inner_color = 2131558470;
+			// aapt resource value: 0x7f0e0046
+			public const int design_fab_stroke_top_inner_color = 2131624006;
 			
-			// aapt resource value: 0x7f0d0047
-			public const int design_fab_stroke_top_outer_color = 2131558471;
+			// aapt resource value: 0x7f0e0047
+			public const int design_fab_stroke_top_outer_color = 2131624007;
 			
-			// aapt resource value: 0x7f0d0048
-			public const int design_snackbar_background_color = 2131558472;
+			// aapt resource value: 0x7f0e0048
+			public const int design_snackbar_background_color = 2131624008;
 			
-			// aapt resource value: 0x7f0d0064
-			public const int design_tint_password_toggle = 2131558500;
+			// aapt resource value: 0x7f0e0064
+			public const int design_tint_password_toggle = 2131624036;
 			
-			// aapt resource value: 0x7f0d0016
-			public const int dim_foreground_disabled_material_dark = 2131558422;
+			// aapt resource value: 0x7f0e0016
+			public const int dim_foreground_disabled_material_dark = 2131623958;
 			
-			// aapt resource value: 0x7f0d0017
-			public const int dim_foreground_disabled_material_light = 2131558423;
+			// aapt resource value: 0x7f0e0017
+			public const int dim_foreground_disabled_material_light = 2131623959;
 			
-			// aapt resource value: 0x7f0d0018
-			public const int dim_foreground_material_dark = 2131558424;
+			// aapt resource value: 0x7f0e0018
+			public const int dim_foreground_material_dark = 2131623960;
 			
-			// aapt resource value: 0x7f0d0019
-			public const int dim_foreground_material_light = 2131558425;
+			// aapt resource value: 0x7f0e0019
+			public const int dim_foreground_material_light = 2131623961;
 			
-			// aapt resource value: 0x7f0d001a
-			public const int error_color_material = 2131558426;
+			// aapt resource value: 0x7f0e001a
+			public const int error_color_material = 2131623962;
 			
-			// aapt resource value: 0x7f0d001b
-			public const int foreground_material_dark = 2131558427;
+			// aapt resource value: 0x7f0e001b
+			public const int foreground_material_dark = 2131623963;
 			
-			// aapt resource value: 0x7f0d001c
-			public const int foreground_material_light = 2131558428;
+			// aapt resource value: 0x7f0e001c
+			public const int foreground_material_light = 2131623964;
 			
-			// aapt resource value: 0x7f0d001d
-			public const int highlighted_text_material_dark = 2131558429;
+			// aapt resource value: 0x7f0e001d
+			public const int highlighted_text_material_dark = 2131623965;
 			
-			// aapt resource value: 0x7f0d001e
-			public const int highlighted_text_material_light = 2131558430;
+			// aapt resource value: 0x7f0e001e
+			public const int highlighted_text_material_light = 2131623966;
 			
-			// aapt resource value: 0x7f0d004b
-			public const int launcher_background = 2131558475;
+			// aapt resource value: 0x7f0e004b
+			public const int launcher_background = 2131624011;
 			
-			// aapt resource value: 0x7f0d001f
-			public const int material_blue_grey_800 = 2131558431;
+			// aapt resource value: 0x7f0e001f
+			public const int material_blue_grey_800 = 2131623967;
 			
-			// aapt resource value: 0x7f0d0020
-			public const int material_blue_grey_900 = 2131558432;
+			// aapt resource value: 0x7f0e0020
+			public const int material_blue_grey_900 = 2131623968;
 			
-			// aapt resource value: 0x7f0d0021
-			public const int material_blue_grey_950 = 2131558433;
+			// aapt resource value: 0x7f0e0021
+			public const int material_blue_grey_950 = 2131623969;
 			
-			// aapt resource value: 0x7f0d0022
-			public const int material_deep_teal_200 = 2131558434;
+			// aapt resource value: 0x7f0e0022
+			public const int material_deep_teal_200 = 2131623970;
 			
-			// aapt resource value: 0x7f0d0023
-			public const int material_deep_teal_500 = 2131558435;
+			// aapt resource value: 0x7f0e0023
+			public const int material_deep_teal_500 = 2131623971;
 			
-			// aapt resource value: 0x7f0d0024
-			public const int material_grey_100 = 2131558436;
+			// aapt resource value: 0x7f0e0024
+			public const int material_grey_100 = 2131623972;
 			
-			// aapt resource value: 0x7f0d0025
-			public const int material_grey_300 = 2131558437;
+			// aapt resource value: 0x7f0e0025
+			public const int material_grey_300 = 2131623973;
 			
-			// aapt resource value: 0x7f0d0026
-			public const int material_grey_50 = 2131558438;
+			// aapt resource value: 0x7f0e0026
+			public const int material_grey_50 = 2131623974;
 			
-			// aapt resource value: 0x7f0d0027
-			public const int material_grey_600 = 2131558439;
+			// aapt resource value: 0x7f0e0027
+			public const int material_grey_600 = 2131623975;
 			
-			// aapt resource value: 0x7f0d0028
-			public const int material_grey_800 = 2131558440;
+			// aapt resource value: 0x7f0e0028
+			public const int material_grey_800 = 2131623976;
 			
-			// aapt resource value: 0x7f0d0029
-			public const int material_grey_850 = 2131558441;
+			// aapt resource value: 0x7f0e0029
+			public const int material_grey_850 = 2131623977;
 			
-			// aapt resource value: 0x7f0d002a
-			public const int material_grey_900 = 2131558442;
+			// aapt resource value: 0x7f0e002a
+			public const int material_grey_900 = 2131623978;
 			
-			// aapt resource value: 0x7f0d0049
-			public const int notification_action_color_filter = 2131558473;
+			// aapt resource value: 0x7f0e0049
+			public const int notification_action_color_filter = 2131624009;
 			
-			// aapt resource value: 0x7f0d004a
-			public const int notification_icon_bg_color = 2131558474;
+			// aapt resource value: 0x7f0e004a
+			public const int notification_icon_bg_color = 2131624010;
 			
-			// aapt resource value: 0x7f0d003f
-			public const int notification_material_background_media_default_color = 2131558463;
+			// aapt resource value: 0x7f0e003f
+			public const int notification_material_background_media_default_color = 2131623999;
 			
-			// aapt resource value: 0x7f0d002b
-			public const int primary_dark_material_dark = 2131558443;
+			// aapt resource value: 0x7f0e002b
+			public const int primary_dark_material_dark = 2131623979;
 			
-			// aapt resource value: 0x7f0d002c
-			public const int primary_dark_material_light = 2131558444;
+			// aapt resource value: 0x7f0e002c
+			public const int primary_dark_material_light = 2131623980;
 			
-			// aapt resource value: 0x7f0d002d
-			public const int primary_material_dark = 2131558445;
+			// aapt resource value: 0x7f0e002d
+			public const int primary_material_dark = 2131623981;
 			
-			// aapt resource value: 0x7f0d002e
-			public const int primary_material_light = 2131558446;
+			// aapt resource value: 0x7f0e002e
+			public const int primary_material_light = 2131623982;
 			
-			// aapt resource value: 0x7f0d002f
-			public const int primary_text_default_material_dark = 2131558447;
+			// aapt resource value: 0x7f0e002f
+			public const int primary_text_default_material_dark = 2131623983;
 			
-			// aapt resource value: 0x7f0d0030
-			public const int primary_text_default_material_light = 2131558448;
+			// aapt resource value: 0x7f0e0030
+			public const int primary_text_default_material_light = 2131623984;
 			
-			// aapt resource value: 0x7f0d0031
-			public const int primary_text_disabled_material_dark = 2131558449;
+			// aapt resource value: 0x7f0e0031
+			public const int primary_text_disabled_material_dark = 2131623985;
 			
-			// aapt resource value: 0x7f0d0032
-			public const int primary_text_disabled_material_light = 2131558450;
+			// aapt resource value: 0x7f0e0032
+			public const int primary_text_disabled_material_light = 2131623986;
 			
-			// aapt resource value: 0x7f0d0033
-			public const int ripple_material_dark = 2131558451;
+			// aapt resource value: 0x7f0e0033
+			public const int ripple_material_dark = 2131623987;
 			
-			// aapt resource value: 0x7f0d0034
-			public const int ripple_material_light = 2131558452;
+			// aapt resource value: 0x7f0e0034
+			public const int ripple_material_light = 2131623988;
 			
-			// aapt resource value: 0x7f0d0035
-			public const int secondary_text_default_material_dark = 2131558453;
+			// aapt resource value: 0x7f0e0035
+			public const int secondary_text_default_material_dark = 2131623989;
 			
-			// aapt resource value: 0x7f0d0036
-			public const int secondary_text_default_material_light = 2131558454;
+			// aapt resource value: 0x7f0e0036
+			public const int secondary_text_default_material_light = 2131623990;
 			
-			// aapt resource value: 0x7f0d0037
-			public const int secondary_text_disabled_material_dark = 2131558455;
+			// aapt resource value: 0x7f0e0037
+			public const int secondary_text_disabled_material_dark = 2131623991;
 			
-			// aapt resource value: 0x7f0d0038
-			public const int secondary_text_disabled_material_light = 2131558456;
+			// aapt resource value: 0x7f0e0038
+			public const int secondary_text_disabled_material_light = 2131623992;
 			
-			// aapt resource value: 0x7f0d0039
-			public const int switch_thumb_disabled_material_dark = 2131558457;
+			// aapt resource value: 0x7f0e0039
+			public const int switch_thumb_disabled_material_dark = 2131623993;
 			
-			// aapt resource value: 0x7f0d003a
-			public const int switch_thumb_disabled_material_light = 2131558458;
+			// aapt resource value: 0x7f0e003a
+			public const int switch_thumb_disabled_material_light = 2131623994;
 			
-			// aapt resource value: 0x7f0d0065
-			public const int switch_thumb_material_dark = 2131558501;
+			// aapt resource value: 0x7f0e0065
+			public const int switch_thumb_material_dark = 2131624037;
 			
-			// aapt resource value: 0x7f0d0066
-			public const int switch_thumb_material_light = 2131558502;
+			// aapt resource value: 0x7f0e0066
+			public const int switch_thumb_material_light = 2131624038;
 			
-			// aapt resource value: 0x7f0d003b
-			public const int switch_thumb_normal_material_dark = 2131558459;
+			// aapt resource value: 0x7f0e003b
+			public const int switch_thumb_normal_material_dark = 2131623995;
 			
-			// aapt resource value: 0x7f0d003c
-			public const int switch_thumb_normal_material_light = 2131558460;
+			// aapt resource value: 0x7f0e003c
+			public const int switch_thumb_normal_material_light = 2131623996;
 			
-			// aapt resource value: 0x7f0d003d
-			public const int tooltip_background_dark = 2131558461;
+			// aapt resource value: 0x7f0e003d
+			public const int tooltip_background_dark = 2131623997;
 			
-			// aapt resource value: 0x7f0d003e
-			public const int tooltip_background_light = 2131558462;
+			// aapt resource value: 0x7f0e003e
+			public const int tooltip_background_light = 2131623998;
 			
 			static Color()
 			{
@@ -3858,497 +3699,497 @@ namespace OpenStreetMapDemo.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f08001b
-			public const int abc_action_bar_content_inset_material = 2131230747;
+			// aapt resource value: 0x7f0a001b
+			public const int abc_action_bar_content_inset_material = 2131361819;
 			
-			// aapt resource value: 0x7f08001c
-			public const int abc_action_bar_content_inset_with_nav = 2131230748;
+			// aapt resource value: 0x7f0a001c
+			public const int abc_action_bar_content_inset_with_nav = 2131361820;
 			
-			// aapt resource value: 0x7f080010
-			public const int abc_action_bar_default_height_material = 2131230736;
+			// aapt resource value: 0x7f0a0010
+			public const int abc_action_bar_default_height_material = 2131361808;
 			
-			// aapt resource value: 0x7f08001d
-			public const int abc_action_bar_default_padding_end_material = 2131230749;
+			// aapt resource value: 0x7f0a001d
+			public const int abc_action_bar_default_padding_end_material = 2131361821;
 			
-			// aapt resource value: 0x7f08001e
-			public const int abc_action_bar_default_padding_start_material = 2131230750;
+			// aapt resource value: 0x7f0a001e
+			public const int abc_action_bar_default_padding_start_material = 2131361822;
 			
-			// aapt resource value: 0x7f080020
-			public const int abc_action_bar_elevation_material = 2131230752;
+			// aapt resource value: 0x7f0a0020
+			public const int abc_action_bar_elevation_material = 2131361824;
 			
-			// aapt resource value: 0x7f080021
-			public const int abc_action_bar_icon_vertical_padding_material = 2131230753;
+			// aapt resource value: 0x7f0a0021
+			public const int abc_action_bar_icon_vertical_padding_material = 2131361825;
 			
-			// aapt resource value: 0x7f080022
-			public const int abc_action_bar_overflow_padding_end_material = 2131230754;
+			// aapt resource value: 0x7f0a0022
+			public const int abc_action_bar_overflow_padding_end_material = 2131361826;
 			
-			// aapt resource value: 0x7f080023
-			public const int abc_action_bar_overflow_padding_start_material = 2131230755;
+			// aapt resource value: 0x7f0a0023
+			public const int abc_action_bar_overflow_padding_start_material = 2131361827;
 			
-			// aapt resource value: 0x7f080011
-			public const int abc_action_bar_progress_bar_size = 2131230737;
+			// aapt resource value: 0x7f0a0011
+			public const int abc_action_bar_progress_bar_size = 2131361809;
 			
-			// aapt resource value: 0x7f080024
-			public const int abc_action_bar_stacked_max_height = 2131230756;
+			// aapt resource value: 0x7f0a0024
+			public const int abc_action_bar_stacked_max_height = 2131361828;
 			
-			// aapt resource value: 0x7f080025
-			public const int abc_action_bar_stacked_tab_max_width = 2131230757;
+			// aapt resource value: 0x7f0a0025
+			public const int abc_action_bar_stacked_tab_max_width = 2131361829;
 			
-			// aapt resource value: 0x7f080026
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131230758;
+			// aapt resource value: 0x7f0a0026
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131361830;
 			
-			// aapt resource value: 0x7f080027
-			public const int abc_action_bar_subtitle_top_margin_material = 2131230759;
+			// aapt resource value: 0x7f0a0027
+			public const int abc_action_bar_subtitle_top_margin_material = 2131361831;
 			
-			// aapt resource value: 0x7f080028
-			public const int abc_action_button_min_height_material = 2131230760;
+			// aapt resource value: 0x7f0a0028
+			public const int abc_action_button_min_height_material = 2131361832;
 			
-			// aapt resource value: 0x7f080029
-			public const int abc_action_button_min_width_material = 2131230761;
+			// aapt resource value: 0x7f0a0029
+			public const int abc_action_button_min_width_material = 2131361833;
 			
-			// aapt resource value: 0x7f08002a
-			public const int abc_action_button_min_width_overflow_material = 2131230762;
+			// aapt resource value: 0x7f0a002a
+			public const int abc_action_button_min_width_overflow_material = 2131361834;
 			
-			// aapt resource value: 0x7f08000f
-			public const int abc_alert_dialog_button_bar_height = 2131230735;
+			// aapt resource value: 0x7f0a000f
+			public const int abc_alert_dialog_button_bar_height = 2131361807;
 			
-			// aapt resource value: 0x7f08002b
-			public const int abc_button_inset_horizontal_material = 2131230763;
+			// aapt resource value: 0x7f0a002b
+			public const int abc_button_inset_horizontal_material = 2131361835;
 			
-			// aapt resource value: 0x7f08002c
-			public const int abc_button_inset_vertical_material = 2131230764;
+			// aapt resource value: 0x7f0a002c
+			public const int abc_button_inset_vertical_material = 2131361836;
 			
-			// aapt resource value: 0x7f08002d
-			public const int abc_button_padding_horizontal_material = 2131230765;
+			// aapt resource value: 0x7f0a002d
+			public const int abc_button_padding_horizontal_material = 2131361837;
 			
-			// aapt resource value: 0x7f08002e
-			public const int abc_button_padding_vertical_material = 2131230766;
+			// aapt resource value: 0x7f0a002e
+			public const int abc_button_padding_vertical_material = 2131361838;
 			
-			// aapt resource value: 0x7f08002f
-			public const int abc_cascading_menus_min_smallest_width = 2131230767;
+			// aapt resource value: 0x7f0a002f
+			public const int abc_cascading_menus_min_smallest_width = 2131361839;
 			
-			// aapt resource value: 0x7f080014
-			public const int abc_config_prefDialogWidth = 2131230740;
+			// aapt resource value: 0x7f0a0014
+			public const int abc_config_prefDialogWidth = 2131361812;
 			
-			// aapt resource value: 0x7f080030
-			public const int abc_control_corner_material = 2131230768;
+			// aapt resource value: 0x7f0a0030
+			public const int abc_control_corner_material = 2131361840;
 			
-			// aapt resource value: 0x7f080031
-			public const int abc_control_inset_material = 2131230769;
+			// aapt resource value: 0x7f0a0031
+			public const int abc_control_inset_material = 2131361841;
 			
-			// aapt resource value: 0x7f080032
-			public const int abc_control_padding_material = 2131230770;
+			// aapt resource value: 0x7f0a0032
+			public const int abc_control_padding_material = 2131361842;
 			
-			// aapt resource value: 0x7f080015
-			public const int abc_dialog_fixed_height_major = 2131230741;
+			// aapt resource value: 0x7f0a0015
+			public const int abc_dialog_fixed_height_major = 2131361813;
 			
-			// aapt resource value: 0x7f080016
-			public const int abc_dialog_fixed_height_minor = 2131230742;
+			// aapt resource value: 0x7f0a0016
+			public const int abc_dialog_fixed_height_minor = 2131361814;
 			
-			// aapt resource value: 0x7f080017
-			public const int abc_dialog_fixed_width_major = 2131230743;
+			// aapt resource value: 0x7f0a0017
+			public const int abc_dialog_fixed_width_major = 2131361815;
 			
-			// aapt resource value: 0x7f080018
-			public const int abc_dialog_fixed_width_minor = 2131230744;
+			// aapt resource value: 0x7f0a0018
+			public const int abc_dialog_fixed_width_minor = 2131361816;
 			
-			// aapt resource value: 0x7f080033
-			public const int abc_dialog_list_padding_bottom_no_buttons = 2131230771;
+			// aapt resource value: 0x7f0a0033
+			public const int abc_dialog_list_padding_bottom_no_buttons = 2131361843;
 			
-			// aapt resource value: 0x7f080034
-			public const int abc_dialog_list_padding_top_no_title = 2131230772;
+			// aapt resource value: 0x7f0a0034
+			public const int abc_dialog_list_padding_top_no_title = 2131361844;
 			
-			// aapt resource value: 0x7f080019
-			public const int abc_dialog_min_width_major = 2131230745;
+			// aapt resource value: 0x7f0a0019
+			public const int abc_dialog_min_width_major = 2131361817;
 			
-			// aapt resource value: 0x7f08001a
-			public const int abc_dialog_min_width_minor = 2131230746;
+			// aapt resource value: 0x7f0a001a
+			public const int abc_dialog_min_width_minor = 2131361818;
 			
-			// aapt resource value: 0x7f080035
-			public const int abc_dialog_padding_material = 2131230773;
+			// aapt resource value: 0x7f0a0035
+			public const int abc_dialog_padding_material = 2131361845;
 			
-			// aapt resource value: 0x7f080036
-			public const int abc_dialog_padding_top_material = 2131230774;
+			// aapt resource value: 0x7f0a0036
+			public const int abc_dialog_padding_top_material = 2131361846;
 			
-			// aapt resource value: 0x7f080037
-			public const int abc_dialog_title_divider_material = 2131230775;
+			// aapt resource value: 0x7f0a0037
+			public const int abc_dialog_title_divider_material = 2131361847;
 			
-			// aapt resource value: 0x7f080038
-			public const int abc_disabled_alpha_material_dark = 2131230776;
+			// aapt resource value: 0x7f0a0038
+			public const int abc_disabled_alpha_material_dark = 2131361848;
 			
-			// aapt resource value: 0x7f080039
-			public const int abc_disabled_alpha_material_light = 2131230777;
+			// aapt resource value: 0x7f0a0039
+			public const int abc_disabled_alpha_material_light = 2131361849;
 			
-			// aapt resource value: 0x7f08003a
-			public const int abc_dropdownitem_icon_width = 2131230778;
+			// aapt resource value: 0x7f0a003a
+			public const int abc_dropdownitem_icon_width = 2131361850;
 			
-			// aapt resource value: 0x7f08003b
-			public const int abc_dropdownitem_text_padding_left = 2131230779;
+			// aapt resource value: 0x7f0a003b
+			public const int abc_dropdownitem_text_padding_left = 2131361851;
 			
-			// aapt resource value: 0x7f08003c
-			public const int abc_dropdownitem_text_padding_right = 2131230780;
+			// aapt resource value: 0x7f0a003c
+			public const int abc_dropdownitem_text_padding_right = 2131361852;
 			
-			// aapt resource value: 0x7f08003d
-			public const int abc_edit_text_inset_bottom_material = 2131230781;
+			// aapt resource value: 0x7f0a003d
+			public const int abc_edit_text_inset_bottom_material = 2131361853;
 			
-			// aapt resource value: 0x7f08003e
-			public const int abc_edit_text_inset_horizontal_material = 2131230782;
+			// aapt resource value: 0x7f0a003e
+			public const int abc_edit_text_inset_horizontal_material = 2131361854;
 			
-			// aapt resource value: 0x7f08003f
-			public const int abc_edit_text_inset_top_material = 2131230783;
+			// aapt resource value: 0x7f0a003f
+			public const int abc_edit_text_inset_top_material = 2131361855;
 			
-			// aapt resource value: 0x7f080040
-			public const int abc_floating_window_z = 2131230784;
+			// aapt resource value: 0x7f0a0040
+			public const int abc_floating_window_z = 2131361856;
 			
-			// aapt resource value: 0x7f080041
-			public const int abc_list_item_padding_horizontal_material = 2131230785;
+			// aapt resource value: 0x7f0a0041
+			public const int abc_list_item_padding_horizontal_material = 2131361857;
 			
-			// aapt resource value: 0x7f080042
-			public const int abc_panel_menu_list_width = 2131230786;
+			// aapt resource value: 0x7f0a0042
+			public const int abc_panel_menu_list_width = 2131361858;
 			
-			// aapt resource value: 0x7f080043
-			public const int abc_progress_bar_height_material = 2131230787;
+			// aapt resource value: 0x7f0a0043
+			public const int abc_progress_bar_height_material = 2131361859;
 			
-			// aapt resource value: 0x7f080044
-			public const int abc_search_view_preferred_height = 2131230788;
+			// aapt resource value: 0x7f0a0044
+			public const int abc_search_view_preferred_height = 2131361860;
 			
-			// aapt resource value: 0x7f080045
-			public const int abc_search_view_preferred_width = 2131230789;
+			// aapt resource value: 0x7f0a0045
+			public const int abc_search_view_preferred_width = 2131361861;
 			
-			// aapt resource value: 0x7f080046
-			public const int abc_seekbar_track_background_height_material = 2131230790;
+			// aapt resource value: 0x7f0a0046
+			public const int abc_seekbar_track_background_height_material = 2131361862;
 			
-			// aapt resource value: 0x7f080047
-			public const int abc_seekbar_track_progress_height_material = 2131230791;
+			// aapt resource value: 0x7f0a0047
+			public const int abc_seekbar_track_progress_height_material = 2131361863;
 			
-			// aapt resource value: 0x7f080048
-			public const int abc_select_dialog_padding_start_material = 2131230792;
+			// aapt resource value: 0x7f0a0048
+			public const int abc_select_dialog_padding_start_material = 2131361864;
 			
-			// aapt resource value: 0x7f08001f
-			public const int abc_switch_padding = 2131230751;
+			// aapt resource value: 0x7f0a001f
+			public const int abc_switch_padding = 2131361823;
 			
-			// aapt resource value: 0x7f080049
-			public const int abc_text_size_body_1_material = 2131230793;
+			// aapt resource value: 0x7f0a0049
+			public const int abc_text_size_body_1_material = 2131361865;
 			
-			// aapt resource value: 0x7f08004a
-			public const int abc_text_size_body_2_material = 2131230794;
+			// aapt resource value: 0x7f0a004a
+			public const int abc_text_size_body_2_material = 2131361866;
 			
-			// aapt resource value: 0x7f08004b
-			public const int abc_text_size_button_material = 2131230795;
+			// aapt resource value: 0x7f0a004b
+			public const int abc_text_size_button_material = 2131361867;
 			
-			// aapt resource value: 0x7f08004c
-			public const int abc_text_size_caption_material = 2131230796;
+			// aapt resource value: 0x7f0a004c
+			public const int abc_text_size_caption_material = 2131361868;
 			
-			// aapt resource value: 0x7f08004d
-			public const int abc_text_size_display_1_material = 2131230797;
+			// aapt resource value: 0x7f0a004d
+			public const int abc_text_size_display_1_material = 2131361869;
 			
-			// aapt resource value: 0x7f08004e
-			public const int abc_text_size_display_2_material = 2131230798;
+			// aapt resource value: 0x7f0a004e
+			public const int abc_text_size_display_2_material = 2131361870;
 			
-			// aapt resource value: 0x7f08004f
-			public const int abc_text_size_display_3_material = 2131230799;
+			// aapt resource value: 0x7f0a004f
+			public const int abc_text_size_display_3_material = 2131361871;
 			
-			// aapt resource value: 0x7f080050
-			public const int abc_text_size_display_4_material = 2131230800;
+			// aapt resource value: 0x7f0a0050
+			public const int abc_text_size_display_4_material = 2131361872;
 			
-			// aapt resource value: 0x7f080051
-			public const int abc_text_size_headline_material = 2131230801;
+			// aapt resource value: 0x7f0a0051
+			public const int abc_text_size_headline_material = 2131361873;
 			
-			// aapt resource value: 0x7f080052
-			public const int abc_text_size_large_material = 2131230802;
+			// aapt resource value: 0x7f0a0052
+			public const int abc_text_size_large_material = 2131361874;
 			
-			// aapt resource value: 0x7f080053
-			public const int abc_text_size_medium_material = 2131230803;
+			// aapt resource value: 0x7f0a0053
+			public const int abc_text_size_medium_material = 2131361875;
 			
-			// aapt resource value: 0x7f080054
-			public const int abc_text_size_menu_header_material = 2131230804;
+			// aapt resource value: 0x7f0a0054
+			public const int abc_text_size_menu_header_material = 2131361876;
 			
-			// aapt resource value: 0x7f080055
-			public const int abc_text_size_menu_material = 2131230805;
+			// aapt resource value: 0x7f0a0055
+			public const int abc_text_size_menu_material = 2131361877;
 			
-			// aapt resource value: 0x7f080056
-			public const int abc_text_size_small_material = 2131230806;
+			// aapt resource value: 0x7f0a0056
+			public const int abc_text_size_small_material = 2131361878;
 			
-			// aapt resource value: 0x7f080057
-			public const int abc_text_size_subhead_material = 2131230807;
+			// aapt resource value: 0x7f0a0057
+			public const int abc_text_size_subhead_material = 2131361879;
 			
-			// aapt resource value: 0x7f080012
-			public const int abc_text_size_subtitle_material_toolbar = 2131230738;
+			// aapt resource value: 0x7f0a0012
+			public const int abc_text_size_subtitle_material_toolbar = 2131361810;
 			
-			// aapt resource value: 0x7f080058
-			public const int abc_text_size_title_material = 2131230808;
+			// aapt resource value: 0x7f0a0058
+			public const int abc_text_size_title_material = 2131361880;
 			
-			// aapt resource value: 0x7f080013
-			public const int abc_text_size_title_material_toolbar = 2131230739;
+			// aapt resource value: 0x7f0a0013
+			public const int abc_text_size_title_material_toolbar = 2131361811;
 			
-			// aapt resource value: 0x7f08000c
-			public const int cardview_compat_inset_shadow = 2131230732;
+			// aapt resource value: 0x7f0a000c
+			public const int cardview_compat_inset_shadow = 2131361804;
 			
-			// aapt resource value: 0x7f08000d
-			public const int cardview_default_elevation = 2131230733;
+			// aapt resource value: 0x7f0a000d
+			public const int cardview_default_elevation = 2131361805;
 			
-			// aapt resource value: 0x7f08000e
-			public const int cardview_default_radius = 2131230734;
+			// aapt resource value: 0x7f0a000e
+			public const int cardview_default_radius = 2131361806;
 			
-			// aapt resource value: 0x7f080094
-			public const int compat_button_inset_horizontal_material = 2131230868;
+			// aapt resource value: 0x7f0a0094
+			public const int compat_button_inset_horizontal_material = 2131361940;
 			
-			// aapt resource value: 0x7f080095
-			public const int compat_button_inset_vertical_material = 2131230869;
+			// aapt resource value: 0x7f0a0095
+			public const int compat_button_inset_vertical_material = 2131361941;
 			
-			// aapt resource value: 0x7f080096
-			public const int compat_button_padding_horizontal_material = 2131230870;
+			// aapt resource value: 0x7f0a0096
+			public const int compat_button_padding_horizontal_material = 2131361942;
 			
-			// aapt resource value: 0x7f080097
-			public const int compat_button_padding_vertical_material = 2131230871;
+			// aapt resource value: 0x7f0a0097
+			public const int compat_button_padding_vertical_material = 2131361943;
 			
-			// aapt resource value: 0x7f080098
-			public const int compat_control_corner_material = 2131230872;
+			// aapt resource value: 0x7f0a0098
+			public const int compat_control_corner_material = 2131361944;
 			
-			// aapt resource value: 0x7f080072
-			public const int design_appbar_elevation = 2131230834;
+			// aapt resource value: 0x7f0a0072
+			public const int design_appbar_elevation = 2131361906;
 			
-			// aapt resource value: 0x7f080073
-			public const int design_bottom_navigation_active_item_max_width = 2131230835;
+			// aapt resource value: 0x7f0a0073
+			public const int design_bottom_navigation_active_item_max_width = 2131361907;
 			
-			// aapt resource value: 0x7f080074
-			public const int design_bottom_navigation_active_text_size = 2131230836;
+			// aapt resource value: 0x7f0a0074
+			public const int design_bottom_navigation_active_text_size = 2131361908;
 			
-			// aapt resource value: 0x7f080075
-			public const int design_bottom_navigation_elevation = 2131230837;
+			// aapt resource value: 0x7f0a0075
+			public const int design_bottom_navigation_elevation = 2131361909;
 			
-			// aapt resource value: 0x7f080076
-			public const int design_bottom_navigation_height = 2131230838;
+			// aapt resource value: 0x7f0a0076
+			public const int design_bottom_navigation_height = 2131361910;
 			
-			// aapt resource value: 0x7f080077
-			public const int design_bottom_navigation_item_max_width = 2131230839;
+			// aapt resource value: 0x7f0a0077
+			public const int design_bottom_navigation_item_max_width = 2131361911;
 			
-			// aapt resource value: 0x7f080078
-			public const int design_bottom_navigation_item_min_width = 2131230840;
+			// aapt resource value: 0x7f0a0078
+			public const int design_bottom_navigation_item_min_width = 2131361912;
 			
-			// aapt resource value: 0x7f080079
-			public const int design_bottom_navigation_margin = 2131230841;
+			// aapt resource value: 0x7f0a0079
+			public const int design_bottom_navigation_margin = 2131361913;
 			
-			// aapt resource value: 0x7f08007a
-			public const int design_bottom_navigation_shadow_height = 2131230842;
+			// aapt resource value: 0x7f0a007a
+			public const int design_bottom_navigation_shadow_height = 2131361914;
 			
-			// aapt resource value: 0x7f08007b
-			public const int design_bottom_navigation_text_size = 2131230843;
+			// aapt resource value: 0x7f0a007b
+			public const int design_bottom_navigation_text_size = 2131361915;
 			
-			// aapt resource value: 0x7f08007c
-			public const int design_bottom_sheet_modal_elevation = 2131230844;
+			// aapt resource value: 0x7f0a007c
+			public const int design_bottom_sheet_modal_elevation = 2131361916;
 			
-			// aapt resource value: 0x7f08007d
-			public const int design_bottom_sheet_peek_height_min = 2131230845;
+			// aapt resource value: 0x7f0a007d
+			public const int design_bottom_sheet_peek_height_min = 2131361917;
 			
-			// aapt resource value: 0x7f08007e
-			public const int design_fab_border_width = 2131230846;
+			// aapt resource value: 0x7f0a007e
+			public const int design_fab_border_width = 2131361918;
 			
-			// aapt resource value: 0x7f08007f
-			public const int design_fab_elevation = 2131230847;
+			// aapt resource value: 0x7f0a007f
+			public const int design_fab_elevation = 2131361919;
 			
-			// aapt resource value: 0x7f080080
-			public const int design_fab_image_size = 2131230848;
+			// aapt resource value: 0x7f0a0080
+			public const int design_fab_image_size = 2131361920;
 			
-			// aapt resource value: 0x7f080081
-			public const int design_fab_size_mini = 2131230849;
+			// aapt resource value: 0x7f0a0081
+			public const int design_fab_size_mini = 2131361921;
 			
-			// aapt resource value: 0x7f080082
-			public const int design_fab_size_normal = 2131230850;
+			// aapt resource value: 0x7f0a0082
+			public const int design_fab_size_normal = 2131361922;
 			
-			// aapt resource value: 0x7f080083
-			public const int design_fab_translation_z_pressed = 2131230851;
+			// aapt resource value: 0x7f0a0083
+			public const int design_fab_translation_z_pressed = 2131361923;
 			
-			// aapt resource value: 0x7f080084
-			public const int design_navigation_elevation = 2131230852;
+			// aapt resource value: 0x7f0a0084
+			public const int design_navigation_elevation = 2131361924;
 			
-			// aapt resource value: 0x7f080085
-			public const int design_navigation_icon_padding = 2131230853;
+			// aapt resource value: 0x7f0a0085
+			public const int design_navigation_icon_padding = 2131361925;
 			
-			// aapt resource value: 0x7f080086
-			public const int design_navigation_icon_size = 2131230854;
+			// aapt resource value: 0x7f0a0086
+			public const int design_navigation_icon_size = 2131361926;
 			
-			// aapt resource value: 0x7f08006a
-			public const int design_navigation_max_width = 2131230826;
+			// aapt resource value: 0x7f0a006a
+			public const int design_navigation_max_width = 2131361898;
 			
-			// aapt resource value: 0x7f080087
-			public const int design_navigation_padding_bottom = 2131230855;
+			// aapt resource value: 0x7f0a0087
+			public const int design_navigation_padding_bottom = 2131361927;
 			
-			// aapt resource value: 0x7f080088
-			public const int design_navigation_separator_vertical_padding = 2131230856;
+			// aapt resource value: 0x7f0a0088
+			public const int design_navigation_separator_vertical_padding = 2131361928;
 			
-			// aapt resource value: 0x7f08006b
-			public const int design_snackbar_action_inline_max_width = 2131230827;
+			// aapt resource value: 0x7f0a006b
+			public const int design_snackbar_action_inline_max_width = 2131361899;
 			
-			// aapt resource value: 0x7f08006c
-			public const int design_snackbar_background_corner_radius = 2131230828;
+			// aapt resource value: 0x7f0a006c
+			public const int design_snackbar_background_corner_radius = 2131361900;
 			
-			// aapt resource value: 0x7f080089
-			public const int design_snackbar_elevation = 2131230857;
+			// aapt resource value: 0x7f0a0089
+			public const int design_snackbar_elevation = 2131361929;
 			
-			// aapt resource value: 0x7f08006d
-			public const int design_snackbar_extra_spacing_horizontal = 2131230829;
+			// aapt resource value: 0x7f0a006d
+			public const int design_snackbar_extra_spacing_horizontal = 2131361901;
 			
-			// aapt resource value: 0x7f08006e
-			public const int design_snackbar_max_width = 2131230830;
+			// aapt resource value: 0x7f0a006e
+			public const int design_snackbar_max_width = 2131361902;
 			
-			// aapt resource value: 0x7f08006f
-			public const int design_snackbar_min_width = 2131230831;
+			// aapt resource value: 0x7f0a006f
+			public const int design_snackbar_min_width = 2131361903;
 			
-			// aapt resource value: 0x7f08008a
-			public const int design_snackbar_padding_horizontal = 2131230858;
+			// aapt resource value: 0x7f0a008a
+			public const int design_snackbar_padding_horizontal = 2131361930;
 			
-			// aapt resource value: 0x7f08008b
-			public const int design_snackbar_padding_vertical = 2131230859;
+			// aapt resource value: 0x7f0a008b
+			public const int design_snackbar_padding_vertical = 2131361931;
 			
-			// aapt resource value: 0x7f080070
-			public const int design_snackbar_padding_vertical_2lines = 2131230832;
+			// aapt resource value: 0x7f0a0070
+			public const int design_snackbar_padding_vertical_2lines = 2131361904;
 			
-			// aapt resource value: 0x7f08008c
-			public const int design_snackbar_text_size = 2131230860;
+			// aapt resource value: 0x7f0a008c
+			public const int design_snackbar_text_size = 2131361932;
 			
-			// aapt resource value: 0x7f08008d
-			public const int design_tab_max_width = 2131230861;
+			// aapt resource value: 0x7f0a008d
+			public const int design_tab_max_width = 2131361933;
 			
-			// aapt resource value: 0x7f080071
-			public const int design_tab_scrollable_min_width = 2131230833;
+			// aapt resource value: 0x7f0a0071
+			public const int design_tab_scrollable_min_width = 2131361905;
 			
-			// aapt resource value: 0x7f08008e
-			public const int design_tab_text_size = 2131230862;
+			// aapt resource value: 0x7f0a008e
+			public const int design_tab_text_size = 2131361934;
 			
-			// aapt resource value: 0x7f08008f
-			public const int design_tab_text_size_2line = 2131230863;
+			// aapt resource value: 0x7f0a008f
+			public const int design_tab_text_size_2line = 2131361935;
 			
-			// aapt resource value: 0x7f080059
-			public const int disabled_alpha_material_dark = 2131230809;
+			// aapt resource value: 0x7f0a0059
+			public const int disabled_alpha_material_dark = 2131361881;
 			
-			// aapt resource value: 0x7f08005a
-			public const int disabled_alpha_material_light = 2131230810;
+			// aapt resource value: 0x7f0a005a
+			public const int disabled_alpha_material_light = 2131361882;
 			
-			// aapt resource value: 0x7f080000
-			public const int fastscroll_default_thickness = 2131230720;
+			// aapt resource value: 0x7f0a0000
+			public const int fastscroll_default_thickness = 2131361792;
 			
-			// aapt resource value: 0x7f080001
-			public const int fastscroll_margin = 2131230721;
+			// aapt resource value: 0x7f0a0001
+			public const int fastscroll_margin = 2131361793;
 			
-			// aapt resource value: 0x7f080002
-			public const int fastscroll_minimum_range = 2131230722;
+			// aapt resource value: 0x7f0a0002
+			public const int fastscroll_minimum_range = 2131361794;
 			
-			// aapt resource value: 0x7f08005b
-			public const int highlight_alpha_material_colored = 2131230811;
+			// aapt resource value: 0x7f0a005b
+			public const int highlight_alpha_material_colored = 2131361883;
 			
-			// aapt resource value: 0x7f08005c
-			public const int highlight_alpha_material_dark = 2131230812;
+			// aapt resource value: 0x7f0a005c
+			public const int highlight_alpha_material_dark = 2131361884;
 			
-			// aapt resource value: 0x7f08005d
-			public const int highlight_alpha_material_light = 2131230813;
+			// aapt resource value: 0x7f0a005d
+			public const int highlight_alpha_material_light = 2131361885;
 			
-			// aapt resource value: 0x7f08005e
-			public const int hint_alpha_material_dark = 2131230814;
+			// aapt resource value: 0x7f0a005e
+			public const int hint_alpha_material_dark = 2131361886;
 			
-			// aapt resource value: 0x7f08005f
-			public const int hint_alpha_material_light = 2131230815;
+			// aapt resource value: 0x7f0a005f
+			public const int hint_alpha_material_light = 2131361887;
 			
-			// aapt resource value: 0x7f080060
-			public const int hint_pressed_alpha_material_dark = 2131230816;
+			// aapt resource value: 0x7f0a0060
+			public const int hint_pressed_alpha_material_dark = 2131361888;
 			
-			// aapt resource value: 0x7f080061
-			public const int hint_pressed_alpha_material_light = 2131230817;
+			// aapt resource value: 0x7f0a0061
+			public const int hint_pressed_alpha_material_light = 2131361889;
 			
-			// aapt resource value: 0x7f080003
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131230723;
+			// aapt resource value: 0x7f0a0003
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131361795;
 			
-			// aapt resource value: 0x7f080004
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131230724;
+			// aapt resource value: 0x7f0a0004
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131361796;
 			
-			// aapt resource value: 0x7f080005
-			public const int item_touch_helper_swipe_escape_velocity = 2131230725;
+			// aapt resource value: 0x7f0a0005
+			public const int item_touch_helper_swipe_escape_velocity = 2131361797;
 			
-			// aapt resource value: 0x7f080006
-			public const int mr_controller_volume_group_list_item_height = 2131230726;
+			// aapt resource value: 0x7f0a0006
+			public const int mr_controller_volume_group_list_item_height = 2131361798;
 			
-			// aapt resource value: 0x7f080007
-			public const int mr_controller_volume_group_list_item_icon_size = 2131230727;
+			// aapt resource value: 0x7f0a0007
+			public const int mr_controller_volume_group_list_item_icon_size = 2131361799;
 			
-			// aapt resource value: 0x7f080008
-			public const int mr_controller_volume_group_list_max_height = 2131230728;
+			// aapt resource value: 0x7f0a0008
+			public const int mr_controller_volume_group_list_max_height = 2131361800;
 			
-			// aapt resource value: 0x7f08000b
-			public const int mr_controller_volume_group_list_padding_top = 2131230731;
+			// aapt resource value: 0x7f0a000b
+			public const int mr_controller_volume_group_list_padding_top = 2131361803;
 			
-			// aapt resource value: 0x7f080009
-			public const int mr_dialog_fixed_width_major = 2131230729;
+			// aapt resource value: 0x7f0a0009
+			public const int mr_dialog_fixed_width_major = 2131361801;
 			
-			// aapt resource value: 0x7f08000a
-			public const int mr_dialog_fixed_width_minor = 2131230730;
+			// aapt resource value: 0x7f0a000a
+			public const int mr_dialog_fixed_width_minor = 2131361802;
 			
-			// aapt resource value: 0x7f080099
-			public const int notification_action_icon_size = 2131230873;
+			// aapt resource value: 0x7f0a0099
+			public const int notification_action_icon_size = 2131361945;
 			
-			// aapt resource value: 0x7f08009a
-			public const int notification_action_text_size = 2131230874;
+			// aapt resource value: 0x7f0a009a
+			public const int notification_action_text_size = 2131361946;
 			
-			// aapt resource value: 0x7f08009b
-			public const int notification_big_circle_margin = 2131230875;
+			// aapt resource value: 0x7f0a009b
+			public const int notification_big_circle_margin = 2131361947;
 			
-			// aapt resource value: 0x7f080091
-			public const int notification_content_margin_start = 2131230865;
+			// aapt resource value: 0x7f0a0091
+			public const int notification_content_margin_start = 2131361937;
 			
-			// aapt resource value: 0x7f08009c
-			public const int notification_large_icon_height = 2131230876;
+			// aapt resource value: 0x7f0a009c
+			public const int notification_large_icon_height = 2131361948;
 			
-			// aapt resource value: 0x7f08009d
-			public const int notification_large_icon_width = 2131230877;
+			// aapt resource value: 0x7f0a009d
+			public const int notification_large_icon_width = 2131361949;
 			
-			// aapt resource value: 0x7f080092
-			public const int notification_main_column_padding_top = 2131230866;
+			// aapt resource value: 0x7f0a0092
+			public const int notification_main_column_padding_top = 2131361938;
 			
-			// aapt resource value: 0x7f080093
-			public const int notification_media_narrow_margin = 2131230867;
+			// aapt resource value: 0x7f0a0093
+			public const int notification_media_narrow_margin = 2131361939;
 			
-			// aapt resource value: 0x7f08009e
-			public const int notification_right_icon_size = 2131230878;
+			// aapt resource value: 0x7f0a009e
+			public const int notification_right_icon_size = 2131361950;
 			
-			// aapt resource value: 0x7f080090
-			public const int notification_right_side_padding_top = 2131230864;
+			// aapt resource value: 0x7f0a0090
+			public const int notification_right_side_padding_top = 2131361936;
 			
-			// aapt resource value: 0x7f08009f
-			public const int notification_small_icon_background_padding = 2131230879;
+			// aapt resource value: 0x7f0a009f
+			public const int notification_small_icon_background_padding = 2131361951;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int notification_small_icon_size_as_large = 2131230880;
+			// aapt resource value: 0x7f0a00a0
+			public const int notification_small_icon_size_as_large = 2131361952;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int notification_subtext_size = 2131230881;
+			// aapt resource value: 0x7f0a00a1
+			public const int notification_subtext_size = 2131361953;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int notification_top_pad = 2131230882;
+			// aapt resource value: 0x7f0a00a2
+			public const int notification_top_pad = 2131361954;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int notification_top_pad_large_text = 2131230883;
+			// aapt resource value: 0x7f0a00a3
+			public const int notification_top_pad_large_text = 2131361955;
 			
-			// aapt resource value: 0x7f080062
-			public const int tooltip_corner_radius = 2131230818;
+			// aapt resource value: 0x7f0a0062
+			public const int tooltip_corner_radius = 2131361890;
 			
-			// aapt resource value: 0x7f080063
-			public const int tooltip_horizontal_padding = 2131230819;
+			// aapt resource value: 0x7f0a0063
+			public const int tooltip_horizontal_padding = 2131361891;
 			
-			// aapt resource value: 0x7f080064
-			public const int tooltip_margin = 2131230820;
+			// aapt resource value: 0x7f0a0064
+			public const int tooltip_margin = 2131361892;
 			
-			// aapt resource value: 0x7f080065
-			public const int tooltip_precise_anchor_extra_offset = 2131230821;
+			// aapt resource value: 0x7f0a0065
+			public const int tooltip_precise_anchor_extra_offset = 2131361893;
 			
-			// aapt resource value: 0x7f080066
-			public const int tooltip_precise_anchor_threshold = 2131230822;
+			// aapt resource value: 0x7f0a0066
+			public const int tooltip_precise_anchor_threshold = 2131361894;
 			
-			// aapt resource value: 0x7f080067
-			public const int tooltip_vertical_padding = 2131230823;
+			// aapt resource value: 0x7f0a0067
+			public const int tooltip_vertical_padding = 2131361895;
 			
-			// aapt resource value: 0x7f080068
-			public const int tooltip_y_offset_non_touch = 2131230824;
+			// aapt resource value: 0x7f0a0068
+			public const int tooltip_y_offset_non_touch = 2131361896;
 			
-			// aapt resource value: 0x7f080069
-			public const int tooltip_y_offset_touch = 2131230825;
+			// aapt resource value: 0x7f0a0069
+			public const int tooltip_y_offset_touch = 2131361897;
 			
 			static Dimension()
 			{
@@ -5303,614 +5144,644 @@ namespace OpenStreetMapDemo.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090032
-			public const int ALT = 2131296306;
+			// aapt resource value: 0x7f0b0032
+			public const int ALT = 2131427378;
 			
-			// aapt resource value: 0x7f090033
-			public const int CTRL = 2131296307;
+			// aapt resource value: 0x7f0b0033
+			public const int CTRL = 2131427379;
 			
-			// aapt resource value: 0x7f090034
-			public const int FUNCTION = 2131296308;
+			// aapt resource value: 0x7f0b0034
+			public const int FUNCTION = 2131427380;
 			
-			// aapt resource value: 0x7f090035
-			public const int META = 2131296309;
+			// aapt resource value: 0x7f0b0035
+			public const int META = 2131427381;
 			
-			// aapt resource value: 0x7f090036
-			public const int SHIFT = 2131296310;
+			// aapt resource value: 0x7f0b0036
+			public const int SHIFT = 2131427382;
 			
-			// aapt resource value: 0x7f090037
-			public const int SYM = 2131296311;
+			// aapt resource value: 0x7f0b0037
+			public const int SYM = 2131427383;
 			
-			// aapt resource value: 0x7f0900b6
-			public const int action0 = 2131296438;
+			// aapt resource value: 0x7f0b00ba
+			public const int action0 = 2131427514;
 			
-			// aapt resource value: 0x7f09007c
-			public const int action_bar = 2131296380;
+			// aapt resource value: 0x7f0b007c
+			public const int action_bar = 2131427452;
 			
-			// aapt resource value: 0x7f090001
-			public const int action_bar_activity_content = 2131296257;
+			// aapt resource value: 0x7f0b0001
+			public const int action_bar_activity_content = 2131427329;
 			
-			// aapt resource value: 0x7f09007b
-			public const int action_bar_container = 2131296379;
+			// aapt resource value: 0x7f0b007b
+			public const int action_bar_container = 2131427451;
 			
-			// aapt resource value: 0x7f090077
-			public const int action_bar_root = 2131296375;
+			// aapt resource value: 0x7f0b0077
+			public const int action_bar_root = 2131427447;
 			
-			// aapt resource value: 0x7f090002
-			public const int action_bar_spinner = 2131296258;
+			// aapt resource value: 0x7f0b0002
+			public const int action_bar_spinner = 2131427330;
 			
-			// aapt resource value: 0x7f09005b
-			public const int action_bar_subtitle = 2131296347;
+			// aapt resource value: 0x7f0b005b
+			public const int action_bar_subtitle = 2131427419;
 			
-			// aapt resource value: 0x7f09005a
-			public const int action_bar_title = 2131296346;
+			// aapt resource value: 0x7f0b005a
+			public const int action_bar_title = 2131427418;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int action_container = 2131296435;
+			// aapt resource value: 0x7f0b00b7
+			public const int action_container = 2131427511;
 			
-			// aapt resource value: 0x7f09007d
-			public const int action_context_bar = 2131296381;
+			// aapt resource value: 0x7f0b007d
+			public const int action_context_bar = 2131427453;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int action_divider = 2131296442;
+			// aapt resource value: 0x7f0b00be
+			public const int action_divider = 2131427518;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int action_image = 2131296436;
+			// aapt resource value: 0x7f0b00b8
+			public const int action_image = 2131427512;
 			
-			// aapt resource value: 0x7f090003
-			public const int action_menu_divider = 2131296259;
+			// aapt resource value: 0x7f0b0003
+			public const int action_menu_divider = 2131427331;
 			
-			// aapt resource value: 0x7f090004
-			public const int action_menu_presenter = 2131296260;
+			// aapt resource value: 0x7f0b0004
+			public const int action_menu_presenter = 2131427332;
 			
-			// aapt resource value: 0x7f090079
-			public const int action_mode_bar = 2131296377;
+			// aapt resource value: 0x7f0b0079
+			public const int action_mode_bar = 2131427449;
 			
-			// aapt resource value: 0x7f090078
-			public const int action_mode_bar_stub = 2131296376;
+			// aapt resource value: 0x7f0b0078
+			public const int action_mode_bar_stub = 2131427448;
 			
-			// aapt resource value: 0x7f09005c
-			public const int action_mode_close_button = 2131296348;
+			// aapt resource value: 0x7f0b005c
+			public const int action_mode_close_button = 2131427420;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int action_text = 2131296437;
+			// aapt resource value: 0x7f0b00b9
+			public const int action_text = 2131427513;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int actions = 2131296451;
+			// aapt resource value: 0x7f0b00c7
+			public const int actions = 2131427527;
 			
-			// aapt resource value: 0x7f09005d
-			public const int activity_chooser_view_content = 2131296349;
+			// aapt resource value: 0x7f0b005d
+			public const int activity_chooser_view_content = 2131427421;
 			
-			// aapt resource value: 0x7f090027
-			public const int add = 2131296295;
+			// aapt resource value: 0x7f0b0027
+			public const int add = 2131427367;
 			
-			// aapt resource value: 0x7f090070
-			public const int alertTitle = 2131296368;
+			// aapt resource value: 0x7f0b0070
+			public const int alertTitle = 2131427440;
 			
-			// aapt resource value: 0x7f090052
-			public const int all = 2131296338;
+			// aapt resource value: 0x7f0b0052
+			public const int all = 2131427410;
 			
-			// aapt resource value: 0x7f090038
-			public const int always = 2131296312;
+			// aapt resource value: 0x7f0b0038
+			public const int always = 2131427384;
 			
-			// aapt resource value: 0x7f090056
-			public const int async = 2131296342;
+			// aapt resource value: 0x7f0b0056
+			public const int async = 2131427414;
 			
-			// aapt resource value: 0x7f090044
-			public const int auto = 2131296324;
+			// aapt resource value: 0x7f0b0044
+			public const int auto = 2131427396;
 			
-			// aapt resource value: 0x7f09002f
-			public const int beginning = 2131296303;
+			// aapt resource value: 0x7f0b002f
+			public const int beginning = 2131427375;
 			
-			// aapt resource value: 0x7f090057
-			public const int blocking = 2131296343;
+			// aapt resource value: 0x7f0b0057
+			public const int blocking = 2131427415;
 			
-			// aapt resource value: 0x7f09003d
-			public const int bottom = 2131296317;
+			// aapt resource value: 0x7f0b003d
+			public const int bottom = 2131427389;
 			
-			// aapt resource value: 0x7f090063
-			public const int buttonPanel = 2131296355;
+			// aapt resource value: 0x7f0b008b
+			public const int bottomtab_navarea = 2131427467;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int cancel_action = 2131296439;
+			// aapt resource value: 0x7f0b008c
+			public const int bottomtab_tabbar = 2131427468;
 			
-			// aapt resource value: 0x7f090045
-			public const int center = 2131296325;
+			// aapt resource value: 0x7f0b0063
+			public const int buttonPanel = 2131427427;
 			
-			// aapt resource value: 0x7f090046
-			public const int center_horizontal = 2131296326;
+			// aapt resource value: 0x7f0b00bb
+			public const int cancel_action = 2131427515;
 			
-			// aapt resource value: 0x7f090047
-			public const int center_vertical = 2131296327;
+			// aapt resource value: 0x7f0b0045
+			public const int center = 2131427397;
 			
-			// aapt resource value: 0x7f090073
-			public const int checkbox = 2131296371;
+			// aapt resource value: 0x7f0b0046
+			public const int center_horizontal = 2131427398;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int chronometer = 2131296447;
+			// aapt resource value: 0x7f0b0047
+			public const int center_vertical = 2131427399;
 			
-			// aapt resource value: 0x7f09004e
-			public const int clip_horizontal = 2131296334;
+			// aapt resource value: 0x7f0b0073
+			public const int checkbox = 2131427443;
 			
-			// aapt resource value: 0x7f09004f
-			public const int clip_vertical = 2131296335;
+			// aapt resource value: 0x7f0b00c3
+			public const int chronometer = 2131427523;
 			
-			// aapt resource value: 0x7f090039
-			public const int collapseActionView = 2131296313;
+			// aapt resource value: 0x7f0b004e
+			public const int clip_horizontal = 2131427406;
 			
-			// aapt resource value: 0x7f09008d
-			public const int container = 2131296397;
+			// aapt resource value: 0x7f0b004f
+			public const int clip_vertical = 2131427407;
 			
-			// aapt resource value: 0x7f090066
-			public const int contentPanel = 2131296358;
+			// aapt resource value: 0x7f0b0039
+			public const int collapseActionView = 2131427385;
 			
-			// aapt resource value: 0x7f09008e
-			public const int coordinator = 2131296398;
+			// aapt resource value: 0x7f0b008f
+			public const int container = 2131427471;
 			
-			// aapt resource value: 0x7f09006d
-			public const int custom = 2131296365;
+			// aapt resource value: 0x7f0b0066
+			public const int contentPanel = 2131427430;
 			
-			// aapt resource value: 0x7f09006c
-			public const int customPanel = 2131296364;
+			// aapt resource value: 0x7f0b0090
+			public const int coordinator = 2131427472;
 			
-			// aapt resource value: 0x7f09007a
-			public const int decor_content_parent = 2131296378;
+			// aapt resource value: 0x7f0b006d
+			public const int custom = 2131427437;
 			
-			// aapt resource value: 0x7f090060
-			public const int default_activity_button = 2131296352;
+			// aapt resource value: 0x7f0b006c
+			public const int customPanel = 2131427436;
 			
-			// aapt resource value: 0x7f090090
-			public const int design_bottom_sheet = 2131296400;
+			// aapt resource value: 0x7f0b007a
+			public const int decor_content_parent = 2131427450;
 			
-			// aapt resource value: 0x7f090097
-			public const int design_menu_item_action_area = 2131296407;
+			// aapt resource value: 0x7f0b0060
+			public const int default_activity_button = 2131427424;
 			
-			// aapt resource value: 0x7f090096
-			public const int design_menu_item_action_area_stub = 2131296406;
+			// aapt resource value: 0x7f0b0092
+			public const int design_bottom_sheet = 2131427474;
 			
-			// aapt resource value: 0x7f090095
-			public const int design_menu_item_text = 2131296405;
+			// aapt resource value: 0x7f0b0099
+			public const int design_menu_item_action_area = 2131427481;
 			
-			// aapt resource value: 0x7f090094
-			public const int design_navigation_view = 2131296404;
+			// aapt resource value: 0x7f0b0098
+			public const int design_menu_item_action_area_stub = 2131427480;
 			
-			// aapt resource value: 0x7f090020
-			public const int disableHome = 2131296288;
+			// aapt resource value: 0x7f0b0097
+			public const int design_menu_item_text = 2131427479;
 			
-			// aapt resource value: 0x7f09007e
-			public const int edit_query = 2131296382;
+			// aapt resource value: 0x7f0b0096
+			public const int design_navigation_view = 2131427478;
 			
-			// aapt resource value: 0x7f090030
-			public const int end = 2131296304;
+			// aapt resource value: 0x7f0b0020
+			public const int disableHome = 2131427360;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int end_padder = 2131296453;
+			// aapt resource value: 0x7f0b007e
+			public const int edit_query = 2131427454;
 			
-			// aapt resource value: 0x7f09003f
-			public const int enterAlways = 2131296319;
+			// aapt resource value: 0x7f0b0030
+			public const int end = 2131427376;
 			
-			// aapt resource value: 0x7f090040
-			public const int enterAlwaysCollapsed = 2131296320;
+			// aapt resource value: 0x7f0b00c9
+			public const int end_padder = 2131427529;
 			
-			// aapt resource value: 0x7f090041
-			public const int exitUntilCollapsed = 2131296321;
+			// aapt resource value: 0x7f0b003f
+			public const int enterAlways = 2131427391;
 			
-			// aapt resource value: 0x7f09005e
-			public const int expand_activities_button = 2131296350;
+			// aapt resource value: 0x7f0b0040
+			public const int enterAlwaysCollapsed = 2131427392;
 			
-			// aapt resource value: 0x7f090072
-			public const int expanded_menu = 2131296370;
+			// aapt resource value: 0x7f0b0041
+			public const int exitUntilCollapsed = 2131427393;
 			
-			// aapt resource value: 0x7f090050
-			public const int fill = 2131296336;
+			// aapt resource value: 0x7f0b005e
+			public const int expand_activities_button = 2131427422;
 			
-			// aapt resource value: 0x7f090051
-			public const int fill_horizontal = 2131296337;
+			// aapt resource value: 0x7f0b0072
+			public const int expanded_menu = 2131427442;
 			
-			// aapt resource value: 0x7f090048
-			public const int fill_vertical = 2131296328;
+			// aapt resource value: 0x7f0b0050
+			public const int fill = 2131427408;
 			
-			// aapt resource value: 0x7f090054
-			public const int @fixed = 2131296340;
+			// aapt resource value: 0x7f0b0051
+			public const int fill_horizontal = 2131427409;
 			
-			// aapt resource value: 0x7f090058
-			public const int forever = 2131296344;
+			// aapt resource value: 0x7f0b0048
+			public const int fill_vertical = 2131427400;
 			
-			// aapt resource value: 0x7f09000a
-			public const int ghost_view = 2131296266;
+			// aapt resource value: 0x7f0b0054
+			public const int @fixed = 2131427412;
 			
-			// aapt resource value: 0x7f090005
-			public const int home = 2131296261;
+			// aapt resource value: 0x7f0b009b
+			public const int flyoutcontent_appbar = 2131427483;
 			
-			// aapt resource value: 0x7f090021
-			public const int homeAsUp = 2131296289;
+			// aapt resource value: 0x7f0b009c
+			public const int flyoutcontent_recycler = 2131427484;
 			
-			// aapt resource value: 0x7f090062
-			public const int icon = 2131296354;
+			// aapt resource value: 0x7f0b0058
+			public const int forever = 2131427416;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int icon_group = 2131296452;
+			// aapt resource value: 0x7f0b000a
+			public const int ghost_view = 2131427338;
 			
-			// aapt resource value: 0x7f09003a
-			public const int ifRoom = 2131296314;
+			// aapt resource value: 0x7f0b0005
+			public const int home = 2131427333;
 			
-			// aapt resource value: 0x7f09005f
-			public const int image = 2131296351;
+			// aapt resource value: 0x7f0b0021
+			public const int homeAsUp = 2131427361;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int info = 2131296448;
+			// aapt resource value: 0x7f0b0062
+			public const int icon = 2131427426;
 			
-			// aapt resource value: 0x7f090059
-			public const int italic = 2131296345;
+			// aapt resource value: 0x7f0b00c8
+			public const int icon_group = 2131427528;
 			
-			// aapt resource value: 0x7f090000
-			public const int item_touch_helper_previous_elevation = 2131296256;
+			// aapt resource value: 0x7f0b003a
+			public const int ifRoom = 2131427386;
 			
-			// aapt resource value: 0x7f09008c
-			public const int largeLabel = 2131296396;
+			// aapt resource value: 0x7f0b005f
+			public const int image = 2131427423;
 			
-			// aapt resource value: 0x7f090049
-			public const int left = 2131296329;
+			// aapt resource value: 0x7f0b00c4
+			public const int info = 2131427524;
 			
-			// aapt resource value: 0x7f090017
-			public const int line1 = 2131296279;
+			// aapt resource value: 0x7f0b0059
+			public const int italic = 2131427417;
 			
-			// aapt resource value: 0x7f090018
-			public const int line3 = 2131296280;
+			// aapt resource value: 0x7f0b0000
+			public const int item_touch_helper_previous_elevation = 2131427328;
 			
-			// aapt resource value: 0x7f09001d
-			public const int listMode = 2131296285;
+			// aapt resource value: 0x7f0b008e
+			public const int largeLabel = 2131427470;
 			
-			// aapt resource value: 0x7f090061
-			public const int list_item = 2131296353;
+			// aapt resource value: 0x7f0b0049
+			public const int left = 2131427401;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int masked = 2131296458;
+			// aapt resource value: 0x7f0b0017
+			public const int line1 = 2131427351;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int media_actions = 2131296441;
+			// aapt resource value: 0x7f0b0018
+			public const int line3 = 2131427352;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int message = 2131296456;
+			// aapt resource value: 0x7f0b001d
+			public const int listMode = 2131427357;
 			
-			// aapt resource value: 0x7f090031
-			public const int middle = 2131296305;
+			// aapt resource value: 0x7f0b0061
+			public const int list_item = 2131427425;
 			
-			// aapt resource value: 0x7f090053
-			public const int mini = 2131296339;
+			// aapt resource value: 0x7f0b00ca
+			public const int main_appbar = 2131427530;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int mr_art = 2131296421;
+			// aapt resource value: 0x7f0b00cc
+			public const int main_tablayout = 2131427532;
 			
-			// aapt resource value: 0x7f09009a
-			public const int mr_chooser_list = 2131296410;
+			// aapt resource value: 0x7f0b00cb
+			public const int main_toolbar = 2131427531;
 			
-			// aapt resource value: 0x7f09009d
-			public const int mr_chooser_route_desc = 2131296413;
+			// aapt resource value: 0x7f0b00cd
+			public const int main_viewpager = 2131427533;
 			
-			// aapt resource value: 0x7f09009b
-			public const int mr_chooser_route_icon = 2131296411;
+			// aapt resource value: 0x7f0b00d4
+			public const int masked = 2131427540;
 			
-			// aapt resource value: 0x7f09009c
-			public const int mr_chooser_route_name = 2131296412;
+			// aapt resource value: 0x7f0b00bd
+			public const int media_actions = 2131427517;
 			
-			// aapt resource value: 0x7f090099
-			public const int mr_chooser_title = 2131296409;
+			// aapt resource value: 0x7f0b00d2
+			public const int message = 2131427538;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int mr_close = 2131296418;
+			// aapt resource value: 0x7f0b0031
+			public const int middle = 2131427377;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int mr_control_divider = 2131296424;
+			// aapt resource value: 0x7f0b0053
+			public const int mini = 2131427411;
 			
-			// aapt resource value: 0x7f0900ae
-			public const int mr_control_playback_ctrl = 2131296430;
+			// aapt resource value: 0x7f0b00a9
+			public const int mr_art = 2131427497;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int mr_control_subtitle = 2131296433;
+			// aapt resource value: 0x7f0b009e
+			public const int mr_chooser_list = 2131427486;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int mr_control_title = 2131296432;
+			// aapt resource value: 0x7f0b00a1
+			public const int mr_chooser_route_desc = 2131427489;
 			
-			// aapt resource value: 0x7f0900af
-			public const int mr_control_title_container = 2131296431;
+			// aapt resource value: 0x7f0b009f
+			public const int mr_chooser_route_icon = 2131427487;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int mr_custom_control = 2131296419;
+			// aapt resource value: 0x7f0b00a0
+			public const int mr_chooser_route_name = 2131427488;
 			
-			// aapt resource value: 0x7f0900a4
-			public const int mr_default_control = 2131296420;
+			// aapt resource value: 0x7f0b009d
+			public const int mr_chooser_title = 2131427485;
 			
-			// aapt resource value: 0x7f09009f
-			public const int mr_dialog_area = 2131296415;
+			// aapt resource value: 0x7f0b00a6
+			public const int mr_close = 2131427494;
 			
-			// aapt resource value: 0x7f09009e
-			public const int mr_expandable_area = 2131296414;
+			// aapt resource value: 0x7f0b00ac
+			public const int mr_control_divider = 2131427500;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int mr_group_expand_collapse = 2131296434;
+			// aapt resource value: 0x7f0b00b2
+			public const int mr_control_playback_ctrl = 2131427506;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int mr_media_main_control = 2131296422;
+			// aapt resource value: 0x7f0b00b5
+			public const int mr_control_subtitle = 2131427509;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int mr_name = 2131296417;
+			// aapt resource value: 0x7f0b00b4
+			public const int mr_control_title = 2131427508;
 			
-			// aapt resource value: 0x7f0900a7
-			public const int mr_playback_control = 2131296423;
+			// aapt resource value: 0x7f0b00b3
+			public const int mr_control_title_container = 2131427507;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int mr_title_bar = 2131296416;
+			// aapt resource value: 0x7f0b00a7
+			public const int mr_custom_control = 2131427495;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int mr_volume_control = 2131296425;
+			// aapt resource value: 0x7f0b00a8
+			public const int mr_default_control = 2131427496;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int mr_volume_group_list = 2131296426;
+			// aapt resource value: 0x7f0b00a3
+			public const int mr_dialog_area = 2131427491;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int mr_volume_item_icon = 2131296428;
+			// aapt resource value: 0x7f0b00a2
+			public const int mr_expandable_area = 2131427490;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int mr_volume_slider = 2131296429;
+			// aapt resource value: 0x7f0b00b6
+			public const int mr_group_expand_collapse = 2131427510;
 			
-			// aapt resource value: 0x7f090028
-			public const int multiply = 2131296296;
+			// aapt resource value: 0x7f0b00aa
+			public const int mr_media_main_control = 2131427498;
 			
-			// aapt resource value: 0x7f090093
-			public const int navigation_header_container = 2131296403;
+			// aapt resource value: 0x7f0b00a5
+			public const int mr_name = 2131427493;
 			
-			// aapt resource value: 0x7f09003b
-			public const int never = 2131296315;
+			// aapt resource value: 0x7f0b00ab
+			public const int mr_playback_control = 2131427499;
 			
-			// aapt resource value: 0x7f090022
-			public const int none = 2131296290;
+			// aapt resource value: 0x7f0b00a4
+			public const int mr_title_bar = 2131427492;
 			
-			// aapt resource value: 0x7f09001e
-			public const int normal = 2131296286;
+			// aapt resource value: 0x7f0b00ad
+			public const int mr_volume_control = 2131427501;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int notification_background = 2131296450;
+			// aapt resource value: 0x7f0b00ae
+			public const int mr_volume_group_list = 2131427502;
 			
-			// aapt resource value: 0x7f0900bc
-			public const int notification_main_column = 2131296444;
+			// aapt resource value: 0x7f0b00b0
+			public const int mr_volume_item_icon = 2131427504;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int notification_main_column_container = 2131296443;
+			// aapt resource value: 0x7f0b00b1
+			public const int mr_volume_slider = 2131427505;
 			
-			// aapt resource value: 0x7f09004c
-			public const int parallax = 2131296332;
+			// aapt resource value: 0x7f0b0028
+			public const int multiply = 2131427368;
 			
-			// aapt resource value: 0x7f090065
-			public const int parentPanel = 2131296357;
+			// aapt resource value: 0x7f0b0095
+			public const int navigation_header_container = 2131427477;
 			
-			// aapt resource value: 0x7f09000b
-			public const int parent_matrix = 2131296267;
+			// aapt resource value: 0x7f0b003b
+			public const int never = 2131427387;
 			
-			// aapt resource value: 0x7f09004d
-			public const int pin = 2131296333;
+			// aapt resource value: 0x7f0b0022
+			public const int none = 2131427362;
 			
-			// aapt resource value: 0x7f090006
-			public const int progress_circular = 2131296262;
+			// aapt resource value: 0x7f0b001e
+			public const int normal = 2131427358;
 			
-			// aapt resource value: 0x7f090007
-			public const int progress_horizontal = 2131296263;
+			// aapt resource value: 0x7f0b00c6
+			public const int notification_background = 2131427526;
 			
-			// aapt resource value: 0x7f090075
-			public const int radio = 2131296373;
+			// aapt resource value: 0x7f0b00c0
+			public const int notification_main_column = 2131427520;
 			
-			// aapt resource value: 0x7f09004a
-			public const int right = 2131296330;
+			// aapt resource value: 0x7f0b00bf
+			public const int notification_main_column_container = 2131427519;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int right_icon = 2131296449;
+			// aapt resource value: 0x7f0b004c
+			public const int parallax = 2131427404;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int right_side = 2131296445;
+			// aapt resource value: 0x7f0b0065
+			public const int parentPanel = 2131427429;
 			
-			// aapt resource value: 0x7f09000c
-			public const int save_image_matrix = 2131296268;
+			// aapt resource value: 0x7f0b000b
+			public const int parent_matrix = 2131427339;
 			
-			// aapt resource value: 0x7f09000d
-			public const int save_non_transition_alpha = 2131296269;
+			// aapt resource value: 0x7f0b004d
+			public const int pin = 2131427405;
 			
-			// aapt resource value: 0x7f09000e
-			public const int save_scale_type = 2131296270;
+			// aapt resource value: 0x7f0b0006
+			public const int progress_circular = 2131427334;
 			
-			// aapt resource value: 0x7f090029
-			public const int screen = 2131296297;
+			// aapt resource value: 0x7f0b0007
+			public const int progress_horizontal = 2131427335;
 			
-			// aapt resource value: 0x7f090042
-			public const int scroll = 2131296322;
+			// aapt resource value: 0x7f0b0075
+			public const int radio = 2131427445;
 			
-			// aapt resource value: 0x7f09006b
-			public const int scrollIndicatorDown = 2131296363;
+			// aapt resource value: 0x7f0b004a
+			public const int right = 2131427402;
 			
-			// aapt resource value: 0x7f090067
-			public const int scrollIndicatorUp = 2131296359;
+			// aapt resource value: 0x7f0b00c5
+			public const int right_icon = 2131427525;
 			
-			// aapt resource value: 0x7f090068
-			public const int scrollView = 2131296360;
+			// aapt resource value: 0x7f0b00c1
+			public const int right_side = 2131427521;
 			
-			// aapt resource value: 0x7f090055
-			public const int scrollable = 2131296341;
+			// aapt resource value: 0x7f0b000c
+			public const int save_image_matrix = 2131427340;
 			
-			// aapt resource value: 0x7f090080
-			public const int search_badge = 2131296384;
+			// aapt resource value: 0x7f0b000d
+			public const int save_non_transition_alpha = 2131427341;
 			
-			// aapt resource value: 0x7f09007f
-			public const int search_bar = 2131296383;
+			// aapt resource value: 0x7f0b000e
+			public const int save_scale_type = 2131427342;
 			
-			// aapt resource value: 0x7f090081
-			public const int search_button = 2131296385;
+			// aapt resource value: 0x7f0b0029
+			public const int screen = 2131427369;
 			
-			// aapt resource value: 0x7f090086
-			public const int search_close_btn = 2131296390;
+			// aapt resource value: 0x7f0b0042
+			public const int scroll = 2131427394;
 			
-			// aapt resource value: 0x7f090082
-			public const int search_edit_frame = 2131296386;
+			// aapt resource value: 0x7f0b006b
+			public const int scrollIndicatorDown = 2131427435;
 			
-			// aapt resource value: 0x7f090088
-			public const int search_go_btn = 2131296392;
+			// aapt resource value: 0x7f0b0067
+			public const int scrollIndicatorUp = 2131427431;
 			
-			// aapt resource value: 0x7f090083
-			public const int search_mag_icon = 2131296387;
+			// aapt resource value: 0x7f0b0068
+			public const int scrollView = 2131427432;
 			
-			// aapt resource value: 0x7f090084
-			public const int search_plate = 2131296388;
+			// aapt resource value: 0x7f0b0055
+			public const int scrollable = 2131427413;
 			
-			// aapt resource value: 0x7f090085
-			public const int search_src_text = 2131296389;
+			// aapt resource value: 0x7f0b0080
+			public const int search_badge = 2131427456;
 			
-			// aapt resource value: 0x7f090089
-			public const int search_voice_btn = 2131296393;
+			// aapt resource value: 0x7f0b007f
+			public const int search_bar = 2131427455;
 			
-			// aapt resource value: 0x7f09008a
-			public const int select_dialog_listview = 2131296394;
+			// aapt resource value: 0x7f0b0081
+			public const int search_button = 2131427457;
 			
-			// aapt resource value: 0x7f090074
-			public const int shortcut = 2131296372;
+			// aapt resource value: 0x7f0b0086
+			public const int search_close_btn = 2131427462;
 			
-			// aapt resource value: 0x7f090023
-			public const int showCustom = 2131296291;
+			// aapt resource value: 0x7f0b0082
+			public const int search_edit_frame = 2131427458;
 			
-			// aapt resource value: 0x7f090024
-			public const int showHome = 2131296292;
+			// aapt resource value: 0x7f0b0088
+			public const int search_go_btn = 2131427464;
 			
-			// aapt resource value: 0x7f090025
-			public const int showTitle = 2131296293;
+			// aapt resource value: 0x7f0b0083
+			public const int search_mag_icon = 2131427459;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int sliding_tabs = 2131296454;
+			// aapt resource value: 0x7f0b0084
+			public const int search_plate = 2131427460;
 			
-			// aapt resource value: 0x7f09008b
-			public const int smallLabel = 2131296395;
+			// aapt resource value: 0x7f0b0085
+			public const int search_src_text = 2131427461;
 			
-			// aapt resource value: 0x7f090092
-			public const int snackbar_action = 2131296402;
+			// aapt resource value: 0x7f0b0089
+			public const int search_voice_btn = 2131427465;
 			
-			// aapt resource value: 0x7f090091
-			public const int snackbar_text = 2131296401;
+			// aapt resource value: 0x7f0b008a
+			public const int select_dialog_listview = 2131427466;
 			
-			// aapt resource value: 0x7f090043
-			public const int snap = 2131296323;
+			// aapt resource value: 0x7f0b00ce
+			public const int shellcontent_appbar = 2131427534;
 			
-			// aapt resource value: 0x7f090064
-			public const int spacer = 2131296356;
+			// aapt resource value: 0x7f0b00cf
+			public const int shellcontent_toolbar = 2131427535;
 			
-			// aapt resource value: 0x7f090008
-			public const int split_action_bar = 2131296264;
+			// aapt resource value: 0x7f0b0074
+			public const int shortcut = 2131427444;
 			
-			// aapt resource value: 0x7f09002a
-			public const int src_atop = 2131296298;
+			// aapt resource value: 0x7f0b0023
+			public const int showCustom = 2131427363;
 			
-			// aapt resource value: 0x7f09002b
-			public const int src_in = 2131296299;
+			// aapt resource value: 0x7f0b0024
+			public const int showHome = 2131427364;
 			
-			// aapt resource value: 0x7f09002c
-			public const int src_over = 2131296300;
+			// aapt resource value: 0x7f0b0025
+			public const int showTitle = 2131427365;
 			
-			// aapt resource value: 0x7f09004b
-			public const int start = 2131296331;
+			// aapt resource value: 0x7f0b00d0
+			public const int sliding_tabs = 2131427536;
 			
-			// aapt resource value: 0x7f0900b8
-			public const int status_bar_latest_event_content = 2131296440;
+			// aapt resource value: 0x7f0b008d
+			public const int smallLabel = 2131427469;
 			
-			// aapt resource value: 0x7f090076
-			public const int submenuarrow = 2131296374;
+			// aapt resource value: 0x7f0b0094
+			public const int snackbar_action = 2131427476;
 			
-			// aapt resource value: 0x7f090087
-			public const int submit_area = 2131296391;
+			// aapt resource value: 0x7f0b0093
+			public const int snackbar_text = 2131427475;
 			
-			// aapt resource value: 0x7f09001f
-			public const int tabMode = 2131296287;
+			// aapt resource value: 0x7f0b0043
+			public const int snap = 2131427395;
 			
-			// aapt resource value: 0x7f090019
-			public const int tag_transition_group = 2131296281;
+			// aapt resource value: 0x7f0b0064
+			public const int spacer = 2131427428;
 			
-			// aapt resource value: 0x7f09001a
-			public const int text = 2131296282;
+			// aapt resource value: 0x7f0b0008
+			public const int split_action_bar = 2131427336;
 			
-			// aapt resource value: 0x7f09001b
-			public const int text2 = 2131296283;
+			// aapt resource value: 0x7f0b002a
+			public const int src_atop = 2131427370;
 			
-			// aapt resource value: 0x7f09006a
-			public const int textSpacerNoButtons = 2131296362;
+			// aapt resource value: 0x7f0b002b
+			public const int src_in = 2131427371;
 			
-			// aapt resource value: 0x7f090069
-			public const int textSpacerNoTitle = 2131296361;
+			// aapt resource value: 0x7f0b002c
+			public const int src_over = 2131427372;
 			
-			// aapt resource value: 0x7f090098
-			public const int text_input_password_toggle = 2131296408;
+			// aapt resource value: 0x7f0b004b
+			public const int start = 2131427403;
 			
-			// aapt resource value: 0x7f090014
-			public const int textinput_counter = 2131296276;
+			// aapt resource value: 0x7f0b00bc
+			public const int status_bar_latest_event_content = 2131427516;
 			
-			// aapt resource value: 0x7f090015
-			public const int textinput_error = 2131296277;
+			// aapt resource value: 0x7f0b0076
+			public const int submenuarrow = 2131427446;
 			
-			// aapt resource value: 0x7f0900be
-			public const int time = 2131296446;
+			// aapt resource value: 0x7f0b0087
+			public const int submit_area = 2131427463;
 			
-			// aapt resource value: 0x7f09001c
-			public const int title = 2131296284;
+			// aapt resource value: 0x7f0b001f
+			public const int tabMode = 2131427359;
 			
-			// aapt resource value: 0x7f090071
-			public const int titleDividerNoCustom = 2131296369;
+			// aapt resource value: 0x7f0b0019
+			public const int tag_transition_group = 2131427353;
 			
-			// aapt resource value: 0x7f09006f
-			public const int title_template = 2131296367;
+			// aapt resource value: 0x7f0b001a
+			public const int text = 2131427354;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int toolbar = 2131296455;
+			// aapt resource value: 0x7f0b001b
+			public const int text2 = 2131427355;
 			
-			// aapt resource value: 0x7f09003e
-			public const int top = 2131296318;
+			// aapt resource value: 0x7f0b006a
+			public const int textSpacerNoButtons = 2131427434;
 			
-			// aapt resource value: 0x7f09006e
-			public const int topPanel = 2131296366;
+			// aapt resource value: 0x7f0b0069
+			public const int textSpacerNoTitle = 2131427433;
 			
-			// aapt resource value: 0x7f09008f
-			public const int touch_outside = 2131296399;
+			// aapt resource value: 0x7f0b009a
+			public const int text_input_password_toggle = 2131427482;
 			
-			// aapt resource value: 0x7f09000f
-			public const int transition_current_scene = 2131296271;
+			// aapt resource value: 0x7f0b0014
+			public const int textinput_counter = 2131427348;
 			
-			// aapt resource value: 0x7f090010
-			public const int transition_layout_save = 2131296272;
+			// aapt resource value: 0x7f0b0015
+			public const int textinput_error = 2131427349;
 			
-			// aapt resource value: 0x7f090011
-			public const int transition_position = 2131296273;
+			// aapt resource value: 0x7f0b00c2
+			public const int time = 2131427522;
 			
-			// aapt resource value: 0x7f090012
-			public const int transition_scene_layoutid_cache = 2131296274;
+			// aapt resource value: 0x7f0b001c
+			public const int title = 2131427356;
 			
-			// aapt resource value: 0x7f090013
-			public const int transition_transform = 2131296275;
+			// aapt resource value: 0x7f0b0071
+			public const int titleDividerNoCustom = 2131427441;
 			
-			// aapt resource value: 0x7f09002d
-			public const int uniform = 2131296301;
+			// aapt resource value: 0x7f0b006f
+			public const int title_template = 2131427439;
 			
-			// aapt resource value: 0x7f090009
-			public const int up = 2131296265;
+			// aapt resource value: 0x7f0b00d1
+			public const int toolbar = 2131427537;
 			
-			// aapt resource value: 0x7f090026
-			public const int useLogo = 2131296294;
+			// aapt resource value: 0x7f0b003e
+			public const int top = 2131427390;
 			
-			// aapt resource value: 0x7f090016
-			public const int view_offset_helper = 2131296278;
+			// aapt resource value: 0x7f0b006e
+			public const int topPanel = 2131427438;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int visible = 2131296457;
+			// aapt resource value: 0x7f0b0091
+			public const int touch_outside = 2131427473;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int volume_item_container = 2131296427;
+			// aapt resource value: 0x7f0b000f
+			public const int transition_current_scene = 2131427343;
 			
-			// aapt resource value: 0x7f09003c
-			public const int withText = 2131296316;
+			// aapt resource value: 0x7f0b0010
+			public const int transition_layout_save = 2131427344;
 			
-			// aapt resource value: 0x7f09002e
-			public const int wrap_content = 2131296302;
+			// aapt resource value: 0x7f0b0011
+			public const int transition_position = 2131427345;
+			
+			// aapt resource value: 0x7f0b0012
+			public const int transition_scene_layoutid_cache = 2131427346;
+			
+			// aapt resource value: 0x7f0b0013
+			public const int transition_transform = 2131427347;
+			
+			// aapt resource value: 0x7f0b002d
+			public const int uniform = 2131427373;
+			
+			// aapt resource value: 0x7f0b0009
+			public const int up = 2131427337;
+			
+			// aapt resource value: 0x7f0b0026
+			public const int useLogo = 2131427366;
+			
+			// aapt resource value: 0x7f0b0016
+			public const int view_offset_helper = 2131427350;
+			
+			// aapt resource value: 0x7f0b00d3
+			public const int visible = 2131427539;
+			
+			// aapt resource value: 0x7f0b00af
+			public const int volume_item_container = 2131427503;
+			
+			// aapt resource value: 0x7f0b003c
+			public const int withText = 2131427388;
+			
+			// aapt resource value: 0x7f0b002e
+			public const int wrap_content = 2131427374;
 			
 			static Id()
 			{
@@ -5925,44 +5796,44 @@ namespace OpenStreetMapDemo.Droid
 		public partial class Integer
 		{
 			
-			// aapt resource value: 0x7f0b0003
-			public const int abc_config_activityDefaultDur = 2131427331;
+			// aapt resource value: 0x7f0d0003
+			public const int abc_config_activityDefaultDur = 2131558403;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int abc_config_activityShortDur = 2131427332;
+			// aapt resource value: 0x7f0d0004
+			public const int abc_config_activityShortDur = 2131558404;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int app_bar_elevation_anim_duration = 2131427336;
+			// aapt resource value: 0x7f0d0008
+			public const int app_bar_elevation_anim_duration = 2131558408;
 			
-			// aapt resource value: 0x7f0b0009
-			public const int bottom_sheet_slide_duration = 2131427337;
+			// aapt resource value: 0x7f0d0009
+			public const int bottom_sheet_slide_duration = 2131558409;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int cancel_button_image_alpha = 2131427333;
+			// aapt resource value: 0x7f0d0005
+			public const int cancel_button_image_alpha = 2131558405;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int config_tooltipAnimTime = 2131427334;
+			// aapt resource value: 0x7f0d0006
+			public const int config_tooltipAnimTime = 2131558406;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int design_snackbar_text_max_lines = 2131427335;
+			// aapt resource value: 0x7f0d0007
+			public const int design_snackbar_text_max_lines = 2131558407;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int hide_password_duration = 2131427338;
+			// aapt resource value: 0x7f0d000a
+			public const int hide_password_duration = 2131558410;
 			
-			// aapt resource value: 0x7f0b0000
-			public const int mr_controller_volume_group_list_animation_duration_ms = 2131427328;
+			// aapt resource value: 0x7f0d0000
+			public const int mr_controller_volume_group_list_animation_duration_ms = 2131558400;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131427329;
+			// aapt resource value: 0x7f0d0001
+			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131558401;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131427330;
+			// aapt resource value: 0x7f0d0002
+			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131558402;
 			
-			// aapt resource value: 0x7f0b000b
-			public const int show_password_duration = 2131427339;
+			// aapt resource value: 0x7f0d000b
+			public const int show_password_duration = 2131558411;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int status_bar_notification_info_maxnum = 2131427340;
+			// aapt resource value: 0x7f0d000c
+			public const int status_bar_notification_info_maxnum = 2131558412;
 			
 			static Integer()
 			{
@@ -6075,130 +5946,142 @@ namespace OpenStreetMapDemo.Droid
 			public const int abc_select_dialog_material = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int design_bottom_navigation_item = 2130968602;
+			public const int BottomTabLayout = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_bottom_sheet_dialog = 2130968603;
+			public const int design_bottom_navigation_item = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_layout_snackbar = 2130968604;
+			public const int design_bottom_sheet_dialog = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_snackbar_include = 2130968605;
+			public const int design_layout_snackbar = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_tab_icon = 2130968606;
+			public const int design_layout_snackbar_include = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_tab_text = 2130968607;
+			public const int design_layout_tab_icon = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_menu_item_action_area = 2130968608;
+			public const int design_layout_tab_text = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_navigation_item = 2130968609;
+			public const int design_menu_item_action_area = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item_header = 2130968610;
+			public const int design_navigation_item = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item_separator = 2130968611;
+			public const int design_navigation_item_header = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_subheader = 2130968612;
+			public const int design_navigation_item_separator = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_menu = 2130968613;
+			public const int design_navigation_item_subheader = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_menu_item = 2130968614;
+			public const int design_navigation_menu = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_text_input_password_icon = 2130968615;
+			public const int design_navigation_menu_item = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int mr_chooser_dialog = 2130968616;
+			public const int design_text_input_password_icon = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int mr_chooser_list_item = 2130968617;
+			public const int FlyoutContent = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int mr_controller_material_dialog_b = 2130968618;
+			public const int mr_chooser_dialog = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int mr_controller_volume_item = 2130968619;
+			public const int mr_chooser_list_item = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int mr_playback_control = 2130968620;
+			public const int mr_controller_material_dialog_b = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int mr_volume_control = 2130968621;
+			public const int mr_controller_volume_item = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_action = 2130968622;
+			public const int mr_playback_control = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_action_tombstone = 2130968623;
+			public const int mr_volume_control = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_media_action = 2130968624;
+			public const int notification_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_media_cancel_action = 2130968625;
+			public const int notification_action_tombstone = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_big_media = 2130968626;
+			public const int notification_media_action = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_big_media_custom = 2130968627;
+			public const int notification_media_cancel_action = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_big_media_narrow = 2130968628;
+			public const int notification_template_big_media = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_big_media_narrow_custom = 2130968629;
+			public const int notification_template_big_media_custom = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_custom_big = 2130968630;
+			public const int notification_template_big_media_narrow = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_icon_group = 2130968631;
+			public const int notification_template_big_media_narrow_custom = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_lines_media = 2130968632;
+			public const int notification_template_custom_big = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_media = 2130968633;
+			public const int notification_template_icon_group = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_media_custom = 2130968634;
+			public const int notification_template_lines_media = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_part_chronometer = 2130968635;
+			public const int notification_template_media = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_part_time = 2130968636;
+			public const int notification_template_media_custom = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_item_material = 2130968637;
+			public const int notification_template_part_chronometer = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_multichoice_material = 2130968638;
+			public const int notification_template_part_time = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_singlechoice_material = 2130968639;
+			public const int RootLayout = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int support_simple_spinner_dropdown_item = 2130968640;
+			public const int select_dialog_item_material = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int Tabbar = 2130968641;
+			public const int select_dialog_multichoice_material = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int Toolbar = 2130968642;
+			public const int select_dialog_singlechoice_material = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int tooltip = 2130968643;
+			public const int ShellContent = 2130968643;
+			
+			// aapt resource value: 0x7f040044
+			public const int support_simple_spinner_dropdown_item = 2130968644;
+			
+			// aapt resource value: 0x7f040045
+			public const int Tabbar = 2130968645;
+			
+			// aapt resource value: 0x7f040046
+			public const int Toolbar = 2130968646;
+			
+			// aapt resource value: 0x7f040047
+			public const int tooltip = 2130968647;
 			
 			static Layout()
 			{
@@ -6235,191 +6118,191 @@ namespace OpenStreetMapDemo.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0a003d
-			public const int ApplicationName = 2131361853;
+			// aapt resource value: 0x7f0c003d
+			public const int ApplicationName = 2131492925;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int Hello = 2131361852;
+			// aapt resource value: 0x7f0c003c
+			public const int Hello = 2131492924;
 			
-			// aapt resource value: 0x7f0a0015
-			public const int abc_action_bar_home_description = 2131361813;
+			// aapt resource value: 0x7f0c0015
+			public const int abc_action_bar_home_description = 2131492885;
 			
-			// aapt resource value: 0x7f0a0016
-			public const int abc_action_bar_up_description = 2131361814;
+			// aapt resource value: 0x7f0c0016
+			public const int abc_action_bar_up_description = 2131492886;
 			
-			// aapt resource value: 0x7f0a0017
-			public const int abc_action_menu_overflow_description = 2131361815;
+			// aapt resource value: 0x7f0c0017
+			public const int abc_action_menu_overflow_description = 2131492887;
 			
-			// aapt resource value: 0x7f0a0018
-			public const int abc_action_mode_done = 2131361816;
+			// aapt resource value: 0x7f0c0018
+			public const int abc_action_mode_done = 2131492888;
 			
-			// aapt resource value: 0x7f0a0019
-			public const int abc_activity_chooser_view_see_all = 2131361817;
+			// aapt resource value: 0x7f0c0019
+			public const int abc_activity_chooser_view_see_all = 2131492889;
 			
-			// aapt resource value: 0x7f0a001a
-			public const int abc_activitychooserview_choose_application = 2131361818;
+			// aapt resource value: 0x7f0c001a
+			public const int abc_activitychooserview_choose_application = 2131492890;
 			
-			// aapt resource value: 0x7f0a001b
-			public const int abc_capital_off = 2131361819;
+			// aapt resource value: 0x7f0c001b
+			public const int abc_capital_off = 2131492891;
 			
-			// aapt resource value: 0x7f0a001c
-			public const int abc_capital_on = 2131361820;
+			// aapt resource value: 0x7f0c001c
+			public const int abc_capital_on = 2131492892;
 			
-			// aapt resource value: 0x7f0a0027
-			public const int abc_font_family_body_1_material = 2131361831;
+			// aapt resource value: 0x7f0c0027
+			public const int abc_font_family_body_1_material = 2131492903;
 			
-			// aapt resource value: 0x7f0a0028
-			public const int abc_font_family_body_2_material = 2131361832;
+			// aapt resource value: 0x7f0c0028
+			public const int abc_font_family_body_2_material = 2131492904;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int abc_font_family_button_material = 2131361833;
+			// aapt resource value: 0x7f0c0029
+			public const int abc_font_family_button_material = 2131492905;
 			
-			// aapt resource value: 0x7f0a002a
-			public const int abc_font_family_caption_material = 2131361834;
+			// aapt resource value: 0x7f0c002a
+			public const int abc_font_family_caption_material = 2131492906;
 			
-			// aapt resource value: 0x7f0a002b
-			public const int abc_font_family_display_1_material = 2131361835;
+			// aapt resource value: 0x7f0c002b
+			public const int abc_font_family_display_1_material = 2131492907;
 			
-			// aapt resource value: 0x7f0a002c
-			public const int abc_font_family_display_2_material = 2131361836;
+			// aapt resource value: 0x7f0c002c
+			public const int abc_font_family_display_2_material = 2131492908;
 			
-			// aapt resource value: 0x7f0a002d
-			public const int abc_font_family_display_3_material = 2131361837;
+			// aapt resource value: 0x7f0c002d
+			public const int abc_font_family_display_3_material = 2131492909;
 			
-			// aapt resource value: 0x7f0a002e
-			public const int abc_font_family_display_4_material = 2131361838;
+			// aapt resource value: 0x7f0c002e
+			public const int abc_font_family_display_4_material = 2131492910;
 			
-			// aapt resource value: 0x7f0a002f
-			public const int abc_font_family_headline_material = 2131361839;
+			// aapt resource value: 0x7f0c002f
+			public const int abc_font_family_headline_material = 2131492911;
 			
-			// aapt resource value: 0x7f0a0030
-			public const int abc_font_family_menu_material = 2131361840;
+			// aapt resource value: 0x7f0c0030
+			public const int abc_font_family_menu_material = 2131492912;
 			
-			// aapt resource value: 0x7f0a0031
-			public const int abc_font_family_subhead_material = 2131361841;
+			// aapt resource value: 0x7f0c0031
+			public const int abc_font_family_subhead_material = 2131492913;
 			
-			// aapt resource value: 0x7f0a0032
-			public const int abc_font_family_title_material = 2131361842;
+			// aapt resource value: 0x7f0c0032
+			public const int abc_font_family_title_material = 2131492914;
 			
-			// aapt resource value: 0x7f0a001d
-			public const int abc_search_hint = 2131361821;
+			// aapt resource value: 0x7f0c001d
+			public const int abc_search_hint = 2131492893;
 			
-			// aapt resource value: 0x7f0a001e
-			public const int abc_searchview_description_clear = 2131361822;
+			// aapt resource value: 0x7f0c001e
+			public const int abc_searchview_description_clear = 2131492894;
 			
-			// aapt resource value: 0x7f0a001f
-			public const int abc_searchview_description_query = 2131361823;
+			// aapt resource value: 0x7f0c001f
+			public const int abc_searchview_description_query = 2131492895;
 			
-			// aapt resource value: 0x7f0a0020
-			public const int abc_searchview_description_search = 2131361824;
+			// aapt resource value: 0x7f0c0020
+			public const int abc_searchview_description_search = 2131492896;
 			
-			// aapt resource value: 0x7f0a0021
-			public const int abc_searchview_description_submit = 2131361825;
+			// aapt resource value: 0x7f0c0021
+			public const int abc_searchview_description_submit = 2131492897;
 			
-			// aapt resource value: 0x7f0a0022
-			public const int abc_searchview_description_voice = 2131361826;
+			// aapt resource value: 0x7f0c0022
+			public const int abc_searchview_description_voice = 2131492898;
 			
-			// aapt resource value: 0x7f0a0023
-			public const int abc_shareactionprovider_share_with = 2131361827;
+			// aapt resource value: 0x7f0c0023
+			public const int abc_shareactionprovider_share_with = 2131492899;
 			
-			// aapt resource value: 0x7f0a0024
-			public const int abc_shareactionprovider_share_with_application = 2131361828;
+			// aapt resource value: 0x7f0c0024
+			public const int abc_shareactionprovider_share_with_application = 2131492900;
 			
-			// aapt resource value: 0x7f0a0025
-			public const int abc_toolbar_collapse_description = 2131361829;
+			// aapt resource value: 0x7f0c0025
+			public const int abc_toolbar_collapse_description = 2131492901;
 			
-			// aapt resource value: 0x7f0a0033
-			public const int appbar_scrolling_view_behavior = 2131361843;
+			// aapt resource value: 0x7f0c0033
+			public const int appbar_scrolling_view_behavior = 2131492915;
 			
-			// aapt resource value: 0x7f0a0034
-			public const int bottom_sheet_behavior = 2131361844;
+			// aapt resource value: 0x7f0c0034
+			public const int bottom_sheet_behavior = 2131492916;
 			
-			// aapt resource value: 0x7f0a0035
-			public const int character_counter_pattern = 2131361845;
+			// aapt resource value: 0x7f0c0035
+			public const int character_counter_pattern = 2131492917;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int mr_button_content_description = 2131361792;
+			// aapt resource value: 0x7f0c0000
+			public const int mr_button_content_description = 2131492864;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int mr_cast_button_connected = 2131361793;
+			// aapt resource value: 0x7f0c0001
+			public const int mr_cast_button_connected = 2131492865;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int mr_cast_button_connecting = 2131361794;
+			// aapt resource value: 0x7f0c0002
+			public const int mr_cast_button_connecting = 2131492866;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int mr_cast_button_disconnected = 2131361795;
+			// aapt resource value: 0x7f0c0003
+			public const int mr_cast_button_disconnected = 2131492867;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int mr_chooser_searching = 2131361796;
+			// aapt resource value: 0x7f0c0004
+			public const int mr_chooser_searching = 2131492868;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int mr_chooser_title = 2131361797;
+			// aapt resource value: 0x7f0c0005
+			public const int mr_chooser_title = 2131492869;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int mr_controller_album_art = 2131361798;
+			// aapt resource value: 0x7f0c0006
+			public const int mr_controller_album_art = 2131492870;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int mr_controller_casting_screen = 2131361799;
+			// aapt resource value: 0x7f0c0007
+			public const int mr_controller_casting_screen = 2131492871;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int mr_controller_close_description = 2131361800;
+			// aapt resource value: 0x7f0c0008
+			public const int mr_controller_close_description = 2131492872;
 			
-			// aapt resource value: 0x7f0a0009
-			public const int mr_controller_collapse_group = 2131361801;
+			// aapt resource value: 0x7f0c0009
+			public const int mr_controller_collapse_group = 2131492873;
 			
-			// aapt resource value: 0x7f0a000a
-			public const int mr_controller_disconnect = 2131361802;
+			// aapt resource value: 0x7f0c000a
+			public const int mr_controller_disconnect = 2131492874;
 			
-			// aapt resource value: 0x7f0a000b
-			public const int mr_controller_expand_group = 2131361803;
+			// aapt resource value: 0x7f0c000b
+			public const int mr_controller_expand_group = 2131492875;
 			
-			// aapt resource value: 0x7f0a000c
-			public const int mr_controller_no_info_available = 2131361804;
+			// aapt resource value: 0x7f0c000c
+			public const int mr_controller_no_info_available = 2131492876;
 			
-			// aapt resource value: 0x7f0a000d
-			public const int mr_controller_no_media_selected = 2131361805;
+			// aapt resource value: 0x7f0c000d
+			public const int mr_controller_no_media_selected = 2131492877;
 			
-			// aapt resource value: 0x7f0a000e
-			public const int mr_controller_pause = 2131361806;
+			// aapt resource value: 0x7f0c000e
+			public const int mr_controller_pause = 2131492878;
 			
-			// aapt resource value: 0x7f0a000f
-			public const int mr_controller_play = 2131361807;
+			// aapt resource value: 0x7f0c000f
+			public const int mr_controller_play = 2131492879;
 			
-			// aapt resource value: 0x7f0a0010
-			public const int mr_controller_stop = 2131361808;
+			// aapt resource value: 0x7f0c0010
+			public const int mr_controller_stop = 2131492880;
 			
-			// aapt resource value: 0x7f0a0011
-			public const int mr_controller_stop_casting = 2131361809;
+			// aapt resource value: 0x7f0c0011
+			public const int mr_controller_stop_casting = 2131492881;
 			
-			// aapt resource value: 0x7f0a0012
-			public const int mr_controller_volume_slider = 2131361810;
+			// aapt resource value: 0x7f0c0012
+			public const int mr_controller_volume_slider = 2131492882;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int mr_system_route_name = 2131361811;
+			// aapt resource value: 0x7f0c0013
+			public const int mr_system_route_name = 2131492883;
 			
-			// aapt resource value: 0x7f0a0014
-			public const int mr_user_route_category_name = 2131361812;
+			// aapt resource value: 0x7f0c0014
+			public const int mr_user_route_category_name = 2131492884;
 			
-			// aapt resource value: 0x7f0a0036
-			public const int password_toggle_content_description = 2131361846;
+			// aapt resource value: 0x7f0c0036
+			public const int password_toggle_content_description = 2131492918;
 			
-			// aapt resource value: 0x7f0a0037
-			public const int path_password_eye = 2131361847;
+			// aapt resource value: 0x7f0c0037
+			public const int path_password_eye = 2131492919;
 			
-			// aapt resource value: 0x7f0a0038
-			public const int path_password_eye_mask_strike_through = 2131361848;
+			// aapt resource value: 0x7f0c0038
+			public const int path_password_eye_mask_strike_through = 2131492920;
 			
-			// aapt resource value: 0x7f0a0039
-			public const int path_password_eye_mask_visible = 2131361849;
+			// aapt resource value: 0x7f0c0039
+			public const int path_password_eye_mask_visible = 2131492921;
 			
-			// aapt resource value: 0x7f0a003a
-			public const int path_password_strike_through = 2131361850;
+			// aapt resource value: 0x7f0c003a
+			public const int path_password_strike_through = 2131492922;
 			
-			// aapt resource value: 0x7f0a0026
-			public const int search_menu_title = 2131361830;
+			// aapt resource value: 0x7f0c0026
+			public const int search_menu_title = 2131492902;
 			
-			// aapt resource value: 0x7f0a003b
-			public const int status_bar_notification_info_overflow = 2131361851;
+			// aapt resource value: 0x7f0c003b
+			public const int status_bar_notification_info_overflow = 2131492923;
 			
 			static String()
 			{
@@ -6434,1211 +6317,1217 @@ namespace OpenStreetMapDemo.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0c00a4
-			public const int AlertDialog_AppCompat = 2131493028;
+			// aapt resource value: 0x7f0900a6
+			public const int AlertDialog_AppCompat = 2131296422;
 			
-			// aapt resource value: 0x7f0c00a5
-			public const int AlertDialog_AppCompat_Light = 2131493029;
+			// aapt resource value: 0x7f0900a7
+			public const int AlertDialog_AppCompat_Light = 2131296423;
 			
-			// aapt resource value: 0x7f0c00a6
-			public const int Animation_AppCompat_Dialog = 2131493030;
+			// aapt resource value: 0x7f0900a8
+			public const int Animation_AppCompat_Dialog = 2131296424;
 			
-			// aapt resource value: 0x7f0c00a7
-			public const int Animation_AppCompat_DropDownUp = 2131493031;
+			// aapt resource value: 0x7f0900a9
+			public const int Animation_AppCompat_DropDownUp = 2131296425;
 			
-			// aapt resource value: 0x7f0c00a8
-			public const int Animation_AppCompat_Tooltip = 2131493032;
+			// aapt resource value: 0x7f0900aa
+			public const int Animation_AppCompat_Tooltip = 2131296426;
 			
-			// aapt resource value: 0x7f0c016e
-			public const int Animation_Design_BottomSheetDialog = 2131493230;
+			// aapt resource value: 0x7f090170
+			public const int Animation_Design_BottomSheetDialog = 2131296624;
 			
-			// aapt resource value: 0x7f0c0191
-			public const int AppCompatDialogStyle = 2131493265;
+			// aapt resource value: 0x7f090193
+			public const int AppCompatDialogStyle = 2131296659;
 			
-			// aapt resource value: 0x7f0c00a9
-			public const int Base_AlertDialog_AppCompat = 2131493033;
+			// aapt resource value: 0x7f0900ab
+			public const int Base_AlertDialog_AppCompat = 2131296427;
 			
-			// aapt resource value: 0x7f0c00aa
-			public const int Base_AlertDialog_AppCompat_Light = 2131493034;
+			// aapt resource value: 0x7f0900ac
+			public const int Base_AlertDialog_AppCompat_Light = 2131296428;
 			
-			// aapt resource value: 0x7f0c00ab
-			public const int Base_Animation_AppCompat_Dialog = 2131493035;
+			// aapt resource value: 0x7f0900ad
+			public const int Base_Animation_AppCompat_Dialog = 2131296429;
 			
-			// aapt resource value: 0x7f0c00ac
-			public const int Base_Animation_AppCompat_DropDownUp = 2131493036;
+			// aapt resource value: 0x7f0900ae
+			public const int Base_Animation_AppCompat_DropDownUp = 2131296430;
 			
-			// aapt resource value: 0x7f0c00ad
-			public const int Base_Animation_AppCompat_Tooltip = 2131493037;
+			// aapt resource value: 0x7f0900af
+			public const int Base_Animation_AppCompat_Tooltip = 2131296431;
 			
-			// aapt resource value: 0x7f0c000c
-			public const int Base_CardView = 2131492876;
+			// aapt resource value: 0x7f09000e
+			public const int Base_CardView = 2131296270;
 			
-			// aapt resource value: 0x7f0c00ae
-			public const int Base_DialogWindowTitle_AppCompat = 2131493038;
+			// aapt resource value: 0x7f0900b0
+			public const int Base_DialogWindowTitle_AppCompat = 2131296432;
 			
-			// aapt resource value: 0x7f0c00af
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131493039;
+			// aapt resource value: 0x7f0900b1
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131296433;
 			
-			// aapt resource value: 0x7f0c0048
-			public const int Base_TextAppearance_AppCompat = 2131492936;
+			// aapt resource value: 0x7f09004a
+			public const int Base_TextAppearance_AppCompat = 2131296330;
 			
-			// aapt resource value: 0x7f0c0049
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131492937;
+			// aapt resource value: 0x7f09004b
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131296331;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131492938;
+			// aapt resource value: 0x7f09004c
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131296332;
 			
-			// aapt resource value: 0x7f0c0036
-			public const int Base_TextAppearance_AppCompat_Button = 2131492918;
+			// aapt resource value: 0x7f090038
+			public const int Base_TextAppearance_AppCompat_Button = 2131296312;
 			
-			// aapt resource value: 0x7f0c004b
-			public const int Base_TextAppearance_AppCompat_Caption = 2131492939;
+			// aapt resource value: 0x7f09004d
+			public const int Base_TextAppearance_AppCompat_Caption = 2131296333;
 			
-			// aapt resource value: 0x7f0c004c
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131492940;
+			// aapt resource value: 0x7f09004e
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131296334;
 			
-			// aapt resource value: 0x7f0c004d
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131492941;
+			// aapt resource value: 0x7f09004f
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131296335;
 			
-			// aapt resource value: 0x7f0c004e
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131492942;
+			// aapt resource value: 0x7f090050
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131296336;
 			
-			// aapt resource value: 0x7f0c004f
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131492943;
+			// aapt resource value: 0x7f090051
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131296337;
 			
-			// aapt resource value: 0x7f0c0050
-			public const int Base_TextAppearance_AppCompat_Headline = 2131492944;
+			// aapt resource value: 0x7f090052
+			public const int Base_TextAppearance_AppCompat_Headline = 2131296338;
 			
-			// aapt resource value: 0x7f0c001a
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131492890;
+			// aapt resource value: 0x7f09001c
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131296284;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int Base_TextAppearance_AppCompat_Large = 2131492945;
+			// aapt resource value: 0x7f090053
+			public const int Base_TextAppearance_AppCompat_Large = 2131296339;
 			
-			// aapt resource value: 0x7f0c001b
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131492891;
+			// aapt resource value: 0x7f09001d
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131296285;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131492946;
+			// aapt resource value: 0x7f090054
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131296340;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131492947;
+			// aapt resource value: 0x7f090055
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131296341;
 			
-			// aapt resource value: 0x7f0c0054
-			public const int Base_TextAppearance_AppCompat_Medium = 2131492948;
+			// aapt resource value: 0x7f090056
+			public const int Base_TextAppearance_AppCompat_Medium = 2131296342;
 			
-			// aapt resource value: 0x7f0c001c
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131492892;
+			// aapt resource value: 0x7f09001e
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131296286;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int Base_TextAppearance_AppCompat_Menu = 2131492949;
+			// aapt resource value: 0x7f090057
+			public const int Base_TextAppearance_AppCompat_Menu = 2131296343;
 			
-			// aapt resource value: 0x7f0c00b0
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131493040;
+			// aapt resource value: 0x7f0900b2
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131296434;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131492950;
+			// aapt resource value: 0x7f090058
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131296344;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131492951;
+			// aapt resource value: 0x7f090059
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131296345;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int Base_TextAppearance_AppCompat_Small = 2131492952;
+			// aapt resource value: 0x7f09005a
+			public const int Base_TextAppearance_AppCompat_Small = 2131296346;
 			
-			// aapt resource value: 0x7f0c001d
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131492893;
+			// aapt resource value: 0x7f09001f
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131296287;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131492953;
+			// aapt resource value: 0x7f09005b
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131296347;
 			
-			// aapt resource value: 0x7f0c001e
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131492894;
+			// aapt resource value: 0x7f090020
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131296288;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int Base_TextAppearance_AppCompat_Title = 2131492954;
+			// aapt resource value: 0x7f09005c
+			public const int Base_TextAppearance_AppCompat_Title = 2131296348;
 			
-			// aapt resource value: 0x7f0c001f
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131492895;
+			// aapt resource value: 0x7f090021
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131296289;
 			
-			// aapt resource value: 0x7f0c00b1
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131493041;
+			// aapt resource value: 0x7f0900b3
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131296435;
 			
-			// aapt resource value: 0x7f0c0095
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131493013;
+			// aapt resource value: 0x7f090097
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131296407;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131492955;
+			// aapt resource value: 0x7f09005d
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131296349;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131492956;
+			// aapt resource value: 0x7f09005e
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131296350;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131492957;
+			// aapt resource value: 0x7f09005f
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131296351;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131492958;
+			// aapt resource value: 0x7f090060
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131296352;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131492959;
+			// aapt resource value: 0x7f090061
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131296353;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131492960;
+			// aapt resource value: 0x7f090062
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131296354;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131492961;
+			// aapt resource value: 0x7f090063
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131296355;
 			
-			// aapt resource value: 0x7f0c009c
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131493020;
+			// aapt resource value: 0x7f09009e
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131296414;
 			
-			// aapt resource value: 0x7f0c009d
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131493021;
+			// aapt resource value: 0x7f09009f
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131296415;
 			
-			// aapt resource value: 0x7f0c0096
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131493014;
+			// aapt resource value: 0x7f090098
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131296408;
 			
-			// aapt resource value: 0x7f0c00b2
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131493042;
+			// aapt resource value: 0x7f0900b4
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131296436;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131492962;
+			// aapt resource value: 0x7f090064
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131296356;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131492963;
+			// aapt resource value: 0x7f090065
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131296357;
 			
-			// aapt resource value: 0x7f0c0064
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131492964;
+			// aapt resource value: 0x7f090066
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131296358;
 			
-			// aapt resource value: 0x7f0c0065
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131492965;
+			// aapt resource value: 0x7f090067
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131296359;
 			
-			// aapt resource value: 0x7f0c0066
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131492966;
+			// aapt resource value: 0x7f090068
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131296360;
 			
-			// aapt resource value: 0x7f0c00b3
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131493043;
+			// aapt resource value: 0x7f0900b5
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131296437;
 			
-			// aapt resource value: 0x7f0c0067
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131492967;
+			// aapt resource value: 0x7f090069
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131296361;
 			
-			// aapt resource value: 0x7f0c0068
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131492968;
+			// aapt resource value: 0x7f09006a
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131296362;
 			
-			// aapt resource value: 0x7f0c0069
-			public const int Base_Theme_AppCompat = 2131492969;
+			// aapt resource value: 0x7f09006b
+			public const int Base_Theme_AppCompat = 2131296363;
 			
-			// aapt resource value: 0x7f0c00b4
-			public const int Base_Theme_AppCompat_CompactMenu = 2131493044;
+			// aapt resource value: 0x7f0900b6
+			public const int Base_Theme_AppCompat_CompactMenu = 2131296438;
 			
-			// aapt resource value: 0x7f0c0020
-			public const int Base_Theme_AppCompat_Dialog = 2131492896;
+			// aapt resource value: 0x7f090022
+			public const int Base_Theme_AppCompat_Dialog = 2131296290;
 			
-			// aapt resource value: 0x7f0c0021
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131492897;
+			// aapt resource value: 0x7f090023
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131296291;
 			
-			// aapt resource value: 0x7f0c00b5
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131493045;
+			// aapt resource value: 0x7f0900b7
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131296439;
 			
-			// aapt resource value: 0x7f0c0022
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131492898;
+			// aapt resource value: 0x7f090024
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131296292;
 			
-			// aapt resource value: 0x7f0c0010
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131492880;
+			// aapt resource value: 0x7f090012
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131296274;
 			
-			// aapt resource value: 0x7f0c006a
-			public const int Base_Theme_AppCompat_Light = 2131492970;
+			// aapt resource value: 0x7f09006c
+			public const int Base_Theme_AppCompat_Light = 2131296364;
 			
-			// aapt resource value: 0x7f0c00b6
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131493046;
+			// aapt resource value: 0x7f0900b8
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131296440;
 			
-			// aapt resource value: 0x7f0c0023
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131492899;
+			// aapt resource value: 0x7f090025
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131296293;
 			
-			// aapt resource value: 0x7f0c0024
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131492900;
+			// aapt resource value: 0x7f090026
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131296294;
 			
-			// aapt resource value: 0x7f0c00b7
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131493047;
+			// aapt resource value: 0x7f0900b9
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131296441;
 			
-			// aapt resource value: 0x7f0c0025
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131492901;
+			// aapt resource value: 0x7f090027
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131296295;
 			
-			// aapt resource value: 0x7f0c0011
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131492881;
+			// aapt resource value: 0x7f090013
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131296275;
 			
-			// aapt resource value: 0x7f0c00b8
-			public const int Base_ThemeOverlay_AppCompat = 2131493048;
+			// aapt resource value: 0x7f0900ba
+			public const int Base_ThemeOverlay_AppCompat = 2131296442;
 			
-			// aapt resource value: 0x7f0c00b9
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131493049;
+			// aapt resource value: 0x7f0900bb
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131296443;
 			
-			// aapt resource value: 0x7f0c00ba
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131493050;
+			// aapt resource value: 0x7f0900bc
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131296444;
 			
-			// aapt resource value: 0x7f0c00bb
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131493051;
+			// aapt resource value: 0x7f0900bd
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131296445;
 			
-			// aapt resource value: 0x7f0c0026
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131492902;
+			// aapt resource value: 0x7f090028
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131296296;
 			
-			// aapt resource value: 0x7f0c0027
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131492903;
+			// aapt resource value: 0x7f090029
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131296297;
 			
-			// aapt resource value: 0x7f0c00bc
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131493052;
+			// aapt resource value: 0x7f0900be
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131296446;
 			
-			// aapt resource value: 0x7f0c0028
-			public const int Base_V11_Theme_AppCompat_Dialog = 2131492904;
+			// aapt resource value: 0x7f09002a
+			public const int Base_V11_Theme_AppCompat_Dialog = 2131296298;
 			
-			// aapt resource value: 0x7f0c0029
-			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131492905;
+			// aapt resource value: 0x7f09002b
+			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131296299;
 			
-			// aapt resource value: 0x7f0c002a
-			public const int Base_V11_ThemeOverlay_AppCompat_Dialog = 2131492906;
+			// aapt resource value: 0x7f09002c
+			public const int Base_V11_ThemeOverlay_AppCompat_Dialog = 2131296300;
 			
-			// aapt resource value: 0x7f0c0032
-			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131492914;
+			// aapt resource value: 0x7f090034
+			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131296308;
 			
-			// aapt resource value: 0x7f0c0033
-			public const int Base_V12_Widget_AppCompat_EditText = 2131492915;
+			// aapt resource value: 0x7f090035
+			public const int Base_V12_Widget_AppCompat_EditText = 2131296309;
 			
-			// aapt resource value: 0x7f0c016f
-			public const int Base_V14_Widget_Design_AppBarLayout = 2131493231;
+			// aapt resource value: 0x7f090171
+			public const int Base_V14_Widget_Design_AppBarLayout = 2131296625;
 			
-			// aapt resource value: 0x7f0c006b
-			public const int Base_V21_Theme_AppCompat = 2131492971;
+			// aapt resource value: 0x7f09006d
+			public const int Base_V21_Theme_AppCompat = 2131296365;
 			
-			// aapt resource value: 0x7f0c006c
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131492972;
+			// aapt resource value: 0x7f09006e
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131296366;
 			
-			// aapt resource value: 0x7f0c006d
-			public const int Base_V21_Theme_AppCompat_Light = 2131492973;
+			// aapt resource value: 0x7f09006f
+			public const int Base_V21_Theme_AppCompat_Light = 2131296367;
 			
-			// aapt resource value: 0x7f0c006e
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131492974;
+			// aapt resource value: 0x7f090070
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131296368;
 			
-			// aapt resource value: 0x7f0c006f
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131492975;
+			// aapt resource value: 0x7f090071
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131296369;
 			
-			// aapt resource value: 0x7f0c016b
-			public const int Base_V21_Widget_Design_AppBarLayout = 2131493227;
+			// aapt resource value: 0x7f09016d
+			public const int Base_V21_Widget_Design_AppBarLayout = 2131296621;
 			
-			// aapt resource value: 0x7f0c0093
-			public const int Base_V22_Theme_AppCompat = 2131493011;
+			// aapt resource value: 0x7f090095
+			public const int Base_V22_Theme_AppCompat = 2131296405;
 			
-			// aapt resource value: 0x7f0c0094
-			public const int Base_V22_Theme_AppCompat_Light = 2131493012;
+			// aapt resource value: 0x7f090096
+			public const int Base_V22_Theme_AppCompat_Light = 2131296406;
 			
-			// aapt resource value: 0x7f0c0097
-			public const int Base_V23_Theme_AppCompat = 2131493015;
+			// aapt resource value: 0x7f090099
+			public const int Base_V23_Theme_AppCompat = 2131296409;
 			
-			// aapt resource value: 0x7f0c0098
-			public const int Base_V23_Theme_AppCompat_Light = 2131493016;
+			// aapt resource value: 0x7f09009a
+			public const int Base_V23_Theme_AppCompat_Light = 2131296410;
 			
-			// aapt resource value: 0x7f0c00a0
-			public const int Base_V26_Theme_AppCompat = 2131493024;
+			// aapt resource value: 0x7f0900a2
+			public const int Base_V26_Theme_AppCompat = 2131296418;
 			
-			// aapt resource value: 0x7f0c00a1
-			public const int Base_V26_Theme_AppCompat_Light = 2131493025;
+			// aapt resource value: 0x7f0900a3
+			public const int Base_V26_Theme_AppCompat_Light = 2131296419;
 			
-			// aapt resource value: 0x7f0c00a2
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131493026;
+			// aapt resource value: 0x7f0900a4
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131296420;
 			
-			// aapt resource value: 0x7f0c016d
-			public const int Base_V26_Widget_Design_AppBarLayout = 2131493229;
+			// aapt resource value: 0x7f09016f
+			public const int Base_V26_Widget_Design_AppBarLayout = 2131296623;
 			
-			// aapt resource value: 0x7f0c00bd
-			public const int Base_V7_Theme_AppCompat = 2131493053;
+			// aapt resource value: 0x7f0900bf
+			public const int Base_V7_Theme_AppCompat = 2131296447;
 			
-			// aapt resource value: 0x7f0c00be
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131493054;
+			// aapt resource value: 0x7f0900c0
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131296448;
 			
-			// aapt resource value: 0x7f0c00bf
-			public const int Base_V7_Theme_AppCompat_Light = 2131493055;
+			// aapt resource value: 0x7f0900c1
+			public const int Base_V7_Theme_AppCompat_Light = 2131296449;
 			
-			// aapt resource value: 0x7f0c00c0
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131493056;
+			// aapt resource value: 0x7f0900c2
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131296450;
 			
-			// aapt resource value: 0x7f0c00c1
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131493057;
+			// aapt resource value: 0x7f0900c3
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131296451;
 			
-			// aapt resource value: 0x7f0c00c2
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131493058;
+			// aapt resource value: 0x7f0900c4
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131296452;
 			
-			// aapt resource value: 0x7f0c00c3
-			public const int Base_V7_Widget_AppCompat_EditText = 2131493059;
+			// aapt resource value: 0x7f0900c5
+			public const int Base_V7_Widget_AppCompat_EditText = 2131296453;
 			
-			// aapt resource value: 0x7f0c00c4
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131493060;
+			// aapt resource value: 0x7f0900c6
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131296454;
 			
-			// aapt resource value: 0x7f0c00c5
-			public const int Base_Widget_AppCompat_ActionBar = 2131493061;
+			// aapt resource value: 0x7f0900c7
+			public const int Base_Widget_AppCompat_ActionBar = 2131296455;
 			
-			// aapt resource value: 0x7f0c00c6
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131493062;
+			// aapt resource value: 0x7f0900c8
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131296456;
 			
-			// aapt resource value: 0x7f0c00c7
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131493063;
+			// aapt resource value: 0x7f0900c9
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131296457;
 			
-			// aapt resource value: 0x7f0c0070
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131492976;
+			// aapt resource value: 0x7f090072
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131296370;
 			
-			// aapt resource value: 0x7f0c0071
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131492977;
+			// aapt resource value: 0x7f090073
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131296371;
 			
-			// aapt resource value: 0x7f0c0072
-			public const int Base_Widget_AppCompat_ActionButton = 2131492978;
+			// aapt resource value: 0x7f090074
+			public const int Base_Widget_AppCompat_ActionButton = 2131296372;
 			
-			// aapt resource value: 0x7f0c0073
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131492979;
+			// aapt resource value: 0x7f090075
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131296373;
 			
-			// aapt resource value: 0x7f0c0074
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131492980;
+			// aapt resource value: 0x7f090076
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131296374;
 			
-			// aapt resource value: 0x7f0c00c8
-			public const int Base_Widget_AppCompat_ActionMode = 2131493064;
+			// aapt resource value: 0x7f0900ca
+			public const int Base_Widget_AppCompat_ActionMode = 2131296458;
 			
-			// aapt resource value: 0x7f0c00c9
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131493065;
+			// aapt resource value: 0x7f0900cb
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131296459;
 			
-			// aapt resource value: 0x7f0c0034
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131492916;
+			// aapt resource value: 0x7f090036
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131296310;
 			
-			// aapt resource value: 0x7f0c0075
-			public const int Base_Widget_AppCompat_Button = 2131492981;
+			// aapt resource value: 0x7f090077
+			public const int Base_Widget_AppCompat_Button = 2131296375;
 			
-			// aapt resource value: 0x7f0c0076
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131492982;
+			// aapt resource value: 0x7f090078
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131296376;
 			
-			// aapt resource value: 0x7f0c0077
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131492983;
+			// aapt resource value: 0x7f090079
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131296377;
 			
-			// aapt resource value: 0x7f0c00ca
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131493066;
+			// aapt resource value: 0x7f0900cc
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131296460;
 			
-			// aapt resource value: 0x7f0c0099
-			public const int Base_Widget_AppCompat_Button_Colored = 2131493017;
+			// aapt resource value: 0x7f09009b
+			public const int Base_Widget_AppCompat_Button_Colored = 2131296411;
 			
-			// aapt resource value: 0x7f0c0078
-			public const int Base_Widget_AppCompat_Button_Small = 2131492984;
+			// aapt resource value: 0x7f09007a
+			public const int Base_Widget_AppCompat_Button_Small = 2131296378;
 			
-			// aapt resource value: 0x7f0c0079
-			public const int Base_Widget_AppCompat_ButtonBar = 2131492985;
+			// aapt resource value: 0x7f09007b
+			public const int Base_Widget_AppCompat_ButtonBar = 2131296379;
 			
-			// aapt resource value: 0x7f0c00cb
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131493067;
+			// aapt resource value: 0x7f0900cd
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131296461;
 			
-			// aapt resource value: 0x7f0c007a
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131492986;
+			// aapt resource value: 0x7f09007c
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131296380;
 			
-			// aapt resource value: 0x7f0c007b
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131492987;
+			// aapt resource value: 0x7f09007d
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131296381;
 			
-			// aapt resource value: 0x7f0c00cc
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131493068;
+			// aapt resource value: 0x7f0900ce
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131296462;
 			
-			// aapt resource value: 0x7f0c000f
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131492879;
+			// aapt resource value: 0x7f090011
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131296273;
 			
-			// aapt resource value: 0x7f0c00cd
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131493069;
+			// aapt resource value: 0x7f0900cf
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131296463;
 			
-			// aapt resource value: 0x7f0c007c
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131492988;
+			// aapt resource value: 0x7f09007e
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131296382;
 			
-			// aapt resource value: 0x7f0c0035
-			public const int Base_Widget_AppCompat_EditText = 2131492917;
+			// aapt resource value: 0x7f090037
+			public const int Base_Widget_AppCompat_EditText = 2131296311;
 			
-			// aapt resource value: 0x7f0c007d
-			public const int Base_Widget_AppCompat_ImageButton = 2131492989;
+			// aapt resource value: 0x7f09007f
+			public const int Base_Widget_AppCompat_ImageButton = 2131296383;
 			
-			// aapt resource value: 0x7f0c00ce
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131493070;
+			// aapt resource value: 0x7f0900d0
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131296464;
 			
-			// aapt resource value: 0x7f0c00cf
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131493071;
+			// aapt resource value: 0x7f0900d1
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131296465;
 			
-			// aapt resource value: 0x7f0c00d0
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131493072;
+			// aapt resource value: 0x7f0900d2
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131296466;
 			
-			// aapt resource value: 0x7f0c007e
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131492990;
+			// aapt resource value: 0x7f090080
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131296384;
 			
-			// aapt resource value: 0x7f0c007f
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131492991;
+			// aapt resource value: 0x7f090081
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131296385;
 			
-			// aapt resource value: 0x7f0c0080
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131492992;
+			// aapt resource value: 0x7f090082
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131296386;
 			
-			// aapt resource value: 0x7f0c0081
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131492993;
+			// aapt resource value: 0x7f090083
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131296387;
 			
-			// aapt resource value: 0x7f0c0082
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131492994;
+			// aapt resource value: 0x7f090084
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131296388;
 			
-			// aapt resource value: 0x7f0c00d1
-			public const int Base_Widget_AppCompat_ListMenuView = 2131493073;
+			// aapt resource value: 0x7f0900d3
+			public const int Base_Widget_AppCompat_ListMenuView = 2131296467;
 			
-			// aapt resource value: 0x7f0c0083
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131492995;
+			// aapt resource value: 0x7f090085
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131296389;
 			
-			// aapt resource value: 0x7f0c0084
-			public const int Base_Widget_AppCompat_ListView = 2131492996;
+			// aapt resource value: 0x7f090086
+			public const int Base_Widget_AppCompat_ListView = 2131296390;
 			
-			// aapt resource value: 0x7f0c0085
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131492997;
+			// aapt resource value: 0x7f090087
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131296391;
 			
-			// aapt resource value: 0x7f0c0086
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131492998;
+			// aapt resource value: 0x7f090088
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131296392;
 			
-			// aapt resource value: 0x7f0c0087
-			public const int Base_Widget_AppCompat_PopupMenu = 2131492999;
+			// aapt resource value: 0x7f090089
+			public const int Base_Widget_AppCompat_PopupMenu = 2131296393;
 			
-			// aapt resource value: 0x7f0c0088
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131493000;
+			// aapt resource value: 0x7f09008a
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131296394;
 			
-			// aapt resource value: 0x7f0c00d2
-			public const int Base_Widget_AppCompat_PopupWindow = 2131493074;
+			// aapt resource value: 0x7f0900d4
+			public const int Base_Widget_AppCompat_PopupWindow = 2131296468;
 			
-			// aapt resource value: 0x7f0c002b
-			public const int Base_Widget_AppCompat_ProgressBar = 2131492907;
+			// aapt resource value: 0x7f09002d
+			public const int Base_Widget_AppCompat_ProgressBar = 2131296301;
 			
-			// aapt resource value: 0x7f0c002c
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131492908;
+			// aapt resource value: 0x7f09002e
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131296302;
 			
-			// aapt resource value: 0x7f0c0089
-			public const int Base_Widget_AppCompat_RatingBar = 2131493001;
+			// aapt resource value: 0x7f09008b
+			public const int Base_Widget_AppCompat_RatingBar = 2131296395;
 			
-			// aapt resource value: 0x7f0c009a
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131493018;
+			// aapt resource value: 0x7f09009c
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131296412;
 			
-			// aapt resource value: 0x7f0c009b
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131493019;
+			// aapt resource value: 0x7f09009d
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131296413;
 			
-			// aapt resource value: 0x7f0c00d3
-			public const int Base_Widget_AppCompat_SearchView = 2131493075;
+			// aapt resource value: 0x7f0900d5
+			public const int Base_Widget_AppCompat_SearchView = 2131296469;
 			
-			// aapt resource value: 0x7f0c00d4
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131493076;
+			// aapt resource value: 0x7f0900d6
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131296470;
 			
-			// aapt resource value: 0x7f0c008a
-			public const int Base_Widget_AppCompat_SeekBar = 2131493002;
+			// aapt resource value: 0x7f09008c
+			public const int Base_Widget_AppCompat_SeekBar = 2131296396;
 			
-			// aapt resource value: 0x7f0c00d5
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131493077;
+			// aapt resource value: 0x7f0900d7
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131296471;
 			
-			// aapt resource value: 0x7f0c008b
-			public const int Base_Widget_AppCompat_Spinner = 2131493003;
+			// aapt resource value: 0x7f09008d
+			public const int Base_Widget_AppCompat_Spinner = 2131296397;
 			
-			// aapt resource value: 0x7f0c0012
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131492882;
+			// aapt resource value: 0x7f090014
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131296276;
 			
-			// aapt resource value: 0x7f0c008c
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131493004;
+			// aapt resource value: 0x7f09008e
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131296398;
 			
-			// aapt resource value: 0x7f0c00a3
-			public const int Base_Widget_AppCompat_Toolbar = 2131493027;
+			// aapt resource value: 0x7f0900a5
+			public const int Base_Widget_AppCompat_Toolbar = 2131296421;
 			
-			// aapt resource value: 0x7f0c008d
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131493005;
+			// aapt resource value: 0x7f09008f
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131296399;
 			
-			// aapt resource value: 0x7f0c016c
-			public const int Base_Widget_Design_AppBarLayout = 2131493228;
+			// aapt resource value: 0x7f09016e
+			public const int Base_Widget_Design_AppBarLayout = 2131296622;
 			
-			// aapt resource value: 0x7f0c0170
-			public const int Base_Widget_Design_TabLayout = 2131493232;
+			// aapt resource value: 0x7f090172
+			public const int Base_Widget_Design_TabLayout = 2131296626;
 			
-			// aapt resource value: 0x7f0c000b
-			public const int CardView = 2131492875;
+			// aapt resource value: 0x7f09000d
+			public const int CardView = 2131296269;
 			
-			// aapt resource value: 0x7f0c000d
-			public const int CardView_Dark = 2131492877;
+			// aapt resource value: 0x7f09000f
+			public const int CardView_Dark = 2131296271;
 			
-			// aapt resource value: 0x7f0c000e
-			public const int CardView_Light = 2131492878;
+			// aapt resource value: 0x7f090010
+			public const int CardView_Light = 2131296272;
 			
-			// aapt resource value: 0x7f0c018f
-			public const int MainTheme = 2131493263;
+			// aapt resource value: 0x7f090191
+			public const int MainTheme = 2131296657;
 			
-			// aapt resource value: 0x7f0c0190
-			public const int MainTheme_Base = 2131493264;
+			// aapt resource value: 0x7f090192
+			public const int MainTheme_Base = 2131296658;
 			
-			// aapt resource value: 0x7f0c002d
-			public const int Platform_AppCompat = 2131492909;
+			// aapt resource value: 0x7f090001
+			public const int NestedScrollBarStyle = 2131296257;
 			
-			// aapt resource value: 0x7f0c002e
-			public const int Platform_AppCompat_Light = 2131492910;
+			// aapt resource value: 0x7f09002f
+			public const int Platform_AppCompat = 2131296303;
 			
-			// aapt resource value: 0x7f0c008e
-			public const int Platform_ThemeOverlay_AppCompat = 2131493006;
+			// aapt resource value: 0x7f090030
+			public const int Platform_AppCompat_Light = 2131296304;
 			
-			// aapt resource value: 0x7f0c008f
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131493007;
+			// aapt resource value: 0x7f090090
+			public const int Platform_ThemeOverlay_AppCompat = 2131296400;
 			
-			// aapt resource value: 0x7f0c0090
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131493008;
+			// aapt resource value: 0x7f090091
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131296401;
 			
-			// aapt resource value: 0x7f0c002f
-			public const int Platform_V11_AppCompat = 2131492911;
+			// aapt resource value: 0x7f090092
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131296402;
 			
-			// aapt resource value: 0x7f0c0030
-			public const int Platform_V11_AppCompat_Light = 2131492912;
+			// aapt resource value: 0x7f090031
+			public const int Platform_V11_AppCompat = 2131296305;
 			
-			// aapt resource value: 0x7f0c0037
-			public const int Platform_V14_AppCompat = 2131492919;
+			// aapt resource value: 0x7f090032
+			public const int Platform_V11_AppCompat_Light = 2131296306;
 			
-			// aapt resource value: 0x7f0c0038
-			public const int Platform_V14_AppCompat_Light = 2131492920;
+			// aapt resource value: 0x7f090039
+			public const int Platform_V14_AppCompat = 2131296313;
 			
-			// aapt resource value: 0x7f0c0091
-			public const int Platform_V21_AppCompat = 2131493009;
+			// aapt resource value: 0x7f09003a
+			public const int Platform_V14_AppCompat_Light = 2131296314;
 			
-			// aapt resource value: 0x7f0c0092
-			public const int Platform_V21_AppCompat_Light = 2131493010;
+			// aapt resource value: 0x7f090093
+			public const int Platform_V21_AppCompat = 2131296403;
 			
-			// aapt resource value: 0x7f0c009e
-			public const int Platform_V25_AppCompat = 2131493022;
+			// aapt resource value: 0x7f090094
+			public const int Platform_V21_AppCompat_Light = 2131296404;
 			
-			// aapt resource value: 0x7f0c009f
-			public const int Platform_V25_AppCompat_Light = 2131493023;
+			// aapt resource value: 0x7f0900a0
+			public const int Platform_V25_AppCompat = 2131296416;
 			
-			// aapt resource value: 0x7f0c0031
-			public const int Platform_Widget_AppCompat_Spinner = 2131492913;
+			// aapt resource value: 0x7f0900a1
+			public const int Platform_V25_AppCompat_Light = 2131296417;
 			
-			// aapt resource value: 0x7f0c003a
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131492922;
+			// aapt resource value: 0x7f090033
+			public const int Platform_Widget_AppCompat_Spinner = 2131296307;
 			
-			// aapt resource value: 0x7f0c003b
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131492923;
+			// aapt resource value: 0x7f09003c
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131296316;
 			
-			// aapt resource value: 0x7f0c003c
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131492924;
+			// aapt resource value: 0x7f09003d
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131296317;
 			
-			// aapt resource value: 0x7f0c003d
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131492925;
+			// aapt resource value: 0x7f09003e
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131296318;
 			
-			// aapt resource value: 0x7f0c003e
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131492926;
+			// aapt resource value: 0x7f09003f
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131296319;
 			
-			// aapt resource value: 0x7f0c003f
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131492927;
+			// aapt resource value: 0x7f090040
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131296320;
 			
-			// aapt resource value: 0x7f0c0040
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131492928;
+			// aapt resource value: 0x7f090041
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131296321;
 			
-			// aapt resource value: 0x7f0c0041
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131492929;
+			// aapt resource value: 0x7f090042
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131296322;
 			
-			// aapt resource value: 0x7f0c0042
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131492930;
+			// aapt resource value: 0x7f090043
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131296323;
 			
-			// aapt resource value: 0x7f0c0043
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131492931;
+			// aapt resource value: 0x7f090044
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131296324;
 			
-			// aapt resource value: 0x7f0c0044
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131492932;
+			// aapt resource value: 0x7f090045
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131296325;
 			
-			// aapt resource value: 0x7f0c0045
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131492933;
+			// aapt resource value: 0x7f090046
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131296326;
 			
-			// aapt resource value: 0x7f0c0046
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131492934;
+			// aapt resource value: 0x7f090047
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131296327;
 			
-			// aapt resource value: 0x7f0c0047
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131492935;
+			// aapt resource value: 0x7f090048
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131296328;
 			
-			// aapt resource value: 0x7f0c00d6
-			public const int TextAppearance_AppCompat = 2131493078;
+			// aapt resource value: 0x7f090049
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131296329;
 			
-			// aapt resource value: 0x7f0c00d7
-			public const int TextAppearance_AppCompat_Body1 = 2131493079;
+			// aapt resource value: 0x7f0900d8
+			public const int TextAppearance_AppCompat = 2131296472;
 			
-			// aapt resource value: 0x7f0c00d8
-			public const int TextAppearance_AppCompat_Body2 = 2131493080;
+			// aapt resource value: 0x7f0900d9
+			public const int TextAppearance_AppCompat_Body1 = 2131296473;
 			
-			// aapt resource value: 0x7f0c00d9
-			public const int TextAppearance_AppCompat_Button = 2131493081;
+			// aapt resource value: 0x7f0900da
+			public const int TextAppearance_AppCompat_Body2 = 2131296474;
 			
-			// aapt resource value: 0x7f0c00da
-			public const int TextAppearance_AppCompat_Caption = 2131493082;
+			// aapt resource value: 0x7f0900db
+			public const int TextAppearance_AppCompat_Button = 2131296475;
 			
-			// aapt resource value: 0x7f0c00db
-			public const int TextAppearance_AppCompat_Display1 = 2131493083;
+			// aapt resource value: 0x7f0900dc
+			public const int TextAppearance_AppCompat_Caption = 2131296476;
 			
-			// aapt resource value: 0x7f0c00dc
-			public const int TextAppearance_AppCompat_Display2 = 2131493084;
+			// aapt resource value: 0x7f0900dd
+			public const int TextAppearance_AppCompat_Display1 = 2131296477;
 			
-			// aapt resource value: 0x7f0c00dd
-			public const int TextAppearance_AppCompat_Display3 = 2131493085;
+			// aapt resource value: 0x7f0900de
+			public const int TextAppearance_AppCompat_Display2 = 2131296478;
 			
-			// aapt resource value: 0x7f0c00de
-			public const int TextAppearance_AppCompat_Display4 = 2131493086;
+			// aapt resource value: 0x7f0900df
+			public const int TextAppearance_AppCompat_Display3 = 2131296479;
 			
-			// aapt resource value: 0x7f0c00df
-			public const int TextAppearance_AppCompat_Headline = 2131493087;
+			// aapt resource value: 0x7f0900e0
+			public const int TextAppearance_AppCompat_Display4 = 2131296480;
 			
-			// aapt resource value: 0x7f0c00e0
-			public const int TextAppearance_AppCompat_Inverse = 2131493088;
+			// aapt resource value: 0x7f0900e1
+			public const int TextAppearance_AppCompat_Headline = 2131296481;
 			
-			// aapt resource value: 0x7f0c00e1
-			public const int TextAppearance_AppCompat_Large = 2131493089;
+			// aapt resource value: 0x7f0900e2
+			public const int TextAppearance_AppCompat_Inverse = 2131296482;
 			
-			// aapt resource value: 0x7f0c00e2
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131493090;
+			// aapt resource value: 0x7f0900e3
+			public const int TextAppearance_AppCompat_Large = 2131296483;
 			
-			// aapt resource value: 0x7f0c00e3
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131493091;
+			// aapt resource value: 0x7f0900e4
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131296484;
 			
-			// aapt resource value: 0x7f0c00e4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131493092;
+			// aapt resource value: 0x7f0900e5
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131296485;
 			
-			// aapt resource value: 0x7f0c00e5
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131493093;
+			// aapt resource value: 0x7f0900e6
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131296486;
 			
-			// aapt resource value: 0x7f0c00e6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131493094;
+			// aapt resource value: 0x7f0900e7
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131296487;
 			
-			// aapt resource value: 0x7f0c00e7
-			public const int TextAppearance_AppCompat_Medium = 2131493095;
+			// aapt resource value: 0x7f0900e8
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131296488;
 			
-			// aapt resource value: 0x7f0c00e8
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131493096;
+			// aapt resource value: 0x7f0900e9
+			public const int TextAppearance_AppCompat_Medium = 2131296489;
 			
-			// aapt resource value: 0x7f0c00e9
-			public const int TextAppearance_AppCompat_Menu = 2131493097;
+			// aapt resource value: 0x7f0900ea
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131296490;
 			
-			// aapt resource value: 0x7f0c00ea
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131493098;
+			// aapt resource value: 0x7f0900eb
+			public const int TextAppearance_AppCompat_Menu = 2131296491;
 			
-			// aapt resource value: 0x7f0c00eb
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131493099;
+			// aapt resource value: 0x7f0900ec
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131296492;
 			
-			// aapt resource value: 0x7f0c00ec
-			public const int TextAppearance_AppCompat_Small = 2131493100;
+			// aapt resource value: 0x7f0900ed
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131296493;
 			
-			// aapt resource value: 0x7f0c00ed
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131493101;
+			// aapt resource value: 0x7f0900ee
+			public const int TextAppearance_AppCompat_Small = 2131296494;
 			
-			// aapt resource value: 0x7f0c00ee
-			public const int TextAppearance_AppCompat_Subhead = 2131493102;
+			// aapt resource value: 0x7f0900ef
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131296495;
 			
-			// aapt resource value: 0x7f0c00ef
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131493103;
+			// aapt resource value: 0x7f0900f0
+			public const int TextAppearance_AppCompat_Subhead = 2131296496;
 			
-			// aapt resource value: 0x7f0c00f0
-			public const int TextAppearance_AppCompat_Title = 2131493104;
+			// aapt resource value: 0x7f0900f1
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131296497;
 			
-			// aapt resource value: 0x7f0c00f1
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131493105;
+			// aapt resource value: 0x7f0900f2
+			public const int TextAppearance_AppCompat_Title = 2131296498;
 			
-			// aapt resource value: 0x7f0c0039
-			public const int TextAppearance_AppCompat_Tooltip = 2131492921;
+			// aapt resource value: 0x7f0900f3
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131296499;
 			
-			// aapt resource value: 0x7f0c00f2
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131493106;
+			// aapt resource value: 0x7f09003b
+			public const int TextAppearance_AppCompat_Tooltip = 2131296315;
 			
-			// aapt resource value: 0x7f0c00f3
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131493107;
+			// aapt resource value: 0x7f0900f4
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131296500;
 			
-			// aapt resource value: 0x7f0c00f4
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131493108;
+			// aapt resource value: 0x7f0900f5
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131296501;
 			
-			// aapt resource value: 0x7f0c00f5
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131493109;
+			// aapt resource value: 0x7f0900f6
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131296502;
 			
-			// aapt resource value: 0x7f0c00f6
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131493110;
+			// aapt resource value: 0x7f0900f7
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131296503;
 			
-			// aapt resource value: 0x7f0c00f7
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131493111;
+			// aapt resource value: 0x7f0900f8
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131296504;
 			
-			// aapt resource value: 0x7f0c00f8
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131493112;
+			// aapt resource value: 0x7f0900f9
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131296505;
 			
-			// aapt resource value: 0x7f0c00f9
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131493113;
+			// aapt resource value: 0x7f0900fa
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131296506;
 			
-			// aapt resource value: 0x7f0c00fa
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131493114;
+			// aapt resource value: 0x7f0900fb
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131296507;
 			
-			// aapt resource value: 0x7f0c00fb
-			public const int TextAppearance_AppCompat_Widget_Button = 2131493115;
+			// aapt resource value: 0x7f0900fc
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131296508;
 			
-			// aapt resource value: 0x7f0c00fc
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131493116;
+			// aapt resource value: 0x7f0900fd
+			public const int TextAppearance_AppCompat_Widget_Button = 2131296509;
 			
-			// aapt resource value: 0x7f0c00fd
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131493117;
+			// aapt resource value: 0x7f0900fe
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131296510;
 			
-			// aapt resource value: 0x7f0c00fe
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131493118;
+			// aapt resource value: 0x7f0900ff
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131296511;
 			
-			// aapt resource value: 0x7f0c00ff
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131493119;
+			// aapt resource value: 0x7f090100
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131296512;
 			
-			// aapt resource value: 0x7f0c0100
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131493120;
+			// aapt resource value: 0x7f090101
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131296513;
 			
-			// aapt resource value: 0x7f0c0101
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131493121;
+			// aapt resource value: 0x7f090102
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131296514;
 			
-			// aapt resource value: 0x7f0c0102
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131493122;
+			// aapt resource value: 0x7f090103
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131296515;
 			
-			// aapt resource value: 0x7f0c0103
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131493123;
+			// aapt resource value: 0x7f090104
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131296516;
 			
-			// aapt resource value: 0x7f0c0104
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131493124;
+			// aapt resource value: 0x7f090105
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131296517;
 			
-			// aapt resource value: 0x7f0c0188
-			public const int TextAppearance_Compat_Notification = 2131493256;
+			// aapt resource value: 0x7f090106
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131296518;
 			
-			// aapt resource value: 0x7f0c0189
-			public const int TextAppearance_Compat_Notification_Info = 2131493257;
+			// aapt resource value: 0x7f09018a
+			public const int TextAppearance_Compat_Notification = 2131296650;
 			
-			// aapt resource value: 0x7f0c0165
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131493221;
+			// aapt resource value: 0x7f09018b
+			public const int TextAppearance_Compat_Notification_Info = 2131296651;
 			
-			// aapt resource value: 0x7f0c018e
-			public const int TextAppearance_Compat_Notification_Line2 = 2131493262;
+			// aapt resource value: 0x7f090167
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131296615;
 			
-			// aapt resource value: 0x7f0c0169
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131493225;
+			// aapt resource value: 0x7f090190
+			public const int TextAppearance_Compat_Notification_Line2 = 2131296656;
 			
-			// aapt resource value: 0x7f0c0166
-			public const int TextAppearance_Compat_Notification_Media = 2131493222;
+			// aapt resource value: 0x7f09016b
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131296619;
 			
-			// aapt resource value: 0x7f0c018a
-			public const int TextAppearance_Compat_Notification_Time = 2131493258;
+			// aapt resource value: 0x7f090168
+			public const int TextAppearance_Compat_Notification_Media = 2131296616;
 			
-			// aapt resource value: 0x7f0c0167
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131493223;
+			// aapt resource value: 0x7f09018c
+			public const int TextAppearance_Compat_Notification_Time = 2131296652;
 			
-			// aapt resource value: 0x7f0c018b
-			public const int TextAppearance_Compat_Notification_Title = 2131493259;
+			// aapt resource value: 0x7f090169
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131296617;
 			
-			// aapt resource value: 0x7f0c0168
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131493224;
+			// aapt resource value: 0x7f09018d
+			public const int TextAppearance_Compat_Notification_Title = 2131296653;
 			
-			// aapt resource value: 0x7f0c0171
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131493233;
+			// aapt resource value: 0x7f09016a
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131296618;
 			
-			// aapt resource value: 0x7f0c0172
-			public const int TextAppearance_Design_Counter = 2131493234;
+			// aapt resource value: 0x7f090173
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131296627;
 			
-			// aapt resource value: 0x7f0c0173
-			public const int TextAppearance_Design_Counter_Overflow = 2131493235;
+			// aapt resource value: 0x7f090174
+			public const int TextAppearance_Design_Counter = 2131296628;
 			
-			// aapt resource value: 0x7f0c0174
-			public const int TextAppearance_Design_Error = 2131493236;
+			// aapt resource value: 0x7f090175
+			public const int TextAppearance_Design_Counter_Overflow = 2131296629;
 			
-			// aapt resource value: 0x7f0c0175
-			public const int TextAppearance_Design_Hint = 2131493237;
+			// aapt resource value: 0x7f090176
+			public const int TextAppearance_Design_Error = 2131296630;
 			
-			// aapt resource value: 0x7f0c0176
-			public const int TextAppearance_Design_Snackbar_Message = 2131493238;
+			// aapt resource value: 0x7f090177
+			public const int TextAppearance_Design_Hint = 2131296631;
 			
-			// aapt resource value: 0x7f0c0177
-			public const int TextAppearance_Design_Tab = 2131493239;
+			// aapt resource value: 0x7f090178
+			public const int TextAppearance_Design_Snackbar_Message = 2131296632;
 			
-			// aapt resource value: 0x7f0c0000
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131492864;
+			// aapt resource value: 0x7f090179
+			public const int TextAppearance_Design_Tab = 2131296633;
 			
-			// aapt resource value: 0x7f0c0001
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131492865;
+			// aapt resource value: 0x7f090002
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131296258;
 			
-			// aapt resource value: 0x7f0c0002
-			public const int TextAppearance_MediaRouter_Title = 2131492866;
+			// aapt resource value: 0x7f090003
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131296259;
 			
-			// aapt resource value: 0x7f0c0105
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131493125;
+			// aapt resource value: 0x7f090004
+			public const int TextAppearance_MediaRouter_Title = 2131296260;
 			
-			// aapt resource value: 0x7f0c0106
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131493126;
+			// aapt resource value: 0x7f090107
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131296519;
 			
-			// aapt resource value: 0x7f0c0107
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131493127;
+			// aapt resource value: 0x7f090108
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131296520;
 			
-			// aapt resource value: 0x7f0c0108
-			public const int Theme_AppCompat = 2131493128;
+			// aapt resource value: 0x7f090109
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131296521;
 			
-			// aapt resource value: 0x7f0c0109
-			public const int Theme_AppCompat_CompactMenu = 2131493129;
+			// aapt resource value: 0x7f09010a
+			public const int Theme_AppCompat = 2131296522;
 			
-			// aapt resource value: 0x7f0c0013
-			public const int Theme_AppCompat_DayNight = 2131492883;
+			// aapt resource value: 0x7f09010b
+			public const int Theme_AppCompat_CompactMenu = 2131296523;
 			
-			// aapt resource value: 0x7f0c0014
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131492884;
+			// aapt resource value: 0x7f090015
+			public const int Theme_AppCompat_DayNight = 2131296277;
 			
-			// aapt resource value: 0x7f0c0015
-			public const int Theme_AppCompat_DayNight_Dialog = 2131492885;
+			// aapt resource value: 0x7f090016
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131296278;
 			
-			// aapt resource value: 0x7f0c0016
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131492886;
+			// aapt resource value: 0x7f090017
+			public const int Theme_AppCompat_DayNight_Dialog = 2131296279;
 			
-			// aapt resource value: 0x7f0c0017
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131492887;
+			// aapt resource value: 0x7f090018
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131296280;
 			
-			// aapt resource value: 0x7f0c0018
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131492888;
+			// aapt resource value: 0x7f090019
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131296281;
 			
-			// aapt resource value: 0x7f0c0019
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131492889;
+			// aapt resource value: 0x7f09001a
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131296282;
 			
-			// aapt resource value: 0x7f0c010a
-			public const int Theme_AppCompat_Dialog = 2131493130;
+			// aapt resource value: 0x7f09001b
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131296283;
 			
-			// aapt resource value: 0x7f0c010b
-			public const int Theme_AppCompat_Dialog_Alert = 2131493131;
+			// aapt resource value: 0x7f09010c
+			public const int Theme_AppCompat_Dialog = 2131296524;
 			
-			// aapt resource value: 0x7f0c010c
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131493132;
+			// aapt resource value: 0x7f09010d
+			public const int Theme_AppCompat_Dialog_Alert = 2131296525;
 			
-			// aapt resource value: 0x7f0c010d
-			public const int Theme_AppCompat_DialogWhenLarge = 2131493133;
+			// aapt resource value: 0x7f09010e
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131296526;
 			
-			// aapt resource value: 0x7f0c010e
-			public const int Theme_AppCompat_Light = 2131493134;
+			// aapt resource value: 0x7f09010f
+			public const int Theme_AppCompat_DialogWhenLarge = 2131296527;
 			
-			// aapt resource value: 0x7f0c010f
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131493135;
+			// aapt resource value: 0x7f090110
+			public const int Theme_AppCompat_Light = 2131296528;
 			
-			// aapt resource value: 0x7f0c0110
-			public const int Theme_AppCompat_Light_Dialog = 2131493136;
+			// aapt resource value: 0x7f090111
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131296529;
 			
-			// aapt resource value: 0x7f0c0111
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131493137;
+			// aapt resource value: 0x7f090112
+			public const int Theme_AppCompat_Light_Dialog = 2131296530;
 			
-			// aapt resource value: 0x7f0c0112
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131493138;
+			// aapt resource value: 0x7f090113
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131296531;
 			
-			// aapt resource value: 0x7f0c0113
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131493139;
+			// aapt resource value: 0x7f090114
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131296532;
 			
-			// aapt resource value: 0x7f0c0114
-			public const int Theme_AppCompat_Light_NoActionBar = 2131493140;
+			// aapt resource value: 0x7f090115
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131296533;
 			
-			// aapt resource value: 0x7f0c0115
-			public const int Theme_AppCompat_NoActionBar = 2131493141;
+			// aapt resource value: 0x7f090116
+			public const int Theme_AppCompat_Light_NoActionBar = 2131296534;
 			
-			// aapt resource value: 0x7f0c0178
-			public const int Theme_Design = 2131493240;
+			// aapt resource value: 0x7f090117
+			public const int Theme_AppCompat_NoActionBar = 2131296535;
 			
-			// aapt resource value: 0x7f0c0179
-			public const int Theme_Design_BottomSheetDialog = 2131493241;
+			// aapt resource value: 0x7f09017a
+			public const int Theme_Design = 2131296634;
 			
-			// aapt resource value: 0x7f0c017a
-			public const int Theme_Design_Light = 2131493242;
+			// aapt resource value: 0x7f09017b
+			public const int Theme_Design_BottomSheetDialog = 2131296635;
 			
-			// aapt resource value: 0x7f0c017b
-			public const int Theme_Design_Light_BottomSheetDialog = 2131493243;
+			// aapt resource value: 0x7f09017c
+			public const int Theme_Design_Light = 2131296636;
 			
-			// aapt resource value: 0x7f0c017c
-			public const int Theme_Design_Light_NoActionBar = 2131493244;
+			// aapt resource value: 0x7f09017d
+			public const int Theme_Design_Light_BottomSheetDialog = 2131296637;
 			
-			// aapt resource value: 0x7f0c017d
-			public const int Theme_Design_NoActionBar = 2131493245;
+			// aapt resource value: 0x7f09017e
+			public const int Theme_Design_Light_NoActionBar = 2131296638;
 			
-			// aapt resource value: 0x7f0c0003
-			public const int Theme_MediaRouter = 2131492867;
+			// aapt resource value: 0x7f09017f
+			public const int Theme_Design_NoActionBar = 2131296639;
 			
-			// aapt resource value: 0x7f0c0004
-			public const int Theme_MediaRouter_Light = 2131492868;
+			// aapt resource value: 0x7f090005
+			public const int Theme_MediaRouter = 2131296261;
 			
-			// aapt resource value: 0x7f0c0005
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131492869;
+			// aapt resource value: 0x7f090006
+			public const int Theme_MediaRouter_Light = 2131296262;
 			
-			// aapt resource value: 0x7f0c0006
-			public const int Theme_MediaRouter_LightControlPanel = 2131492870;
+			// aapt resource value: 0x7f090007
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131296263;
 			
-			// aapt resource value: 0x7f0c0116
-			public const int ThemeOverlay_AppCompat = 2131493142;
+			// aapt resource value: 0x7f090008
+			public const int Theme_MediaRouter_LightControlPanel = 2131296264;
 			
-			// aapt resource value: 0x7f0c0117
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131493143;
+			// aapt resource value: 0x7f090118
+			public const int ThemeOverlay_AppCompat = 2131296536;
 			
-			// aapt resource value: 0x7f0c0118
-			public const int ThemeOverlay_AppCompat_Dark = 2131493144;
+			// aapt resource value: 0x7f090119
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131296537;
 			
-			// aapt resource value: 0x7f0c0119
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131493145;
+			// aapt resource value: 0x7f09011a
+			public const int ThemeOverlay_AppCompat_Dark = 2131296538;
 			
-			// aapt resource value: 0x7f0c011a
-			public const int ThemeOverlay_AppCompat_Dialog = 2131493146;
+			// aapt resource value: 0x7f09011b
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131296539;
 			
-			// aapt resource value: 0x7f0c011b
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131493147;
+			// aapt resource value: 0x7f09011c
+			public const int ThemeOverlay_AppCompat_Dialog = 2131296540;
 			
-			// aapt resource value: 0x7f0c011c
-			public const int ThemeOverlay_AppCompat_Light = 2131493148;
+			// aapt resource value: 0x7f09011d
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131296541;
 			
-			// aapt resource value: 0x7f0c0007
-			public const int ThemeOverlay_MediaRouter_Dark = 2131492871;
+			// aapt resource value: 0x7f09011e
+			public const int ThemeOverlay_AppCompat_Light = 2131296542;
 			
-			// aapt resource value: 0x7f0c0008
-			public const int ThemeOverlay_MediaRouter_Light = 2131492872;
+			// aapt resource value: 0x7f090009
+			public const int ThemeOverlay_MediaRouter_Dark = 2131296265;
 			
-			// aapt resource value: 0x7f0c011d
-			public const int Widget_AppCompat_ActionBar = 2131493149;
+			// aapt resource value: 0x7f09000a
+			public const int ThemeOverlay_MediaRouter_Light = 2131296266;
 			
-			// aapt resource value: 0x7f0c011e
-			public const int Widget_AppCompat_ActionBar_Solid = 2131493150;
+			// aapt resource value: 0x7f09011f
+			public const int Widget_AppCompat_ActionBar = 2131296543;
 			
-			// aapt resource value: 0x7f0c011f
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131493151;
+			// aapt resource value: 0x7f090120
+			public const int Widget_AppCompat_ActionBar_Solid = 2131296544;
 			
-			// aapt resource value: 0x7f0c0120
-			public const int Widget_AppCompat_ActionBar_TabText = 2131493152;
+			// aapt resource value: 0x7f090121
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131296545;
 			
-			// aapt resource value: 0x7f0c0121
-			public const int Widget_AppCompat_ActionBar_TabView = 2131493153;
+			// aapt resource value: 0x7f090122
+			public const int Widget_AppCompat_ActionBar_TabText = 2131296546;
 			
-			// aapt resource value: 0x7f0c0122
-			public const int Widget_AppCompat_ActionButton = 2131493154;
+			// aapt resource value: 0x7f090123
+			public const int Widget_AppCompat_ActionBar_TabView = 2131296547;
 			
-			// aapt resource value: 0x7f0c0123
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131493155;
+			// aapt resource value: 0x7f090124
+			public const int Widget_AppCompat_ActionButton = 2131296548;
 			
-			// aapt resource value: 0x7f0c0124
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131493156;
+			// aapt resource value: 0x7f090125
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131296549;
 			
-			// aapt resource value: 0x7f0c0125
-			public const int Widget_AppCompat_ActionMode = 2131493157;
+			// aapt resource value: 0x7f090126
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131296550;
 			
-			// aapt resource value: 0x7f0c0126
-			public const int Widget_AppCompat_ActivityChooserView = 2131493158;
+			// aapt resource value: 0x7f090127
+			public const int Widget_AppCompat_ActionMode = 2131296551;
 			
-			// aapt resource value: 0x7f0c0127
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131493159;
+			// aapt resource value: 0x7f090128
+			public const int Widget_AppCompat_ActivityChooserView = 2131296552;
 			
-			// aapt resource value: 0x7f0c0128
-			public const int Widget_AppCompat_Button = 2131493160;
+			// aapt resource value: 0x7f090129
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131296553;
 			
-			// aapt resource value: 0x7f0c0129
-			public const int Widget_AppCompat_Button_Borderless = 2131493161;
+			// aapt resource value: 0x7f09012a
+			public const int Widget_AppCompat_Button = 2131296554;
 			
-			// aapt resource value: 0x7f0c012a
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131493162;
+			// aapt resource value: 0x7f09012b
+			public const int Widget_AppCompat_Button_Borderless = 2131296555;
 			
-			// aapt resource value: 0x7f0c012b
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131493163;
+			// aapt resource value: 0x7f09012c
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131296556;
 			
-			// aapt resource value: 0x7f0c012c
-			public const int Widget_AppCompat_Button_Colored = 2131493164;
+			// aapt resource value: 0x7f09012d
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131296557;
 			
-			// aapt resource value: 0x7f0c012d
-			public const int Widget_AppCompat_Button_Small = 2131493165;
+			// aapt resource value: 0x7f09012e
+			public const int Widget_AppCompat_Button_Colored = 2131296558;
 			
-			// aapt resource value: 0x7f0c012e
-			public const int Widget_AppCompat_ButtonBar = 2131493166;
+			// aapt resource value: 0x7f09012f
+			public const int Widget_AppCompat_Button_Small = 2131296559;
 			
-			// aapt resource value: 0x7f0c012f
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131493167;
+			// aapt resource value: 0x7f090130
+			public const int Widget_AppCompat_ButtonBar = 2131296560;
 			
-			// aapt resource value: 0x7f0c0130
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131493168;
+			// aapt resource value: 0x7f090131
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131296561;
 			
-			// aapt resource value: 0x7f0c0131
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131493169;
+			// aapt resource value: 0x7f090132
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131296562;
 			
-			// aapt resource value: 0x7f0c0132
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131493170;
+			// aapt resource value: 0x7f090133
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131296563;
 			
-			// aapt resource value: 0x7f0c0133
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131493171;
+			// aapt resource value: 0x7f090134
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131296564;
 			
-			// aapt resource value: 0x7f0c0134
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131493172;
+			// aapt resource value: 0x7f090135
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131296565;
 			
-			// aapt resource value: 0x7f0c0135
-			public const int Widget_AppCompat_EditText = 2131493173;
+			// aapt resource value: 0x7f090136
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131296566;
 			
-			// aapt resource value: 0x7f0c0136
-			public const int Widget_AppCompat_ImageButton = 2131493174;
+			// aapt resource value: 0x7f090137
+			public const int Widget_AppCompat_EditText = 2131296567;
 			
-			// aapt resource value: 0x7f0c0137
-			public const int Widget_AppCompat_Light_ActionBar = 2131493175;
+			// aapt resource value: 0x7f090138
+			public const int Widget_AppCompat_ImageButton = 2131296568;
 			
-			// aapt resource value: 0x7f0c0138
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131493176;
+			// aapt resource value: 0x7f090139
+			public const int Widget_AppCompat_Light_ActionBar = 2131296569;
 			
-			// aapt resource value: 0x7f0c0139
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131493177;
+			// aapt resource value: 0x7f09013a
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131296570;
 			
-			// aapt resource value: 0x7f0c013a
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131493178;
+			// aapt resource value: 0x7f09013b
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131296571;
 			
-			// aapt resource value: 0x7f0c013b
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131493179;
+			// aapt resource value: 0x7f09013c
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131296572;
 			
-			// aapt resource value: 0x7f0c013c
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131493180;
+			// aapt resource value: 0x7f09013d
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131296573;
 			
-			// aapt resource value: 0x7f0c013d
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131493181;
+			// aapt resource value: 0x7f09013e
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131296574;
 			
-			// aapt resource value: 0x7f0c013e
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131493182;
+			// aapt resource value: 0x7f09013f
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131296575;
 			
-			// aapt resource value: 0x7f0c013f
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131493183;
+			// aapt resource value: 0x7f090140
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131296576;
 			
-			// aapt resource value: 0x7f0c0140
-			public const int Widget_AppCompat_Light_ActionButton = 2131493184;
+			// aapt resource value: 0x7f090141
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131296577;
 			
-			// aapt resource value: 0x7f0c0141
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131493185;
+			// aapt resource value: 0x7f090142
+			public const int Widget_AppCompat_Light_ActionButton = 2131296578;
 			
-			// aapt resource value: 0x7f0c0142
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131493186;
+			// aapt resource value: 0x7f090143
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131296579;
 			
-			// aapt resource value: 0x7f0c0143
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131493187;
+			// aapt resource value: 0x7f090144
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131296580;
 			
-			// aapt resource value: 0x7f0c0144
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131493188;
+			// aapt resource value: 0x7f090145
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131296581;
 			
-			// aapt resource value: 0x7f0c0145
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131493189;
+			// aapt resource value: 0x7f090146
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131296582;
 			
-			// aapt resource value: 0x7f0c0146
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131493190;
+			// aapt resource value: 0x7f090147
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131296583;
 			
-			// aapt resource value: 0x7f0c0147
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131493191;
+			// aapt resource value: 0x7f090148
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131296584;
 			
-			// aapt resource value: 0x7f0c0148
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131493192;
+			// aapt resource value: 0x7f090149
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131296585;
 			
-			// aapt resource value: 0x7f0c0149
-			public const int Widget_AppCompat_Light_PopupMenu = 2131493193;
+			// aapt resource value: 0x7f09014a
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131296586;
 			
-			// aapt resource value: 0x7f0c014a
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131493194;
+			// aapt resource value: 0x7f09014b
+			public const int Widget_AppCompat_Light_PopupMenu = 2131296587;
 			
-			// aapt resource value: 0x7f0c014b
-			public const int Widget_AppCompat_Light_SearchView = 2131493195;
+			// aapt resource value: 0x7f09014c
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131296588;
 			
-			// aapt resource value: 0x7f0c014c
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131493196;
+			// aapt resource value: 0x7f09014d
+			public const int Widget_AppCompat_Light_SearchView = 2131296589;
 			
-			// aapt resource value: 0x7f0c014d
-			public const int Widget_AppCompat_ListMenuView = 2131493197;
+			// aapt resource value: 0x7f09014e
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131296590;
 			
-			// aapt resource value: 0x7f0c014e
-			public const int Widget_AppCompat_ListPopupWindow = 2131493198;
+			// aapt resource value: 0x7f09014f
+			public const int Widget_AppCompat_ListMenuView = 2131296591;
 			
-			// aapt resource value: 0x7f0c014f
-			public const int Widget_AppCompat_ListView = 2131493199;
+			// aapt resource value: 0x7f090150
+			public const int Widget_AppCompat_ListPopupWindow = 2131296592;
 			
-			// aapt resource value: 0x7f0c0150
-			public const int Widget_AppCompat_ListView_DropDown = 2131493200;
+			// aapt resource value: 0x7f090151
+			public const int Widget_AppCompat_ListView = 2131296593;
 			
-			// aapt resource value: 0x7f0c0151
-			public const int Widget_AppCompat_ListView_Menu = 2131493201;
+			// aapt resource value: 0x7f090152
+			public const int Widget_AppCompat_ListView_DropDown = 2131296594;
 			
-			// aapt resource value: 0x7f0c0152
-			public const int Widget_AppCompat_PopupMenu = 2131493202;
+			// aapt resource value: 0x7f090153
+			public const int Widget_AppCompat_ListView_Menu = 2131296595;
 			
-			// aapt resource value: 0x7f0c0153
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131493203;
+			// aapt resource value: 0x7f090154
+			public const int Widget_AppCompat_PopupMenu = 2131296596;
 			
-			// aapt resource value: 0x7f0c0154
-			public const int Widget_AppCompat_PopupWindow = 2131493204;
+			// aapt resource value: 0x7f090155
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131296597;
 			
-			// aapt resource value: 0x7f0c0155
-			public const int Widget_AppCompat_ProgressBar = 2131493205;
+			// aapt resource value: 0x7f090156
+			public const int Widget_AppCompat_PopupWindow = 2131296598;
 			
-			// aapt resource value: 0x7f0c0156
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131493206;
+			// aapt resource value: 0x7f090157
+			public const int Widget_AppCompat_ProgressBar = 2131296599;
 			
-			// aapt resource value: 0x7f0c0157
-			public const int Widget_AppCompat_RatingBar = 2131493207;
+			// aapt resource value: 0x7f090158
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131296600;
 			
-			// aapt resource value: 0x7f0c0158
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131493208;
+			// aapt resource value: 0x7f090159
+			public const int Widget_AppCompat_RatingBar = 2131296601;
 			
-			// aapt resource value: 0x7f0c0159
-			public const int Widget_AppCompat_RatingBar_Small = 2131493209;
+			// aapt resource value: 0x7f09015a
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131296602;
 			
-			// aapt resource value: 0x7f0c015a
-			public const int Widget_AppCompat_SearchView = 2131493210;
+			// aapt resource value: 0x7f09015b
+			public const int Widget_AppCompat_RatingBar_Small = 2131296603;
 			
-			// aapt resource value: 0x7f0c015b
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131493211;
+			// aapt resource value: 0x7f09015c
+			public const int Widget_AppCompat_SearchView = 2131296604;
 			
-			// aapt resource value: 0x7f0c015c
-			public const int Widget_AppCompat_SeekBar = 2131493212;
+			// aapt resource value: 0x7f09015d
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131296605;
 			
-			// aapt resource value: 0x7f0c015d
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131493213;
+			// aapt resource value: 0x7f09015e
+			public const int Widget_AppCompat_SeekBar = 2131296606;
 			
-			// aapt resource value: 0x7f0c015e
-			public const int Widget_AppCompat_Spinner = 2131493214;
+			// aapt resource value: 0x7f09015f
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131296607;
 			
-			// aapt resource value: 0x7f0c015f
-			public const int Widget_AppCompat_Spinner_DropDown = 2131493215;
+			// aapt resource value: 0x7f090160
+			public const int Widget_AppCompat_Spinner = 2131296608;
 			
-			// aapt resource value: 0x7f0c0160
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131493216;
+			// aapt resource value: 0x7f090161
+			public const int Widget_AppCompat_Spinner_DropDown = 2131296609;
 			
-			// aapt resource value: 0x7f0c0161
-			public const int Widget_AppCompat_Spinner_Underlined = 2131493217;
+			// aapt resource value: 0x7f090162
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131296610;
 			
-			// aapt resource value: 0x7f0c0162
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131493218;
+			// aapt resource value: 0x7f090163
+			public const int Widget_AppCompat_Spinner_Underlined = 2131296611;
 			
-			// aapt resource value: 0x7f0c0163
-			public const int Widget_AppCompat_Toolbar = 2131493219;
+			// aapt resource value: 0x7f090164
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131296612;
 			
-			// aapt resource value: 0x7f0c0164
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131493220;
+			// aapt resource value: 0x7f090165
+			public const int Widget_AppCompat_Toolbar = 2131296613;
 			
-			// aapt resource value: 0x7f0c018c
-			public const int Widget_Compat_NotificationActionContainer = 2131493260;
+			// aapt resource value: 0x7f090166
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131296614;
 			
-			// aapt resource value: 0x7f0c018d
-			public const int Widget_Compat_NotificationActionText = 2131493261;
+			// aapt resource value: 0x7f09018e
+			public const int Widget_Compat_NotificationActionContainer = 2131296654;
 			
-			// aapt resource value: 0x7f0c017e
-			public const int Widget_Design_AppBarLayout = 2131493246;
+			// aapt resource value: 0x7f09018f
+			public const int Widget_Compat_NotificationActionText = 2131296655;
 			
-			// aapt resource value: 0x7f0c017f
-			public const int Widget_Design_BottomNavigationView = 2131493247;
+			// aapt resource value: 0x7f090180
+			public const int Widget_Design_AppBarLayout = 2131296640;
 			
-			// aapt resource value: 0x7f0c0180
-			public const int Widget_Design_BottomSheet_Modal = 2131493248;
+			// aapt resource value: 0x7f090181
+			public const int Widget_Design_BottomNavigationView = 2131296641;
 			
-			// aapt resource value: 0x7f0c0181
-			public const int Widget_Design_CollapsingToolbar = 2131493249;
+			// aapt resource value: 0x7f090182
+			public const int Widget_Design_BottomSheet_Modal = 2131296642;
 			
-			// aapt resource value: 0x7f0c0182
-			public const int Widget_Design_CoordinatorLayout = 2131493250;
+			// aapt resource value: 0x7f090183
+			public const int Widget_Design_CollapsingToolbar = 2131296643;
 			
-			// aapt resource value: 0x7f0c0183
-			public const int Widget_Design_FloatingActionButton = 2131493251;
+			// aapt resource value: 0x7f090184
+			public const int Widget_Design_CoordinatorLayout = 2131296644;
 			
-			// aapt resource value: 0x7f0c0184
-			public const int Widget_Design_NavigationView = 2131493252;
+			// aapt resource value: 0x7f090185
+			public const int Widget_Design_FloatingActionButton = 2131296645;
 			
-			// aapt resource value: 0x7f0c0185
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131493253;
+			// aapt resource value: 0x7f090186
+			public const int Widget_Design_NavigationView = 2131296646;
 			
-			// aapt resource value: 0x7f0c0186
-			public const int Widget_Design_Snackbar = 2131493254;
+			// aapt resource value: 0x7f090187
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131296647;
 			
-			// aapt resource value: 0x7f0c016a
-			public const int Widget_Design_TabLayout = 2131493226;
+			// aapt resource value: 0x7f090188
+			public const int Widget_Design_Snackbar = 2131296648;
 			
-			// aapt resource value: 0x7f0c0187
-			public const int Widget_Design_TextInputLayout = 2131493255;
+			// aapt resource value: 0x7f09016c
+			public const int Widget_Design_TabLayout = 2131296620;
 			
-			// aapt resource value: 0x7f0c0009
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131492873;
+			// aapt resource value: 0x7f090189
+			public const int Widget_Design_TextInputLayout = 2131296649;
 			
-			// aapt resource value: 0x7f0c000a
-			public const int Widget_MediaRouter_MediaRouteButton = 2131492874;
+			// aapt resource value: 0x7f09000b
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131296267;
+			
+			// aapt resource value: 0x7f09000c
+			public const int Widget_MediaRouter_MediaRouteButton = 2131296268;
+			
+			// aapt resource value: 0x7f090000
+			public const int collectionViewStyle = 2131296256;
 			
 			static Style()
 			{
@@ -7646,6 +7535,22 @@ namespace OpenStreetMapDemo.Droid
 			}
 			
 			private Style()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7f080000
+			public const int xamarin_essentials_fileprovider_file_paths = 2131230720;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}
